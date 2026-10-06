@@ -1,0 +1,10 @@
+/* Оформление страниц условий и политики */
+.pg-doc .hero{padding-bottom:24px}
+.pg-doc .doc-date{color:var(--muted);font-size:16px;margin:16px 0 0}
+.pg-doc .doc-sec{padding:26px 0}
+.pg-doc .doc-sec h2{font-size:22px;margin-bottom:12px}
+.pg-doc .doc-sec p{margin:0 0 10px}
+.pg-doc .doc-list{margin:0 0 10px;padding-left:22px}
+.pg-doc .doc-list li{margin-bottom:6px}
+.consent{font-size:14px;color:var(--muted);margin:10px 0 0;text-align:left !important}
+.consent a{color:var(--muted)}

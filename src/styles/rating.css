@@ -1,0 +1,5 @@
+/* Страница методики рейтинга */
+.pg-rating .hero h1{max-width:none}
+.pg-rating .scale{margin:6px 0 0}
+.pg-rating .calc{font-size:20px;color:var(--ink)}
+.pg-rating .res-cta{margin-top:22px}

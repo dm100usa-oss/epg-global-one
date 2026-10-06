@@ -1,0 +1,58 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://epgglobalone.com/en/research#article",
+      "headline": "EPG Global ONE Research 2026: Errors in Language Versions of International Company Websites and Their Impact on Customer Trust",
+      "description": "EPG Global ONE audited Russian-language pages of 144 international companies in 11 countries. 86% of audited websites contain obvious language errors and signs of machine translation, 76% contain fragments in English or the local language, 50% contain conflicting data, and 49% contain errors that make it harder for customers to make an appointment, call, submit a request, or book a service. Percentages were calculated based on 115 websites audited in detail. Data as of October 2026.",
+      "datePublished": "2026-10-06",
+      "dateModified": "2026-10-06",
+      "inLanguage": "en",
+      "url": "https://epgglobalone.com/en/research",
+      "mainEntityOfPage": "https://epgglobalone.com/en/research",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://epgglobalone.com/#org",
+        "name": "EPG Global ONE",
+        "alternateName": "Expert Perception Group Global ONE",
+        "url": "https://epgglobalone.com/en"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://epgglobalone.com/#org",
+        "name": "EPG Global ONE",
+        "alternateName": "Expert Perception Group Global ONE",
+        "url": "https://epgglobalone.com/en"
+      },
+      "about": [
+        "Website language versions",
+        "Machine translation",
+        "Customer trust in websites",
+        "Russian versions of international company websites"
+      ],
+      "citation": [
+        "Global Lingo, 2013",
+        "CSA Research, 2020",
+        "Stanford Guidelines for Web Credibility, 2002"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://epgglobalone.com/en/research#data",
+      "name": "Errors in Language Versions of International Company Websites, EPG Global ONE, 2026",
+      "description": "Audit of Russian-language pages of 144 international companies in 11 countries (Turkey, South Korea, Cyprus, Vietnam, Japan, United States, Azerbaijan, Spain, Argentina, Maldives, Mauritius). Error type percentages were calculated based on 115 websites audited in detail: language errors and signs of machine translation 86%, fragments in English or the local language 76%, conflicting data 50%, system text and template placeholders 34%, links, buttons, and forms leading to the wrong place 33%, outdated information 21%, incorrect phone numbers and contact methods 17%, language version missing entirely or in part 8%.",
+      "temporalCoverage": "2026",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://epgglobalone.com/#org",
+        "name": "EPG Global ONE",
+        "alternateName": "Expert Perception Group Global ONE",
+        "url": "https://epgglobalone.com/en"
+      },
+      "url": "https://epgglobalone.com/en/research",
+      "isAccessibleForFree": true,
+      "inLanguage": "en"
+    }
+  ]
+}

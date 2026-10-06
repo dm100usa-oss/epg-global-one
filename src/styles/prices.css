@@ -1,0 +1,54 @@
+/* Оформление страницы цен */
+.pg-prices .vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.pg-prices .hero h1{margin-bottom:10px}
+.pg-prices .plans{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:stretch}
+.pg-prices .plan{position:relative;display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:14px;padding:26px 22px 22px;box-shadow:0 4px 18px rgba(29,41,64,.06)}
+.pg-prices .plan-hi{border:2px solid #1F4E8C;box-shadow:0 10px 30px rgba(31,78,140,.16)}
+.pg-prices .badge{position:absolute;top:-13px;left:22px;background:#1F4E8C;color:#fff;font-size:13px;font-weight:600;padding:5px 12px;border-radius:999px}
+.pg-prices .plan h3{margin:0 0 10px;font-size:21px}
+.pg-prices .plan-price{margin:0 0 4px;color:var(--ink)}
+.pg-prices .plan-price b{font-family:Literata,Georgia,serif;font-size:40px;line-height:1.1}
+.pg-prices .plan-price span{font-size:17px;color:var(--muted)}
+.pg-prices .plan-meta{margin:0 0 16px;color:var(--muted);font-size:15px;text-align:left}
+.pg-prices .plan ul{list-style:none;margin:0 0 22px;padding:0;flex:1}
+.pg-prices .plan li{position:relative;padding:0 0 10px 26px;font-size:16px;line-height:1.45;text-align:left}
+.pg-prices .plan li::before{content:"";position:absolute;left:2px;top:6px;width:12px;height:7px;border-left:2px solid #2BA84A;border-bottom:2px solid #2BA84A;transform:rotate(-45deg)}
+.pg-prices .plan .btn{width:100%;min-width:0;text-align:center}
+.pg-prices .sub-box{display:flex;gap:28px;align-items:center;justify-content:space-between;background:var(--panel);border-radius:14px;padding:26px 28px}
+.pg-prices .sub-box h2{margin:0 0 8px;font-size:24px}
+.pg-prices .sub-box p{margin:0;text-align:left}
+.pg-prices .sub-price{display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex:0 0 auto}
+.pg-prices .sub-price b{font-family:Literata,Georgia,serif;font-size:30px;color:var(--ink)}
+.pg-prices .sub-price span{color:var(--muted);margin-bottom:10px}
+.pg-prices .addons{border-top:1px solid var(--line)}
+.pg-prices .add-row{display:flex;justify-content:space-between;gap:20px;align-items:baseline;padding:14px 0;border-bottom:1px solid var(--line)}
+.pg-prices .add-name{text-align:left}
+.pg-prices .add-name small{display:block;color:var(--muted);font-size:14px;margin-top:2px}
+.pg-prices .add-price{font-weight:600;color:var(--ink);text-align:right;white-space:nowrap}
+@media (max-width:900px){
+  .pg-prices .plans{grid-template-columns:1fr;gap:26px}
+  .pg-prices .plan-hi{order:-1}
+  .pg-prices .sub-box{flex-direction:column;align-items:stretch}
+  .pg-prices .sub-price{align-items:flex-start}
+  .pg-prices .add-price{white-space:normal;max-width:45%}
+}
+.pg-prices .plan-meta,.pg-prices .plan li,.pg-prices .sub-box p,.pg-prices .add-name{text-align:left !important;hyphens:none}
+.pg-prices .plans + .note{margin-top:20px}
+@media (max-width:900px){.pg-prices .hero .lead{text-align:left}}
+.pg-prices .calc{display:grid;grid-template-columns:1.4fr 1fr;gap:24px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:26px}
+.pg-prices .calc-pages{display:block;font-weight:600;color:var(--ink);margin-bottom:18px}
+.pg-prices .calc-pages input{max-width:220px;font-size:20px}
+.pg-prices .calc fieldset{border:0;margin:0;padding:0}
+.pg-prices .calc legend{font-weight:600;color:var(--ink);margin-bottom:8px}
+.pg-prices .calc fieldset label{display:flex;align-items:center;gap:10px;padding:8px 0;cursor:pointer}
+.pg-prices .calc fieldset input{width:20px;height:20px;margin:0;accent-color:#1F4E8C;flex:0 0 20px;display:inline-block}
+.pg-prices .calc fieldset span{margin-left:auto;color:var(--muted);white-space:nowrap}
+.pg-prices .calc-out{background:var(--panel);border-radius:12px;padding:22px;display:flex;flex-direction:column}
+.pg-prices .calc-out p{margin:0;text-align:left !important}
+.pg-prices .calc-out b{font-family:Literata,Georgia,serif;font-size:40px;color:var(--ink);margin:6px 0 12px}
+.pg-prices .calc-note{font-size:14px;color:var(--muted);flex:1;margin-bottom:16px !important}
+.pg-prices .calc-out .btn{width:100%;min-width:0;text-align:center}
+@media (max-width:900px){.pg-prices .calc{grid-template-columns:1fr;padding:18px}}
+.pg-prices .one-price{background:#EEF3FA;border-left:4px solid #1F4E8C;border-radius:10px;padding:16px 20px;margin:0 0 26px}
+.pg-prices .one-price b{display:block;color:var(--ink);font-size:18px;margin-bottom:4px}
+.pg-prices .one-price p{margin:0;text-align:left !important}

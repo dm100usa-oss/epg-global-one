@@ -1,0 +1,41 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://epgglobalone.com/es/indice-de-confianza#term",
+      "name": "Índice de Confianza del Cliente en el Sitio Web",
+      "description": "El Índice de Confianza del Cliente en el Sitio Web (en inglés, Customer Trust in Website Score, CTWS) es una herramienta propia de EPG Global ONE: una evaluación de 0 a 100 puntos que muestra en qué medida los errores y problemas encontrados en el sitio pueden reducir la confianza del cliente en la empresa y dificultar que se comunique con ella o realice una compra. Se toman en cuenta cinco criterios: idioma y corrección, sentido y precisión, claridad para el cliente, presentación, funcionamiento del sitio. El cálculo comienza con 100 puntos; por un error crítico se restan 10 puntos, por uno serio 4 puntos, por uno menor 2 puntos; un error repetido se cuenta una sola vez. Escala: menos de 50 los errores afectan gravemente la confianza de los clientes, 50-69 errores visibles dificultan que el cliente confíe en el sitio, 70-89 errores aislados reducen la impresión general del sitio, 90-100 el sitio se percibe bien y la confianza es alta.",
+      "inDefinedTermSet": "https://epgglobalone.com/es/indice-de-confianza",
+      "url": "https://epgglobalone.com/es/indice-de-confianza",
+      "alternateName": [
+        "Customer Trust in Website Score",
+        "CTWS"
+      ],
+      "termCode": "CTWS"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://epgglobalone.com/es/indice-de-confianza#page",
+      "name": "Índice de Confianza del Cliente en el Sitio Web: metodología de EPG Global ONE",
+      "url": "https://epgglobalone.com/es/indice-de-confianza",
+      "inLanguage": "es",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://epgglobalone.com/#org",
+        "name": "EPG Global ONE",
+        "url": "https://epgglobalone.com/es"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://epgglobalone.com/#org",
+        "name": "EPG Global ONE",
+        "url": "https://epgglobalone.com/es"
+      },
+      "about": {
+        "@id": "https://epgglobalone.com/es/indice-de-confianza#term"
+      },
+      "dateModified": "2026-10-06"
+    }
+  ]
+}

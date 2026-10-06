@@ -1,0 +1,17 @@
+/* Оформление, которое есть только на странице для веб-студий */
+.pg-partners .lead{font-size:20px;line-height:1.55;color:var(--ink);margin:0 0 14px}
+.pg-partners details:first-of-type{border-top:1px solid var(--line)}
+.pg-partners .plain{display:grid;grid-template-columns:32px 1fr 24px;gap:8px;align-items:start;padding:18px 0;border-bottom:1px solid var(--line)}
+@media (max-width:620px){.pg-partners .lead{font-size:18px}}
+.pg-partners .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.pg-partners .steps div{background:var(--panel);border-radius:10px;padding:18px}
+.pg-partners .steps span{display:inline-block;font-family:Literata,Georgia,serif;font-size:26px;color:var(--logo);margin-bottom:6px}
+.pg-partners .steps p{margin:0;text-align:left;hyphens:none}
+.pg-partners .hero h1{max-width:20em}
+@media (max-width:620px){.pg-partners .steps{grid-template-columns:1fr;gap:10px}}
+@media (max-width:620px){.pg-partners .steps div{display:flex;gap:14px;align-items:baseline;padding:14px 16px}}
+@media (max-width:620px){.pg-partners .steps span{margin:0;font-size:22px}}
+.pg-partners #faq-h ~ details summary{grid-template-columns:1fr 24px}
+.pg-partners select{display:block;width:100%;margin-top:6px;padding:13px 14px;font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:6px}
+.pg-partners select:focus{border-color:var(--ink)}
+.pg-partners .two p+p{margin-top:8px}

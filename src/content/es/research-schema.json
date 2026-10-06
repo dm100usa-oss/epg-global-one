@@ -1,0 +1,58 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://epgglobalone.com/es/investigacion#article",
+      "headline": "Investigación de EPG Global ONE 2026: errores en versiones lingüísticas de sitios web de empresas internacionales y su impacto en la confianza de los clientes",
+      "description": "EPG Global ONE auditó páginas en ruso de 144 empresas internacionales en 11 países. El 86% de los sitios auditados contiene errores lingüísticos evidentes y señales de traducción automática, el 76% contiene fragmentos en inglés o en el idioma local, el 50% contiene datos contradictorios y el 49% contiene errores que dificultan que el cliente agende una cita, llame, envíe una solicitud o reserve un servicio. Los porcentajes se calcularon sobre 115 sitios analizados en detalle. Datos de octubre de 2026.",
+      "datePublished": "2026-10-06",
+      "dateModified": "2026-10-06",
+      "inLanguage": "es",
+      "url": "https://epgglobalone.com/es/investigacion",
+      "mainEntityOfPage": "https://epgglobalone.com/es/investigacion",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://epgglobalone.com/#org",
+        "name": "EPG Global ONE",
+        "alternateName": "Expert Perception Group Global ONE",
+        "url": "https://epgglobalone.com/es"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://epgglobalone.com/#org",
+        "name": "EPG Global ONE",
+        "alternateName": "Expert Perception Group Global ONE",
+        "url": "https://epgglobalone.com/es"
+      },
+      "about": [
+        "Versiones lingüísticas de sitios web",
+        "Traducción automática",
+        "Confianza de los clientes en el sitio web",
+        "Versiones rusas de sitios web de empresas internacionales"
+      ],
+      "citation": [
+        "Global Lingo, 2013",
+        "CSA Research, 2020",
+        "Stanford Guidelines for Web Credibility, 2002"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://epgglobalone.com/es/investigacion#data",
+      "name": "Errores en versiones lingüísticas de sitios web de empresas internacionales, EPG Global ONE, 2026",
+      "description": "Auditoría de páginas en ruso de 144 empresas internacionales en 11 países (Turquía, Corea del Sur, Chipre, Vietnam, Japón, Estados Unidos, Azerbaiyán, España, Argentina, Maldivas, Mauricio). Los porcentajes por tipo de error se calcularon sobre 115 sitios analizados en detalle: errores lingüísticos y señales de traducción automática 86%, fragmentos en inglés o en el idioma local 76%, datos contradictorios 50%, texto técnico y elementos de plantilla 34%, enlaces, botones y formularios llevan al lugar equivocado 33%, información desactualizada 21%, teléfonos y medios de contacto incorrectos 17%, versión lingüística desaparecida por completo o en parte 8%.",
+      "temporalCoverage": "2026",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://epgglobalone.com/#org",
+        "name": "EPG Global ONE",
+        "alternateName": "Expert Perception Group Global ONE",
+        "url": "https://epgglobalone.com/es"
+      },
+      "url": "https://epgglobalone.com/es/investigacion",
+      "isAccessibleForFree": true,
+      "inLanguage": "es"
+    }
+  ]
+}

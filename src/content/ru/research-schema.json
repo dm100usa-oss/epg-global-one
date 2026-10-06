@@ -1,0 +1,58 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://epgglobalone.com/ru/issledovanie#article",
+      "headline": "Исследование EPG Global ONE 2026: ошибки в языковых версиях сайтов международных компаний и их влияние на доверие клиентов",
+      "description": "EPG Global ONE проверила русскоязычные страницы 144 международных компаний в 11 странах. 86% проверенных сайтов содержат явные языковые ошибки и следы машинного перевода, 76% содержат фрагменты на английском или местном языке, 50% содержат противоречивые данные, 49% содержат ошибки, которые мешают клиенту записаться, позвонить, отправить заявку или забронировать услугу. Доли посчитаны по 115 сайтам, разобранным подробно. Данные на октябрь 2026 года.",
+      "datePublished": "2026-10-06",
+      "dateModified": "2026-10-06",
+      "inLanguage": "ru",
+      "url": "https://epgglobalone.com/ru/issledovanie",
+      "mainEntityOfPage": "https://epgglobalone.com/ru/issledovanie",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://epgglobalone.com/#org",
+        "name": "EPG Global ONE",
+        "alternateName": "Expert Perception Group Global ONE",
+        "url": "https://epgglobalone.com/ru"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://epgglobalone.com/#org",
+        "name": "EPG Global ONE",
+        "alternateName": "Expert Perception Group Global ONE",
+        "url": "https://epgglobalone.com/ru"
+      },
+      "about": [
+        "Языковые версии сайтов",
+        "Машинный перевод",
+        "Доверие клиентов к сайту",
+        "Русские версии сайтов иностранных компаний"
+      ],
+      "citation": [
+        "Global Lingo, 2013",
+        "CSA Research, 2020",
+        "Stanford Guidelines for Web Credibility, 2002"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://epgglobalone.com/ru/issledovanie#data",
+      "name": "Ошибки в языковых версиях сайтов международных компаний, EPG Global ONE, 2026",
+      "description": "Проверка русскоязычных страниц 144 международных компаний в 11 странах (Турция, Южная Корея, Кипр, Вьетнам, Япония, США, Азербайджан, Испания, Аргентина, Мальдивы, Маврикий). Доли видов ошибок посчитаны по 115 сайтам, разобранным подробно: языковые ошибки и следы машинного перевода 86%, фрагменты на английском или местном языке 76%, противоречивые данные 50%, служебный текст и заготовки шаблона 34%, ссылки, кнопки и формы ведут не туда 33%, устаревшие сведения 21%, неверные телефоны и способы связи 17%, языковая версия пропала целиком или частично 8%.",
+      "temporalCoverage": "2026",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://epgglobalone.com/#org",
+        "name": "EPG Global ONE",
+        "alternateName": "Expert Perception Group Global ONE",
+        "url": "https://epgglobalone.com/ru"
+      },
+      "url": "https://epgglobalone.com/ru/issledovanie",
+      "isAccessibleForFree": true,
+      "inLanguage": "ru"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+/* Оформление страницы исследования */
+.pg-res .hero h1{max-width:none;font-size:clamp(28px,4.4vw,40px)}
+.pg-res .res-date{color:var(--muted);font-size:16px;margin:18px 0 0}
+.pg-res .res-main{background:#EEF3FA;border-left:4px solid #1F4E8C;border-radius:10px;padding:16px 20px;color:var(--ink)}
+.pg-res .keys{list-style:none;margin:24px 0;padding:0;border-top:1px solid var(--line)}
+.pg-res .keys li{display:grid;grid-template-columns:104px 1fr;gap:18px;align-items:baseline;padding:14px 0;border-bottom:1px solid var(--line)}
+.pg-res .keys b{font-family:Literata,Georgia,serif;font-size:38px;line-height:1;color:var(--ink);font-weight:600;font-variant-numeric:lining-nums tabular-nums}
+.pg-res .keys .k-plain{grid-template-columns:1fr;color:var(--muted)}
+.pg-res h3.sub{font-size:20px;margin:26px 0 10px}
+.pg-res .rt-w{overflow-x:auto;margin:0 0 24px}
+.pg-res table.rt{display:table;width:100%;border-collapse:collapse;font-size:16px}
+.pg-res .rt thead{display:table-header-group}
+.pg-res .rt tbody{display:table-row-group}
+.pg-res .rt tr{display:table-row;border:0;padding:0;margin:0;background:none;box-shadow:none}
+.pg-res .rt th,.pg-res .rt td{display:table-cell;padding:10px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;white-space:normal}
+.pg-res .rt th:last-child,.pg-res .rt td:last-child{text-align:right;white-space:nowrap;width:1%;font-variant-numeric:tabular-nums}
+.pg-res .rt td:last-child{font-weight:600;color:var(--ink)}
+.pg-res .rt td::before{content:none}
+.pg-res .rt td,.pg-res .rt th{width:auto}
+.pg-res .rt td:first-child{font-weight:400;color:var(--text);font-size:inherit;padding-bottom:10px}
+.pg-res .rt tr{border-radius:0 !important;box-shadow:none !important}
+.pg-res .bars{list-style:none;margin:18px 0 22px;padding:0}
+.pg-res .bars li{display:grid;grid-template-columns:minmax(0,1fr) minmax(150px,38%);gap:16px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
+.pg-res .bl{font-size:16px;line-height:1.4}
+.pg-res .bv{position:relative;display:flex;align-items:center;gap:10px}
+.pg-res .bv i{display:block;height:12px;border-radius:6px;background:#1F4E8C;flex:0 0 auto;max-width:calc(100% - 52px)}
+.pg-res .bv b{font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
+.pg-res .res-list{margin:0 0 10px;padding-left:22px}
+.pg-res .res-list li{margin-bottom:10px}
+.pg-res .res-cta{margin-top:22px}
+@media (max-width:620px){
+  .pg-res .keys li{grid-template-columns:76px 1fr;gap:12px}
+  .pg-res .keys b{font-size:28px}
+  .pg-res .bars li{grid-template-columns:1fr;gap:6px}
+  .pg-res .rt th,.pg-res .rt td{padding:9px 4px;font-size:15px}
+}
