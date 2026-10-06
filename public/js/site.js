@@ -136,7 +136,17 @@ if(f){f.addEventListener('submit',function(e){
       e.preventDefault();
       if(!f.checkValidity()){f.reportValidity();return;}
       var show=function(){f.style.display='none';d.querySelector('.ok').style.display='block';};
-      if(f.hasAttribute('data-pay')){show();return;}
+      if(f.hasAttribute('data-pay')){
+        /* пилот: сначала письмо с данными заявки, затем страница оплаты Stripe с уже вписанной почтой */
+        var em=(f.querySelector('[name=email]')||{}).value||'';
+        var went=false,go=function(){if(went)return;went=true;show();location.href='https://buy.stripe.com/8x2dR8eiHdLq7IleK7ak000'+(em?'?prefilled_email='+encodeURIComponent(em):'');};
+        if(window.EPG_PREVIEW){show();return;}
+        var data={kind:'pilot',lang:(document.documentElement.lang||'ru').slice(0,2),page:location.pathname};
+        new FormData(f).forEach(function(v,k){data[k]=v;});
+        try{fetch('/api/zayavka',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data),keepalive:true}).then(go,go);}catch(e){go();}
+        setTimeout(go,2500);
+        return;
+      }
       epgSend(f,'full',show);
     });
   });

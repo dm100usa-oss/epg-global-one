@@ -7,6 +7,7 @@ const KINDS: Record<string, string> = {
   request: "Заявка на проверку сайта",
   full: "Заявка на полную проверку",
   partner: "Заявка веб-агентства (партнер)",
+  pilot: "Пилот: клиент перешел к оплате 180 $ (проверьте оплату в Stripe)",
 };
 
 const LABELS: Record<string, string> = {
