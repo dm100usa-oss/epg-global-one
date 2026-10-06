@@ -3,7 +3,7 @@ import "../globals.css";
 import { siteIcons, siteViewport } from "../site-config";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://epgglobalone.com"),
+  metadataBase: new URL("https://www.epgglobalone.com"),
   title: "EPG Global ONE - Рейтинг доверия клиентов к сайту",
   description:
     "EPG Global ONE помогает компаниям не терять клиентов из-за ошибок на сайте: проводит независимую проверку сайта глазами клиента и рассчитывает Рейтинг доверия клиентов к сайту.",

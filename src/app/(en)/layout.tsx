@@ -3,7 +3,7 @@ import "../globals.css";
 import { siteIcons, siteViewport } from "../site-config";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://epgglobalone.com"),
+  metadataBase: new URL("https://www.epgglobalone.com"),
   title: "EPG Global ONE - Customer Trust in Website Score",
   description:
     "EPG Global ONE helps companies stop losing customers because of website errors: it conducts an independent website audit through the eyes of the customer and calculates the Customer Trust in Website Score (CTWS).",

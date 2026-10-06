@@ -3,7 +3,7 @@ import "../globals.css";
 import { siteIcons, siteViewport } from "../site-config";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://epgglobalone.com"),
+  metadataBase: new URL("https://www.epgglobalone.com"),
   title: "EPG Global ONE - Índice de Confianza del Cliente en el Sitio Web",
   description:
     "EPG Global ONE ayuda a las empresas a no perder clientes por errores en su sitio web: realiza una auditoría independiente del sitio desde la perspectiva del cliente y calcula el Índice de Confianza del Cliente en el Sitio Web (CTWS).",

@@ -3,11 +3,11 @@
   "@graph": [
     {
       "@type": "DefinedTerm",
-      "@id": "https://epgglobalone.com/ru/reiting#term",
+      "@id": "https://www.epgglobalone.com/ru/reiting#term",
       "name": "Рейтинг доверия клиентов к сайту",
       "description": "Рейтинг доверия клиентов к сайту (Customer Trust in Website Score, CTWS) - собственный инструмент EPG Global ONE: оценка от 0 до 100 баллов, которая показывает, насколько обнаруженные на сайте ошибки и проблемы могут снижать доверие клиента к компании и мешать ему обратиться в компанию или совершить покупку. Учитываются пять критериев: язык и грамотность, смысл и точность, понятность для клиента, оформление, работа сайта. Проверка начинается со 100 баллов; за критическую ошибку снимается 10 баллов, за серьезную 4 балла, за незначительную 2 балла; повторяющаяся ошибка учитывается один раз. Шкала: ниже 50 ошибки сильно подрывают доверие клиентов, 50-69 заметные ошибки мешают клиенту доверять сайту, 70-89 отдельные ошибки снижают впечатление от сайта, 90-100 сайт воспринимается хорошо, доверие высокое.",
-      "inDefinedTermSet": "https://epgglobalone.com/ru/reiting",
-      "url": "https://epgglobalone.com/ru/reiting",
+      "inDefinedTermSet": "https://www.epgglobalone.com/ru/reiting",
+      "url": "https://www.epgglobalone.com/ru/reiting",
       "alternateName": [
         "Customer Trust in Website Score",
         "CTWS"
@@ -16,24 +16,24 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://epgglobalone.com/ru/reiting#page",
+      "@id": "https://www.epgglobalone.com/ru/reiting#page",
       "name": "Рейтинг доверия клиентов к сайту: методика EPG Global ONE",
-      "url": "https://epgglobalone.com/ru/reiting",
+      "url": "https://www.epgglobalone.com/ru/reiting",
       "inLanguage": "ru",
       "author": {
         "@type": "Organization",
-        "@id": "https://epgglobalone.com/#org",
+        "@id": "https://www.epgglobalone.com/#org",
         "name": "EPG Global ONE",
-        "url": "https://epgglobalone.com/ru"
+        "url": "https://www.epgglobalone.com/ru"
       },
       "publisher": {
         "@type": "Organization",
-        "@id": "https://epgglobalone.com/#org",
+        "@id": "https://www.epgglobalone.com/#org",
         "name": "EPG Global ONE",
-        "url": "https://epgglobalone.com/ru"
+        "url": "https://www.epgglobalone.com/ru"
       },
       "about": {
-        "@id": "https://epgglobalone.com/ru/reiting#term"
+        "@id": "https://www.epgglobalone.com/ru/reiting#term"
       },
       "dateModified": "2026-10-06"
     }
