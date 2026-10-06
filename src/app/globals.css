@@ -376,4 +376,4 @@ form{max-width:none}
 @media (max-width:620px){.hero-sub{font-size:22px}}
 
 /* меню на больших экранах: пункты равномерно по всей ширине текста */
-@media (min-width:621px){.menu{justify-content:space-between;gap:0 24px;font-size:16px;padding:14px 0}}
+@media (min-width:621px){.menu{justify-content:space-between;gap:0 24px;font-size:16px;padding:14px 28px;box-shadow:none;clip-path:none;border-radius:10px}}
