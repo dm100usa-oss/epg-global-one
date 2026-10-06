@@ -377,3 +377,31 @@ form{max-width:none}
 
 /* меню на больших экранах: пункты равномерно по всей ширине текста */
 @media (min-width:621px){.menu{justify-content:space-between;gap:0 24px;font-size:16px;padding:14px 28px;box-shadow:none;clip-path:none;border-radius:10px}}
+
+/* компьютер: все крупное на один шаг меньше (телефон не меняется) */
+@media (min-width:901px){
+  body{font-size:16px}
+  .hero h1{font-size:36px}
+  .hero-sub{font-size:23px}
+  .lead{font-size:19px}
+  section>h2{font-size:26px;margin-bottom:20px}
+  .two h3,.plain h3,summary h3{font-size:19px}
+  .dirs h3,.example h3,.src h3,#obrazcy .obr-card h3{font-size:18px}
+  #voprosy .qa h3{font-size:18px}
+  h3.sub{font-size:18px}
+  .stats b{font-size:34px}
+  .stats span{font-size:15px}
+  .scale-t{font-size:17px}
+  .menu{font-size:15px}
+  .cta2 .btn{min-width:480px;font-size:16px;padding:16px 24px;border-radius:10px}
+  body .pg-prices .plan-price b,body .pg-prices .calc-out b{font-size:34px}
+  body .pg-prices .sub-box h2{font-size:22px}
+  body .pg-prices .sub-price b{font-size:26px}
+  body .pg-prices .plan h3{font-size:19px}
+  body .pg-res .hero h1{font-size:34px}
+  body .pg-res .keys b{font-size:32px}
+  body .pg-partners .lead{font-size:18px}
+  body .pg-partners .steps span{font-size:22px}
+  body .pg-doc .doc-sec h2{font-size:20px}
+  body .pg-rating .calc{font-size:18px}
+}
