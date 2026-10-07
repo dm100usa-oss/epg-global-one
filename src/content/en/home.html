@@ -2,6 +2,7 @@
 <header class="top">
 <svg aria-hidden="true" class="logo" viewBox="0 0 100 100"><path d="M 7.5 33 A 46 46 0 0 1 92.5 33" fill="none" stroke="currentColor" stroke-width="3.2"></path><path d="M 7.5 67 A 46 46 0 0 0 92.5 67" fill="none" stroke="currentColor" stroke-width="3.2"></path><text fill="currentColor" font-size="17" font-weight="600" letter-spacing="1" text-anchor="middle" x="50" y="31">EPG</text><text fill="currentColor" font-size="24" font-weight="600" text-anchor="middle" x="50" y="58">GLOBAL</text><text fill="currentColor" font-size="17" font-weight="600" letter-spacing="1" text-anchor="middle" x="50" y="79">ONE</text></svg>
 <a class="brand" href="#">EPG Global ONE<small>Expert Perception Group</small></a>
+<p class="q">Would you trust your health to a doctor or your money to a financial advisor if the sign on their office door had errors?</p>
 <nav aria-label="Language" class="lang"><span>EN</span><a href="/es" lang="es">ES</a><a href="/ru" lang="ru">RU</a></nav>
 </header>
 <nav aria-label="Sections" class="menu">
@@ -13,14 +14,12 @@
 </nav>
 <div class="hero">
 <h1>Helping Companies Stop Losing Customers Because of Website Errors</h1><p class="motto">Audit · Score · Recommend · Support</p>
-<p class="hero-sub">We conduct an independent website audit through the eyes of the customer.</p>
-<p class="lead">We find errors in website copy and translations. We evaluate how easy it is for a customer to understand the company’s offer, quickly find the information they need, make sense of the text, move through the website, contact the company, submit a request, or make a purchase.</p>
-<p>We turn the results into a clear number, the Customer Trust in Website Score (CTWS), and provide specific recommendations that are ready to send to the people responsible for making corrections.</p>
+<p class="hero-sub">We conduct an independent website audit through the eyes of the customer</p>
+<p class="lead">We find errors in website copy and translations. We evaluate how easy it is for customers to find the information they need, understand it, contact the company, submit a request, or make a purchase.</p>
 <div aria-label="Our data" class="stats">
-<div><b>130+</b><span>companies audited in different countries</span></div>
-<div><b>2,200+</b><span>trust-reducing errors found</span></div>
+<div><b>130+</b><span>companies audited</span></div>
+<div><b>2,200+</b><span>errors found</span></div>
 </div>
-<p class="stats-note">Data as of October 2026</p>
 <div class="countries">
 <ul>
 <li title="United States"><img alt="United States" height="30" src="/images/flags/usa.png" width="40"/></li>
@@ -36,6 +35,13 @@
 <li title="Maldives"><img alt="Maldives" height="30" src="/images/flags/maldives.png" width="40"/></li>
 </ul>
 </div>
+<p class="after-flags">One audit instead of four</p>
+<ul class="benefits">
+<li>Significant savings</li>
+<li>High quality</li>
+<li>A final report you can hand directly to the people making the fixes</li>
+<li>A calculated score to track changes over time</li>
+</ul>
 <div aria-label="Score scale from 0 to 100" class="scale" id="reiting">
 <p class="scale-t">Customer Trust in Website Score (CTWS)</p>
 <div class="bar"><i></i><i></i><i></i><i></i></div>
@@ -48,8 +54,8 @@
 </div>
 <p class="scale-more"><a href="/en/trust-score">How the Score Is Calculated</a></p>
 <div class="cta2">
-<button class="btn" data-open="dlg-pilot" type="button">Find Out Your Customer Trust in Website Score</button>
-<button class="btn btn2" data-open="dlg-full" type="button">Order a Full Website Audit</button>
+<div class="cta-item"><button class="btn btn2" data-open="dlg-quick" type="button">Order a Quick Audit</button><p class="cta-note">Free, results the same day</p></div>
+<div class="cta-item"><button class="btn" data-open="dlg-pilot" type="button">Order a Pilot Audit</button><p class="cta-note">5 key pages and a trust score</p></div>
 </div>
 </div>
 <section aria-label="About" id="o-kompanii">
@@ -103,8 +109,8 @@
 <div><h3>Web Agencies</h3><p>We audit the Russian versions of the websites you build for clients, before delivery and after launch. Working with us is easier and less expensive than keeping a separate specialist on staff. <a href="/en/partners">Partner Terms</a></p></div>
 </div>
 <div class="cta2 cta-mid">
-<button class="btn" data-open="dlg-pilot" type="button">Find Out Your Customer Trust in Website Score</button>
-<button class="btn btn2" data-open="dlg-full" type="button">Order a Full Website Audit</button>
+<div class="cta-item"><button class="btn btn2" data-open="dlg-quick" type="button">Order a Quick Audit</button><p class="cta-note">Free, results the same day</p></div>
+<div class="cta-item"><button class="btn" data-open="dlg-pilot" type="button">Order a Pilot Audit</button><p class="cta-note">5 key pages and a trust score</p></div>
 </div>
 </section>
 <section aria-labelledby="obr-h" id="obrazcy">
@@ -212,6 +218,19 @@
 <p class="consent">By paying for the order, you agree to the <a href="/en/terms">Terms of Service</a>.</p>
 </form>
 <p class="ok" role="status">Opening the payment page. If it does not open, please email us at epg.global.one@gmail.com.</p>
+</dialog>
+<dialog aria-labelledby="dq-h" class="dlg" id="dlg-quick">
+<button aria-label="Close" class="x" type="button">×</button>
+<h3 id="dq-h">Quick Website Audit</h3>
+<p>Free, results the same day.</p>
+<form data-kind="quick" novalidate="">
+<label>Website address<input name="site" placeholder="https://" required="" type="url"/></label>
+<label>Work email<input name="email" required="" type="email"/></label>
+<label>Name and title<input name="name" required="" type="text"/></label>
+<div><button class="btn" type="submit">Submit Request</button></div>
+<p class="consent">By submitting a request, you agree to the <a href="/en/privacy">Privacy Policy</a>.</p>
+</form>
+<p class="ok" role="status">Your request has been received. We will send you the results the same day.</p>
 </dialog>
 <dialog aria-labelledby="df-h" class="dlg" id="dlg-full">
 <button aria-label="Close" class="x" type="button">×</button>

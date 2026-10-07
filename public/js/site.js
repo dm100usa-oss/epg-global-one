@@ -147,7 +147,7 @@ if(f){f.addEventListener('submit',function(e){
         setTimeout(go,2500);
         return;
       }
-      epgSend(f,'full',show);
+      epgSend(f,f.getAttribute('data-kind')||'full',show);
     });
   });
 })();
