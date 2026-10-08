@@ -633,3 +633,49 @@ html,body{overflow-x:clip}
 .crumbs{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:14px 0 0;font-size:14px;color:var(--muted)}
 .crumbs a{color:#1F4E8C !important;text-decoration:none;font-weight:400 !important}
 .crumbs a:hover{text-decoration:underline}
+/* «Проверяем сайт глазами клиента» без синей подложки */
+.hero .blue-panel{background:none !important;border-radius:0 !important;padding:0 !important;box-shadow:none !important;clip-path:none !important;margin:14px 0 6px !important}
+.hero .blue-panel p.hero-sub{color:var(--ink) !important}
+.hero .blue-panel p.lead{color:var(--text) !important}
+/* серебряная подложка «Проверяем сайт глазами клиента» */
+.hero .blue-panel{background:linear-gradient(135deg,#F7F8FA 0%,#E4E8EE 38%,#F9FAFC 55%,#DCE2EA 100%) !important;border:1px solid #CFD6DF !important;border-radius:10px !important;padding:20px 28px !important;box-shadow:inset 0 1px 0 rgba(255,255,255,.9),0 2px 8px rgba(20,54,98,.06) !important}
+@media (max-width:620px){.hero .blue-panel{padding:16px 18px !important}}
+@media (max-width:620px){.hero .blue-panel{margin:14px -24px 6px !important;padding:16px 24px !important;border-radius:0 !important;border-left:0 !important;border-right:0 !important}}
+.hero .dirs-top:not(.komu) .get-t{text-align:left !important}
+@media (max-width:620px){header.top p.q.q-below{font-size:18.5px !important}}
+@media (max-width:620px){header.top p.q.q-below{text-align:justify !important;hyphens:none}}
+.hero .blue-panel p.hero-sub{text-align:left !important}
+.hero .dirs-top:not(.komu) li,.hero .dirs-top:not(.komu) li a.src-t{font-family:"IBM Plex Sans",system-ui,sans-serif !important;font-weight:400 !important}
+/* главная: все заголовки ниже одного размера с «Направления нашей работы» */
+.hero p.after-flags,.hero .scale-t,.hero .scale-t a,.hero p.cta-head,.hero .komu .get-t,.hero .dokaz .get-t,
+:not(.pg-doc)>.wrap>section#voprosy>h2,:not(.pg-doc)>.wrap>section#voprosy>h2 a,
+:not(.pg-doc)>.wrap>section#obrazcy>h2,:not(.pg-doc)>.wrap>section#obrazcy>h2 a,
+.wrap>section#zayavka>h2{font-family:Literata,Georgia,serif !important;font-weight:600 !important;font-size:24px !important;line-height:1.35 !important}
+@media (max-width:620px){
+.hero p.after-flags,.hero .scale-t,.hero .scale-t a,.hero p.cta-head,.hero .komu .get-t,.hero .dokaz .get-t,
+:not(.pg-doc)>.wrap>section#voprosy>h2,:not(.pg-doc)>.wrap>section#voprosy>h2 a,
+:not(.pg-doc)>.wrap>section#obrazcy>h2,:not(.pg-doc)>.wrap>section#obrazcy>h2 a,
+.wrap>section#zayavka>h2{font-size:calc(min(calc((100vw - 48px) / 18.4),19px) + 1px) !important}
+}
+@media (max-width:620px){:not(.pg-doc)>.wrap>.hero>h1{font-size:min(calc(5vw + 3px),24px) !important}}
+.hero .docs-under li a.src-t{display:inline-flex;align-items:center;justify-content:space-between;min-width:16.4em}
+/* «Одна проверка вместо четырех»: двойные синие уголки у правого края */
+.hero .docs-under li:has(> a.src-t){list-style-position:outside}
+.hero .docs-under li a.src-t{display:flex !important;width:100%;min-width:0 !important}
+.hero .docs-under li a.src-t .arr{position:relative;color:#143662;border-right-width:2.5px;border-top-width:2.5px;margin-right:.45em}
+.hero .docs-under li a.src-t .arr::after{content:"";position:absolute;left:0;top:0;width:100%;height:100%;border-right:2.5px solid currentColor;border-top:2.5px solid currentColor;transform:translate(.3em,-.3em)}
+.hero .docs-under li a.src-t .arr{width:.5em !important;height:.5em !important;margin-right:.5em !important}.hero .docs-under li a.src-t .arr::after{transform:translate(.32em,-.32em)}
+/* уголки снова одинарные */
+.hero .docs-under li a.src-t .arr::after{display:none !important}
+.hero .docs-under li a.src-t .arr{width:.42em !important;height:.42em !important;border-right-width:2px !important;border-top-width:2px !important;margin-right:.3em !important;flex:0 0 auto}
+.hero .docs-under li a.src-t{gap:12px}
+/* «Рейтинг доверия клиентов к сайту»: уголок справа, как у документов */
+.hero .scale-t a.src-t{display:flex !important;align-items:center;justify-content:space-between;gap:12px;width:100%}
+.hero .scale-t a.src-t .arr{width:7px !important;height:7px !important;border-right-width:2px !important;border-top-width:2px !important;color:#143662;margin-right:5px !important;flex:0 0 auto}
+@media (min-width:621px){.hero .scale-t a.src-t .arr{width:8px !important;height:8px !important;margin-right:6px !important}}
+.hero p.cta-head{text-align:center !important;font-size:25px !important}
+@media (max-width:620px){.hero p.cta-head{font-size:calc(min(calc((100vw - 48px) / 18.4),19px) + 2px) !important}}
+.hero p.cta-head{font-size:26px !important}
+@media (max-width:620px){.hero p.cta-head{font-size:calc(min(calc((100vw - 48px) / 18.4),19px) + 3px) !important}}
+.cta2 .btn.btn2{box-shadow:inset 0 0 0 1.5px #7C9CC9,0 2px 6px 0 rgba(20,40,70,.1),0 6px 16px 0 rgba(31,78,140,.12) !important}
+.cta2 .btn.btn2{box-shadow:inset 0 0 0 1.5px #B3C6E0,0 2px 6px 0 rgba(20,40,70,.1),0 6px 16px 0 rgba(31,78,140,.12) !important}
