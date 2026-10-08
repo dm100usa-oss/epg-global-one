@@ -558,3 +558,14 @@ form{max-width:none}
 .hero .blue-panel p.hero-sub{color:#fff !important;margin:0 0 8px !important}
 .hero .blue-panel p.lead{color:#DCE5F2 !important;margin:0 !important}
 @media (max-width:620px){.hero .blue-panel{border-radius:0;padding:18px 0;box-shadow:0 0 0 100vmax #143662;clip-path:inset(0 -100vmax)}}
+/* фраза в шапке: на компьютере между названием и языками, на телефоне под ними */
+header.top p.q.q-below{grid-row:1;grid-column:2;margin:0 !important;padding:0 !important;border:0 !important;font-size:19px !important;line-height:1.35 !important;max-width:none;justify-self:center;text-align:left !important}
+header.top{grid-template-columns:auto 1fr auto !important;column-gap:40px !important}
+header.top .brand{grid-row:1;grid-column:1}
+header.top .lang{grid-row:1;grid-column:3}
+@media (max-width:620px){
+header.top{grid-template-columns:1fr auto !important;column-gap:8px !important}
+header.top .lang{grid-column:2}
+header.top p.q.q-below{grid-row:2;grid-column:1/-1;justify-self:stretch;margin:10px 0 14px !important;padding:0 0 14px !important;border-bottom:2px solid var(--logo) !important}
+}
+@media (min-width:621px){header.top{padding:12px 0 !important}}
