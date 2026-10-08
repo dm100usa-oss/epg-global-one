@@ -1,0 +1,80 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/ru/obrazcy#page",
+      "url": "https://www.epgglobalone.com/ru/obrazcy",
+      "name": "Образцы документов",
+      "inLanguage": "ru",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://www.epgglobalone.com/#site",
+        "name": "EPG Global ONE",
+        "url": "https://www.epgglobalone.com"
+      },
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/ru/obrazcy#crumbs"
+      },
+      "dateModified": "2026-10-08",
+      "description": "Образцы трех документов, которые компания получает после проверки сайта EPG Global ONE."
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.epgglobalone.com/ru/obrazcy#list",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "DigitalDocument",
+            "name": "Отчет для руководителя компании",
+            "url": "https://www.epgglobalone.com/obrazcy/obrazec-otchet-dlya-rukovoditelya.pdf",
+            "encodingFormat": "application/pdf"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "DigitalDocument",
+            "name": "Задание для редактора сайта",
+            "url": "https://www.epgglobalone.com/obrazcy/obrazec-zadanie-dlya-redaktora.pdf",
+            "encodingFormat": "application/pdf"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "DigitalDocument",
+            "name": "Задание для веб-разработчика",
+            "url": "https://www.epgglobalone.com/obrazcy/obrazec-zadanie-dlya-razrabotchika.pdf",
+            "encodingFormat": "application/pdf"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/ru/obrazcy#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.epgglobalone.com/ru"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Образцы документов",
+          "item": "https://www.epgglobalone.com/ru/obrazcy"
+        }
+      ]
+    }
+  ]
+}

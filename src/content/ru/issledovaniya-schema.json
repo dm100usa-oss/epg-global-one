@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.epgglobalone.com/ru/issledovaniya#page",
+      "url": "https://www.epgglobalone.com/ru/issledovaniya",
+      "name": "Исследования о доверии к сайтам",
+      "inLanguage": "ru",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://www.epgglobalone.com/#site",
+        "name": "EPG Global ONE",
+        "url": "https://www.epgglobalone.com"
+      },
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/ru/issledovaniya#crumbs"
+      },
+      "dateModified": "2026-10-08",
+      "description": "Исследования о том, как ошибки и язык сайта влияют на доверие клиентов.",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "Исследование EPG Global ONE, 2026",
+          "url": "https://www.epgglobalone.com/ru/issledovanie"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Stanford Guidelines for Web Credibility, 2002",
+          "url": "https://credibility.stanford.edu/guidelines"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Global Lingo, 2013",
+          "url": "https://www.dacgroup.com/?p=105418"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "CSA Research и Kantar, 2020",
+          "url": "https://csa-research.com/blogs-events/csa-in-the-media/press-releases/consumers-prefer-their-own-language"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/ru/issledovaniya#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.epgglobalone.com/ru"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Исследования о доверии к сайтам",
+          "item": "https://www.epgglobalone.com/ru/issledovaniya"
+        }
+      ]
+    }
+  ]
+}

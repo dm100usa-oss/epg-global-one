@@ -629,3 +629,7 @@ html,body{overflow-x:clip}
 .menu .sub{min-width:300px}
 @media (max-width:620px){.menu .sub{min-width:0}}
 @media (max-width:440px){.menu{font-size:max(10px,2.95vw) !important}.menu .mc{display:none}}
+/* хлебные крошки на внутренних страницах */
+.crumbs{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:14px 0 0;font-size:14px;color:var(--muted)}
+.crumbs a{color:#1F4E8C !important;text-decoration:none;font-weight:400 !important}
+.crumbs a:hover{text-decoration:underline}

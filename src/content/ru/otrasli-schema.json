@@ -1,0 +1,146 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/ru/otrasli#page",
+      "url": "https://www.epgglobalone.com/ru/otrasli",
+      "name": "Отрасли",
+      "inLanguage": "ru",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://www.epgglobalone.com/#site",
+        "name": "EPG Global ONE",
+        "url": "https://www.epgglobalone.com"
+      },
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/ru/otrasli#crumbs"
+      },
+      "dateModified": "2026-10-08",
+      "description": "Для каких компаний EPG Global ONE проверяет сайты: клиники, гостиницы и курорты, туристические ведомства, застройщики, международные компании и веб-студии."
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.epgglobalone.com/ru/otrasli#list",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Service",
+            "name": "Проверка сайта: Клиники и медицинские центры",
+            "provider": {
+              "@id": "https://www.epgglobalone.com/#org"
+            },
+            "audience": {
+              "@type": "BusinessAudience",
+              "audienceType": "Клиники и медицинские центры"
+            },
+            "url": "https://www.epgglobalone.com/ru/otrasli#kliniki"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Service",
+            "name": "Проверка сайта: Гостиницы и курорты",
+            "provider": {
+              "@id": "https://www.epgglobalone.com/#org"
+            },
+            "audience": {
+              "@type": "BusinessAudience",
+              "audienceType": "Гостиницы и курорты"
+            },
+            "url": "https://www.epgglobalone.com/ru/otrasli#oteli"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Service",
+            "name": "Проверка сайта: Туристические ведомства стран",
+            "provider": {
+              "@id": "https://www.epgglobalone.com/#org"
+            },
+            "audience": {
+              "@type": "BusinessAudience",
+              "audienceType": "Туристические ведомства стран"
+            },
+            "url": "https://www.epgglobalone.com/ru/otrasli#turizm"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Service",
+            "name": "Проверка сайта: Застройщики, которые продают жилье иностранцам",
+            "provider": {
+              "@id": "https://www.epgglobalone.com/#org"
+            },
+            "audience": {
+              "@type": "BusinessAudience",
+              "audienceType": "Застройщики, которые продают жилье иностранцам"
+            },
+            "url": "https://www.epgglobalone.com/ru/otrasli#zastrojshchiki"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Service",
+            "name": "Проверка сайта: Международные компании с сайтами на нескольких языках",
+            "provider": {
+              "@id": "https://www.epgglobalone.com/#org"
+            },
+            "audience": {
+              "@type": "BusinessAudience",
+              "audienceType": "Международные компании с сайтами на нескольких языках"
+            },
+            "url": "https://www.epgglobalone.com/ru/otrasli#mezhdunarodnye"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "Service",
+            "name": "Проверка сайта: Веб-студии",
+            "provider": {
+              "@id": "https://www.epgglobalone.com/#org"
+            },
+            "audience": {
+              "@type": "BusinessAudience",
+              "audienceType": "Веб-студии"
+            },
+            "url": "https://www.epgglobalone.com/ru/otrasli#veb-studii"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/ru/otrasli#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.epgglobalone.com/ru"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Отрасли",
+          "item": "https://www.epgglobalone.com/ru/otrasli"
+        }
+      ]
+    }
+  ]
+}

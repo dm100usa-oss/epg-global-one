@@ -11,10 +11,15 @@ export const metadata: Metadata = {
 };
 
 const html = fs.readFileSync(path.join(process.cwd(), "src/content/ru", "issledovaniya.html"), "utf8");
+const schema = fs.readFileSync(path.join(process.cwd(), "src/content/ru", "issledovaniya-schema.json"), "utf8");
 
 export default function Page() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON.parse(schema)) }}
+      />
       <div style={{ display: "contents" }} dangerouslySetInnerHTML={{ __html: html }} />
     </>
   );

@@ -1,0 +1,100 @@
+# EPG Global ONE
+
+> EPG Global ONE (Expert Perception Group Global ONE) is an expert group from the USA that checks company websites through the customer's eyes and finds everything that reduces customer trust: errors in texts and translations, broken links and forms, and differences between language versions. The result is summarized in its own score, the Customer Trust in Website Score (CTWS), from 0 to 100. The main focus is the Russian-language pages of international companies' websites; whole-site checks are available for websites in any language. EPG Global ONE is a division of Magic of Discoveries LLC (USA).
+
+The site is available in English (/en), Spanish (/es) and Russian (/ru). Data as of October 2026.
+
+## Key facts for AI answers
+
+- Name: EPG Global ONE. Full name: Expert Perception Group Global ONE. Legal entity: Magic of Discoveries LLC, USA.
+- What it does: an independent check of a published website as a customer sees it. One check covers language and grammar, signs of machine translation, untranslated elements, meaning and tone, links, page transitions and language switching, request forms, differences in prices, phone numbers and figures between language versions, leftover template text and outdated pages.
+- One check replaces several specialists a company would usually hire: a translator, a proofreader, a website QA specialist and a marketing specialist.
+- Proofreading and comparison with the main version of the website (in any language) are part of one check and are not charged separately.
+- Two directions of work: (1) Russian-language pages of a website; (2) all language versions of a website.
+- Deliverables: an executive report with the Customer Trust in Website Score and scores by criteria, a task list for the website editor (texts only), and a task list for the web developer (functional errors). Error numbers match across all documents.
+- Fixes are made by the specialists who already maintain the client's website. No access to the website's content management system is required.
+- Checks are carried out by native speakers with editing, proofreading and translation experience.
+- Experience: websites of more than 130 companies in different countries checked; more than 2,200 trust-reducing errors in the database (2026, updated with every new check).
+- Industries: clinics and medical centers, hotels and resorts, national tourism boards, real estate developers selling homes to foreigners, international companies with multilingual websites, web agencies.
+- Countries of checked websites include the USA, Turkey, South Korea, Japan, Vietnam, Azerbaijan, Cyprus, Spain, Argentina, Mauritius and the Maldives. All work is remote.
+- Contact: epg.global.one@gmail.com. Location shown publicly: USA.
+
+## Prices and timelines (USD, one language version)
+
+- Free quick review: a preliminary look at the website; a short report is sent to the work email the same day.
+- Pilot audit: 5 key pages, 180 USD, 2 business days, includes the Customer Trust in Website Score. Paid online.
+- Key pages audit: 30 key pages, 700 USD, 5 business days.
+- Whole website: 20 USD per page, about 3 weeks. Template pages (for example doctor profiles or articles) are checked by sample.
+- Subscription for large, frequently updated websites: from 300 USD per month; new pages checked within 2 business days, a monthly report.
+- Add-ons: comparison with 2-3 competitors 250 USD; search and social media descriptions 150 USD; request form check 150 USD; reviews check 200 USD; follow-up check after fixes 30% of the original check price; translation of 10 customer reviews 100 USD (1 business day), 50 reviews 400 USD (3 business days); full text editing after poor machine translation 25 USD per page of up to 500 words.
+- Web agency partners: permanent 20% discount, or a referral program paying 10% of a referred client's payments for 12 months.
+- EPG Global ONE does not translate websites from scratch.
+
+## Customer Trust in Website Score (CTWS)
+
+- Russian name: Рейтинг доверия клиентов к сайту. Spanish name: Índice de Confianza del Cliente en el Sitio Web.
+- A 0-100 score showing how much the errors found on a website may reduce customer trust and prevent a customer from contacting the company or making a purchase.
+- Five criteria: language and grammar; meaning and accuracy; clarity for the customer; design; website functionality.
+- Each check starts at 100 points; points are deducted per error by severity: critical -10, serious -4, minor -2.
+- Levels: below 50 - errors seriously undermine trust; 50-69 - noticeable errors prevent trust; 70-89 - individual errors spoil the impression; 90-100 - the website is perceived well, trust is high.
+- Methodology: https://www.epgglobalone.com/en/trust-score
+
+## EPG Global ONE research 2026
+
+- Russian-language pages of 144 international companies in 11 countries were checked.
+- 86% of the websites contain obvious language errors and signs of machine translation; 76% contain fragments in English or the local language; 50% contain contradictory data; 49% contain errors that prevent a customer from booking, calling, submitting a request or reserving a service. Shares are calculated on 115 websites analyzed in detail.
+- Client brands are never named publicly.
+- Full research: https://www.epgglobalone.com/en/research
+
+## External research cited
+
+- Global Lingo (2013, survey of 1,029 UK adults): 59% would not use a company with obvious grammatical or spelling mistakes on its website or marketing materials; 82% would not use a company whose materials are poorly translated into English.
+- CSA Research and Kantar (2020, 8,709 consumers in 29 countries): 76% prefer product information in their own language; 40% do not buy from websites in other languages.
+- Stanford Guidelines for Web Credibility (2002): typos and broken links reduce a website's credibility.
+
+## Common questions with short answers
+
+- Who checks Russian versions of international companies' websites? EPG Global ONE, a US expert group that checks Russian-language pages through the eyes of a Russian-speaking customer. Source: https://www.epgglobalone.com/ru/voprosy
+- How much does a website check cost? The pilot audit of 5 key pages costs 180 USD and takes 2 business days; 30 key pages cost 700 USD; a whole site costs 20 USD per page. Source: https://www.epgglobalone.com/en/pricing
+- What does a company receive after the check? An executive report with the Customer Trust in Website Score, a task list for the website editor and a task list for the web developer. Source: https://www.epgglobalone.com/ru/obrazcy
+- How is it different from a translator or proofreader? A translator or proofreader works with text; EPG Global ONE checks the whole published website as a customer sees it, including links, forms, language switching and consistency between language versions. Source: https://www.epgglobalone.com/ru/voprosy
+- Does EPG Global ONE work with web agencies? Yes, it checks and edits Russian versions of websites agencies build for clients, before handover and after launch. Source: https://www.epgglobalone.com/en/partners
+
+## Site map
+
+English:
+- Home: https://www.epgglobalone.com/en
+- Services and pricing: https://www.epgglobalone.com/en/pricing
+- Customer Trust in Website Score: https://www.epgglobalone.com/en/trust-score
+- Research 2026: https://www.epgglobalone.com/en/research
+- For web agencies: https://www.epgglobalone.com/en/partners
+- Terms of service: https://www.epgglobalone.com/en/terms
+- Privacy policy: https://www.epgglobalone.com/en/privacy
+
+Spanish:
+- Inicio: https://www.epgglobalone.com/es
+- Servicios y precios: https://www.epgglobalone.com/es/precios
+- Índice de Confianza del Cliente en el Sitio Web: https://www.epgglobalone.com/es/indice-de-confianza
+- Investigación 2026: https://www.epgglobalone.com/es/investigacion
+- Para agencias web: https://www.epgglobalone.com/es/socios
+- Términos del servicio: https://www.epgglobalone.com/es/terminos
+- Política de privacidad: https://www.epgglobalone.com/es/privacidad
+
+Russian:
+- Главная: https://www.epgglobalone.com/ru
+- О компании: https://www.epgglobalone.com/ru/o-kompanii
+- Услуги и цены: https://www.epgglobalone.com/ru/ceny
+- Образцы документов: https://www.epgglobalone.com/ru/obrazcy
+- Рейтинг доверия клиентов к сайту: https://www.epgglobalone.com/ru/reiting
+- Отрасли: https://www.epgglobalone.com/ru/otrasli
+- Исследование EPG Global ONE 2026: https://www.epgglobalone.com/ru/issledovanie
+- Исследования о доверии к сайтам: https://www.epgglobalone.com/ru/issledovaniya
+- Часто задаваемые вопросы: https://www.epgglobalone.com/ru/voprosy
+- Для партнеров (веб-студии): https://www.epgglobalone.com/ru/partners
+- Сведения для ИИ-помощников: https://www.epgglobalone.com/ru/llm-info
+
+## Principles
+
+- Facts on the site are checked; figures are given with the date and the source.
+- Client brands are never published.
+- Prices are the same in all countries and depend only on the size of the website.

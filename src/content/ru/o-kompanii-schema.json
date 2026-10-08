@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": "https://www.epgglobalone.com/ru/o-kompanii#page",
+      "url": "https://www.epgglobalone.com/ru/o-kompanii",
+      "name": "О компании EPG Global ONE",
+      "inLanguage": "ru",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://www.epgglobalone.com/#site",
+        "name": "EPG Global ONE",
+        "url": "https://www.epgglobalone.com"
+      },
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/ru/o-kompanii#crumbs"
+      },
+      "dateModified": "2026-10-08",
+      "about": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "mainEntity": {
+        "@id": "https://www.epgglobalone.com/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/ru/o-kompanii#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.epgglobalone.com/ru"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "О компании",
+          "item": "https://www.epgglobalone.com/ru/o-kompanii"
+        }
+      ]
+    }
+  ]
+}
