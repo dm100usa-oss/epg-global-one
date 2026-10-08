@@ -62,6 +62,22 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "Why EPG Global ONE?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In one audit, EPG Global ONE covers the areas for which companies usually hire several separate specialists: a translator, a proofreader, a website QA specialist, and a marketing specialist. The client receives one complete picture instead of scattered comments, saves money and time, and immediately sees what should be fixed first. We do not separate proofreading and comparison with the main version of the website into two different services. It is one audit and one price. In one audit, we evaluate language and grammar, signs of machine translation, meaning and tone, links and language switching, request forms, differences in prices, phone numbers, and figures across language versions, leftover template text, and outdated pages. Audits are carried out by native speakers: editors, proofreaders, and translators with experience working with websites. For every error found, we show where it is located and suggest the correct version. Our database was built in 2026 based on website audits of more than 130 companies in different countries and contains more than 2,200 errors that reduce customer trust. It grows with every new audit, so our recommendations are based on what is actually appearing on websites today."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a free quick website review?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A free quick website review is a preliminary review of your website by our specialists. We look for visible errors and inconsistencies in website copy and translations, button and menu labels, links, contact forms, and other elements that may reduce customer trust. After the review, we send a quick review report to the work email address provided. This is not a full website audit. It is a first step to understand whether there are problems that may be causing the company to lose customers. If such problems are found, we recommend continuing with a pilot audit of 5 key pages, including the Customer Trust in Website Score. To request a review, you only need to provide the website address, work email, name, and job title."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Who audits Russian versions of websites for international companies?",
           "acceptedAnswer": {
             "@type": "Answer",

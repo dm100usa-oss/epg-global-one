@@ -566,6 +566,66 @@ header.top .lang{grid-row:1;grid-column:3}
 @media (max-width:620px){
 header.top{grid-template-columns:1fr auto !important;column-gap:8px !important}
 header.top .lang{grid-column:2}
-header.top p.q.q-below{grid-row:2;grid-column:1/-1;justify-self:stretch;margin:10px 0 14px !important;padding:0 0 14px !important;border-bottom:2px solid var(--logo) !important}
+header.top p.q.q-below{grid-row:2;grid-column:1/-1;justify-self:stretch;margin:10px 0 6px !important;padding:0 !important;border:0 !important}
 }
 @media (min-width:621px){header.top{padding:12px 0 !important}}
+.hero .cta2 + .komu{margin:44px 0 0}
+.hero .komu li,.hero .komu li a.src-t{font-family:"IBM Plex Sans",system-ui,sans-serif !important;font-weight:400 !important}
+/* блок «Почему ошибки на сайте стоят дорого» */
+.hero .dokaz{margin:44px 0 0}
+.hero .dokaz .get-t{font-family:Literata,Georgia,serif;font-weight:600;font-size:24px;line-height:1.35;color:var(--ink);margin:0 0 14px;text-align:center !important}
+.hero .dokaz p.dokaz-sub{margin:4px 0 14px;font-size:15px;color:var(--muted);text-align:center !important;letter-spacing:.02em}
+.hero .dokaz p:not(.get-t):not(.dokaz-sub){margin:0 0 12px;font-size:18px;line-height:1.6;color:var(--text);text-align:justify !important;text-align-last:left;hyphens:auto}
+@media (max-width:620px){.hero .dokaz .get-t{font-size:calc(min(calc((100vw - 48px) / 18.4),19px) + 1px)}.hero .dokaz p:not(.get-t):not(.dokaz-sub){font-size:16px}}
+/* вопросы раскрываются по нажатию */
+#voprosy details.qa{border:0 !important;border-bottom:1px solid var(--line) !important;border-radius:0 !important;box-shadow:none !important;background:none !important;margin:0 !important;padding:0 !important}
+#voprosy details.qa>summary{display:flex !important;align-items:center;justify-content:space-between;gap:16px;padding:16px 0;cursor:pointer;list-style:none}
+#voprosy details.qa>summary::-webkit-details-marker{display:none}
+#voprosy details.qa>summary h3{margin:0 !important;font-size:19px;line-height:1.35;color:var(--ink)}
+#voprosy details.qa>summary:hover h3{color:#1F4E8C}
+#voprosy .qa-ch{flex:0 0 auto;width:9px;height:9px;margin-right:4px;border-right:2px solid #1F4E8C;border-bottom:2px solid #1F4E8C;transform:rotate(45deg) translateY(-3px);transition:transform .2s}
+#voprosy details.qa[open] .qa-ch{transform:rotate(-135deg) translateY(-3px)}
+#voprosy .qa-a{padding:0 0 18px}
+#voprosy details.qa:first-child>summary{padding-top:4px}
+@media (max-width:620px){#voprosy details.qa>summary{padding:14px 0}#voprosy details.qa>summary h3{font-size:17px}#voprosy .qa p{text-align:left}}
+#voprosy summary>span.qa-ch{display:block !important;grid-row:auto !important;grid-column:auto !important}
+.pg-faq .hero{border-bottom:0 !important;padding-bottom:8px !important}.pg-faq section#voprosy{padding-top:0 !important;border-top:0 !important;margin-top:0 !important}.pg-faq #voprosy .faq-upd{margin:0 0 10px !important}
+/* «Доказательства и исследования»: первый абзац виден, остальное по плюсу */
+.hero details.dokaz-d{border:0 !important;padding:0 !important;margin:0 !important;background:none !important;box-shadow:none !important;border-radius:0 !important}
+.hero details.dokaz-d>summary{display:flex !important;align-items:flex-start;gap:16px;cursor:pointer;list-style:none}
+.hero details.dokaz-d>summary::-webkit-details-marker{display:none}
+.hero details.dokaz-d>summary>p{flex:1 1 auto;min-width:0}
+.hero details.dokaz-d>summary>span.pm{display:block !important;flex:0 0 auto;font-size:24px;line-height:1;color:#1F4E8C;margin-top:2px;transition:transform .2s}
+.hero details.dokaz-d[open]>summary>span.pm{transform:rotate(45deg)}
+/* меню с раскрывающимися разделами */
+.menu .mi{position:relative}
+.menu .mt{background:none;border:0;padding:0;margin:0;font:inherit;color:rgba(255,255,255,.9);cursor:pointer;display:inline-flex;align-items:center;gap:.4em;white-space:nowrap}
+.menu .mt:hover,.menu .mi.open .mt{color:#fff}
+.menu .mc{display:inline-block;width:.4em;height:.4em;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg) translateY(-.15em);transition:transform .2s}
+.menu .mi.open .mc{transform:rotate(-135deg) translate(-.1em,-.05em)}
+.menu .sub{display:none;position:absolute;top:100%;left:-18px;z-index:20;min-width:270px;margin-top:14px;padding:8px 0;background:#fff;border:1px solid #D7E1EE;border-radius:10px;box-shadow:0 12px 32px rgba(20,54,98,.18);white-space:normal}
+.menu .sub::before{content:"";position:absolute;left:0;right:0;top:-16px;height:16px}
+.menu .mi.open .sub{display:block}
+@media (hover:hover) and (min-width:621px){.menu .mi:hover .sub{display:block}.menu .mi:hover .mt{color:#fff}}
+.menu .sub a{display:block;padding:9px 18px;color:#1D2940 !important;font-size:15px;line-height:1.35;text-decoration:none !important;font-weight:400}
+.menu .sub a:hover{background:#F2F6FB;color:#143662 !important}
+.menu .mi:last-of-type .sub{left:auto;right:-18px}
+@media (max-width:620px){
+html,body{overflow-x:clip}
+.menu{overflow:visible !important;clip-path:none !important;box-shadow:none !important}
+.menu::before{content:"";position:absolute;top:0;bottom:0;left:-100vmax;right:-100vmax;background:#143662;z-index:-1}
+.menu .mi{position:static}
+.menu .mt{gap:.3em}
+.menu .sub{left:0;right:0;min-width:0;margin-top:0;border-radius:0 0 10px 10px;border-top:0}
+.menu .sub::before{display:none}
+.menu .sub a{font-size:16px;padding:11px 18px}
+}
+/* главная: короткий список образцов */
+#obrazcy .obr-list{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+#obrazcy .obr-list li{font-size:18px}
+#obrazcy h2 a.src-t{color:inherit}
+.menu{overflow:visible !important}
+@media (max-width:620px){.menu{font-size:min(2.75vw,13px) !important}.menu .mc{width:.34em;height:.34em;border-width:0 1.2px 1.2px 0}.menu .mt{gap:.25em}}
+.menu .sub{min-width:300px}
+@media (max-width:620px){.menu .sub{min-width:0}}
+@media (max-width:440px){.menu{font-size:max(10px,2.95vw) !important}.menu .mc{display:none}}

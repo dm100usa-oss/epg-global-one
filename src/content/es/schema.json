@@ -62,6 +62,22 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "¿Por qué EPG Global ONE?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En una sola auditoría, EPG Global ONE cubre lo que normalmente requiere contratar a varios especialistas: un traductor, un corrector, un especialista en revisión del funcionamiento del sitio y un especialista en marketing. El cliente recibe una visión completa en lugar de comentarios aislados, ahorra dinero y tiempo, y ve de inmediato qué debe corregirse primero. No separamos la corrección de textos y la comparación con la versión principal del sitio web en dos servicios distintos. Es una sola auditoría y un solo precio. En una auditoría se evalúan el idioma y la corrección de los textos, señales de traducción automática, sentido y tono, enlaces y cambio de idioma, formularios de solicitud, diferencias de precios, teléfonos y cifras entre versiones lingüísticas, texto técnico de plantillas y páginas desactualizadas. Las auditorías las realizan hablantes nativos: editores, correctores y traductores con experiencia en sitios web. Para cada error encontrado indicamos dónde está y proponemos una versión correcta. Nuestra base fue creada en 2026 a partir de auditorías de sitios web de más de 130 empresas en distintos países y contiene más de 2200 errores que reducen la confianza de los clientes. Se amplía con cada nueva auditoría, por eso nuestras recomendaciones se basan en lo que aparece en los sitios web actualmente."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué es una revisión rápida gratuita del sitio web?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Una revisión rápida gratuita del sitio web es una revisión preliminar realizada por nuestros especialistas. Revisamos si el sitio tiene errores visibles e inconsistencias en los textos y las traducciones, los nombres de botones y menús, los enlaces, los formularios de contacto y otros elementos que pueden reducir la confianza del cliente. Después de la revisión, enviamos un informe de revisión rápida al correo laboral indicado. No es una auditoría completa del sitio web. Es una primera forma de entender si existen problemas por los cuales la empresa podría estar perdiendo clientes. Si encontramos este tipo de problemas, recomendamos continuar con una auditoría piloto de 5 páginas clave, con el cálculo del Índice de Confianza del Cliente en el Sitio Web. Para solicitar la revisión, solo es necesario indicar la dirección del sitio web, el correo laboral, el nombre y el cargo."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "¿Quién audita las versiones rusas de sitios web de empresas internacionales?",
           "acceptedAnswer": {
             "@type": "Answer",

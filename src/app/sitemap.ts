@@ -149,5 +149,35 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
       alternates: { languages: { en: "https://www.epgglobalone.com/en/privacy", es: "https://www.epgglobalone.com/es/privacidad", ru: "https://www.epgglobalone.com/ru/konfidencialnost" } },
     },
+    {
+      url: "https://www.epgglobalone.com/ru/voprosy",
+      lastModified: new Date("2026-10-08"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: "https://www.epgglobalone.com/ru/o-kompanii",
+      lastModified: new Date("2026-10-08"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: "https://www.epgglobalone.com/ru/otrasli",
+      lastModified: new Date("2026-10-08"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: "https://www.epgglobalone.com/ru/obrazcy",
+      lastModified: new Date("2026-10-08"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: "https://www.epgglobalone.com/ru/issledovaniya",
+      lastModified: new Date("2026-10-08"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
   ];
 }
