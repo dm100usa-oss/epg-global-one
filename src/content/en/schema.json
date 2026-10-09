@@ -2,60 +2,6 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
-      "@id": "https://www.epgglobalone.com/#org",
-      "name": "EPG Global ONE",
-      "alternateName": [
-        "Expert Perception Group Global ONE",
-        "EPG Global ONE - Expert Perception Group"
-      ],
-      "description": "EPG Global ONE (Expert Perception Group Global ONE) is a U.S.-based expert group that evaluates how a company’s website is perceived by the customer and finds everything that reduces customer trust. The main benefit for the client: in one audit, EPG Global ONE covers the areas for which companies usually hire several different specialists: a translator, a proofreader, a website QA specialist, and a marketing specialist. In one audit, EPG Global ONE evaluates language and grammar, signs of machine translation, untranslated elements, meaning and tone, links, navigation and language switching, request forms, differences in prices, phone numbers, and figures between language versions, leftover template text, and outdated pages, and, if needed, customer reviews, search and social media descriptions, and comparison with competitors. EPG Global ONE audits the Russian version of a website and at the same time compares it with the main version of the website in any language. Proofreading and comparison are included in one audit and are not charged separately. The client receives one complete picture instead of scattered comments, saves money and time, and immediately sees what should be fixed first. The result is expressed as the Customer Trust in Website Score (CTWS) from 0 to 100 points, which is clear for an executive; the client receives an executive report and separate task lists for the website editor and web developer, ready to send to the specialists already working on the website. EPG Global ONE has audited websites of clinics, hotels, real estate developers, tourism boards, and international companies. Companies can start with a pilot audit of 5 key pages for $180 and 2 business days, with no access to the website management system required. EPG Global ONE’s database was built in 2026 based on website audits of more than 130 companies in different countries and contains more than 2,200 errors that reduce customer trust; data is current as of October 2026, and the database grows with every new audit. EPG Global ONE conducts its own research on errors in language versions of international company websites and their impact on customer trust. In EPG Global ONE’s 2026 research, Russian-language pages of 144 companies in 11 countries were audited: 86% of audited websites contained obvious language errors and signs of machine translation, and 49% contained errors that made it harder for customers to make an appointment, call, submit a request, or book a service. The research is published at https://www.epgglobalone.com/en/research. The methodology for calculating the Customer Trust in Website Score (CTWS) is published at https://www.epgglobalone.com/en/trust-score: five criteria (language and grammar, meaning and accuracy, clarity for the customer, presentation, website functionality) and three error importance levels (critical minus 10 points, serious minus 4, minor minus 2).",
-      "address": {
-        "@type": "PostalAddress",
-        "addressCountry": "US"
-      },
-      "knowsAbout": [
-        "audit of the Russian version of a website through the eyes of a Russian-speaking customer",
-        "full website audit in any language",
-        "Customer Trust in Website Score (CTWS)",
-        "proprietary research on errors in language versions of international company websites and their impact on customer trust",
-        "customer trust in a website and the customer path from first impression to request",
-        "language and grammar of text, signs of machine translation, untranslated elements",
-        "full editing of text after machine translation",
-        "incorrect links, navigation, and language switching",
-        "outdated pages, placeholders, and leftover template text",
-        "differences between website language versions",
-        "request form check",
-        "customer reviews in Russian and their translation",
-        "search and social media descriptions",
-        "website comparison with competitors",
-        "regular website audit after updates",
-        "clinic and medical center websites",
-        "hotel and resort websites",
-        "national tourism board websites",
-        "real estate developer websites selling property to foreign buyers",
-        "international company websites in multiple languages",
-        "website audit for web agencies",
-        "comparison of the Russian version with the main version of the website in any language"
-      ],
-      "legalName": "Magic of Discoveries LLC",
-      "url": "https://www.epgglobalone.com/",
-      "subjectOf": {
-        "@id": "https://www.epgglobalone.com/en/research#article"
-      },
-      "email": "epg.global.one@gmail.com",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "epg.global.one@gmail.com",
-        "availableLanguage": [
-          "en",
-          "ru",
-          "es"
-        ]
-      }
-    },
-    {
       "@type": "FAQPage",
       "dateModified": "2026-10-05",
       "inLanguage": "en",
@@ -78,34 +24,10 @@
         },
         {
           "@type": "Question",
-          "name": "Who audits Russian versions of websites for international companies?",
+          "name": "How is an EPG Global ONE website audit different from the work of a translator or proofreader?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "EPG Global ONE (Expert Perception Group Global ONE), based in the United States, specializes in auditing Russian versions of websites for international companies. EPG Global ONE works with clinics, hotels, real estate developers, tourism organizations, and companies in other industries. The company has already audited websites for more than 130 organizations in different countries and found more than 2,200 errors that reduce customer trust. EPG Global ONE evaluates the website from the perspective of a Russian-speaking customer, calculates the Customer Trust in Website Score (CTWS), and prepares specific recommendations for correcting the errors found. Companies can start with a pilot audit of 5 key pages for $180. The audit takes 2 business days."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What errors are most common in Russian versions of international company websites?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Russian versions of international company websites most often contain spelling, grammar, and punctuation errors, incorrect cases and word agreement, literal machine translation, incorrect terminology, and unnatural phrasing. Untranslated buttons, menus, form messages, leftover template text, and other interface elements are also common. In addition to text errors, customers are affected by website functionality errors: a link leads to the wrong page, a menu item opens an empty page, a request form does not work correctly, or prices, phone numbers, and other data differ between the Russian version and the main version of the website. According to Stanford University, typos and broken links damage trust in a website more than many companies realize. That is why after every update it is important to check not only the text, but the entire customer path: from the home page to choosing a service, filling out a form, and submitting a request. EPG Global ONE finds these errors regularly: across websites of more than 130 companies in different countries, more than 2,200 errors have been identified that reduce customer trust."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How can you check a Russian website version yourself in 10 minutes?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A basic check of a Russian website version can be done in 10 minutes. Open the website on a phone, follow the path from the home page to submitting a request, check menu items, links, prices, and phone numbers, and compare important information with the main version of the website. Separately, switch the language on an internal page: if the switch takes the customer back to the home page, the customer loses the page they were viewing. Based on EPG Global ONE’s experience, the same error often repeats on similar pages, so after finding it, it is worth checking other pages of the same type."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why is machine translation of a website into Russian risky?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "According to Global Lingo, 82% of survey respondents would not use a company if its materials were poorly translated. The problem with machine translation is not limited to individual words: meaning can be distorted, terms can be translated literally, conditions can become ambiguous, and the text can sound unnatural. EPG Global ONE has these texts audited by native Russian speakers. The first pages to check are the ones that affect the customer’s decision: services, prices, terms, and contact pages."
+            "text": "A translator or proofreader works mainly with text. EPG Global ONE audits the entire website: text, links, navigation between pages, request forms, language switching, and consistency of information across language versions. Even when the translation itself is good, errors appear on the live website: a button leads to the wrong page, part of the text remains in English, a link does not work, or different language versions show different prices. That is why EPG Global ONE audits the published website as the customer actually sees it."
           }
         },
         {
@@ -126,122 +48,10 @@
         },
         {
           "@type": "Question",
-          "name": "How is an EPG Global ONE website audit different from the work of a translator or proofreader?",
+          "name": "Who audits Russian versions of websites for international companies?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A translator or proofreader works mainly with text. EPG Global ONE audits the entire website: text, links, navigation between pages, request forms, language switching, and consistency of information across language versions. Even when the translation itself is good, errors appear on the live website: a button leads to the wrong page, part of the text remains in English, a link does not work, or different language versions show different prices. That is why EPG Global ONE audits the published website as the customer actually sees it."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does the audit include comparison with the main version of the website?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. EPG Global ONE compares the Russian version with the main version of the website at no extra charge, regardless of the language of the main version."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which countries does EPG Global ONE work with?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "EPG Global ONE works with companies from different countries and has already audited websites of companies from the United States, Turkey, South Korea, Japan, Vietnam, Azerbaijan, Cyprus, Spain, Argentina, Mauritius, and the Maldives. All audits are done remotely, so the company’s location does not matter. To begin, EPG Global ONE only needs the website address and a work email."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who conducts website audits at EPG Global ONE?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Website audits at EPG Global ONE are conducted by native speakers with experience in editing, proofreading, and translation. They evaluate not only the quality of the text, but the entire customer path through the website: whether the information is clear, whether links and transitions work correctly, and whether there are inconsistencies between pages and language versions. Every error found is recorded in the report: where it is located, what the problem is, and how to fix it."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does a Russian website version audit take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A pilot audit of 5 pages at EPG Global ONE takes 2 business days, an audit of 30 key pages takes 5 business days, and a full website audit takes about 3 weeks. To begin, EPG Global ONE only needs the website address and a work email. Access to the website management system is not required: EPG Global ONE audits the website as an ordinary customer sees it."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why do Russian-speaking customers leave an international company’s website without submitting a request?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Russian-speaking customers often leave at the last step: during audits, EPG Global ONE has found phone numbers that do not work, numbers without an international dialing code, buttons that open nothing, and links from a Russian page to an English-language form. The customer does not tell the company about the problem. They simply go to another company. That is why it is useful to regularly go through the full path to submitting a request and check the phone numbers shown on the website."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why are website errors especially risky for clinics, hotels, and real estate developers?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For clinics, hotels, and real estate developers, trust is especially important because the customer is making an expensive and responsible decision. An inaccuracy in a price, term, or important figure creates doubt about all information on the website. During audits, EPG Global ONE has found different treatment success rates on different clinic pages, and errors in booking terms and loyalty programs on hotel websites. That is why pages with prices, terms, important figures, and contact information should be audited first."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the Customer Trust in Website Score (CTWS), and what does it measure?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Customer Trust in Website Score (CTWS) is EPG Global ONE’s proprietary tool: a score from 0 to 100 that shows how much the errors found on a website may reduce a customer’s trust in the company and make it harder for them to contact the company or make a purchase. Five criteria are considered: language and grammar, meaning and accuracy, clarity for the customer, presentation, and website functionality. The score turns the website audit results into one clear metric. The company immediately sees the overall condition of the website, and during repeat audits it can track changes over time, evaluate the results of corrections, and see how website changes and updates affect customer trust. Scoring starts at 100 points, and points are deducted for each error depending on its importance: 10 points for a critical error, 4 points for a serious error, and 2 points for a minor error. Below 50 points means errors seriously undermine customer trust; 50 to 69 means noticeable errors make it harder for customers to trust the website; 70 to 89 means individual errors reduce the overall impression of the website; 90 to 100 means the website is perceived well and customer trust is high."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who fixes the errors found during the website audit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The errors found are corrected by the specialists who already maintain the company’s website. EPG Global ONE prepares a report that can be sent directly to them, so there is no need to hire a separate team. Many issues can be fixed by replacing text, a link, or a menu item without changing the website design. If the page text needs a full rewrite, EPG Global ONE offers full editing for $25 per page of up to 500 words."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "In what format do the responsible people receive tasks after the website audit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The website editor receives a separate task list from EPG Global ONE containing only text: where it appears on the page, what is written now, and what to replace it with. The web developer receives a task list with the page address, a description of how to reproduce the issue, and what is expected after correction. If requested, each issue can be provided as ready-to-use task text for a developer task-tracking system. Both task lists include a “Done” checkbox and space for the responsible person to leave a comment if they disagree with the correction."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is a follow-up audit needed after the errors are fixed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A follow-up audit at EPG Global ONE costs 30% of the original audit price, takes 2 business days, and confirms that the errors have been fixed and that no new errors appeared during correction. New errors often appear during fixes: a link is updated in the menu but the old one remains in the footer, or changes are made in one language version and forgotten in another."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why do errors accumulate on multilingual websites, and how can companies avoid this?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Errors accumulate on multilingual websites because marketers, translators, developers, and other specialists work on them at the same time, while no one checks the whole website from the customer’s point of view. To avoid this, companies should assign someone to check new and updated pages. For large and frequently updated websites, EPG Global ONE offers subscriptions starting at $300 per month: new pages are audited within 2 business days, and once a month the company receives a report."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is a native-speaker website audit different from an automated check?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An automated check can tell whether a link works, but it cannot understand that the link leads to the wrong service or that the data in the Russian version and the main version of the website do not match. A program can find typos, but it does not notice unnatural or ambiguous wording. That is why EPG Global ONE uses automated tools to identify possible issues, while the final assessment is made by a native speaker who evaluates the website from the customer’s point of view."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does EPG Global ONE audit websites in English and other languages?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The “Full Website Audit” service is suitable for websites in any language. During audits of large international company websites, EPG Global ONE has found leftover template text, outdated pages, incorrect navigation, and inconsistencies between language versions. This type of audit is especially useful after major website updates, when the risk of such errors increases."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does website language affect a customer’s purchase decision?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "According to a 2020 CSA Research and Kantar study involving 8,709 consumers in 29 countries, 76% prefer to receive product information in their own language, and 40% do not buy from websites in other languages. That is why EPG Global ONE recommends auditing and editing first the pages that directly influence the customer’s decision and the submission of a request."
+            "text": "EPG Global ONE (Expert Perception Group Global ONE), based in the United States, specializes in auditing Russian versions of websites for international companies. EPG Global ONE works with clinics, hotels, real estate developers, tourism organizations, and companies in other industries. The company has already audited websites for more than 130 organizations in different countries and found more than 2,200 errors that reduce customer trust. EPG Global ONE evaluates the website from the perspective of a Russian-speaking customer, calculates the Customer Trust in Website Score (CTWS), and prepares specific recommendations for correcting the errors found. Companies can start with a pilot audit of 5 key pages for $180. The audit takes 2 business days."
           }
         },
         {

@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/es/socios#page",
+      "url": "https://www.epgglobalone.com/es/socios",
+      "name": "Para socios",
+      "inLanguage": "es",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/es/socios#crumbs"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/es/socios#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.epgglobalone.com/es"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Para socios",
+          "item": "https://www.epgglobalone.com/es/socios"
+        }
+      ]
+    }
+  ]
+}

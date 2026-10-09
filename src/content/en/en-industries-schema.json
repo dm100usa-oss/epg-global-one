@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/en/industries#page",
+      "url": "https://www.epgglobalone.com/en/industries",
+      "name": "Industries",
+      "description": "Clinics, hotels and resorts, tourism boards, real estate developers, international companies, and web agencies: what EPG Global ONE checks on their websites.",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/en/industries#crumbs"
+      },
+      "dateModified": "2026-10-09"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/en/industries#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.epgglobalone.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Industries",
+          "item": "https://www.epgglobalone.com/en/industries"
+        }
+      ]
+    }
+  ]
+}

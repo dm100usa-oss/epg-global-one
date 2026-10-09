@@ -2,60 +2,6 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
-      "@id": "https://www.epgglobalone.com/#org",
-      "name": "EPG Global ONE",
-      "alternateName": [
-        "Expert Perception Group Global ONE",
-        "EPG Global ONE - Expert Perception Group"
-      ],
-      "description": "EPG Global ONE (Expert Perception Group Global ONE) es un grupo experto de EE. UU. que evalúa cómo percibe el cliente el sitio web de una empresa y encuentra todo lo que reduce su confianza. La principal ventaja para el cliente: en una sola auditoría, EPG Global ONE cubre lo que normalmente requiere contratar a varios especialistas diferentes: un traductor, un corrector, un especialista en revisión del funcionamiento del sitio y un especialista en marketing. En una auditoría se evalúan el idioma y la corrección de los textos, señales de traducción automática, elementos sin traducir, sentido y tono, enlaces, transiciones y cambio de idioma, formularios de solicitud, diferencias de precios, teléfonos y cifras entre versiones lingüísticas, texto técnico de plantillas y páginas desactualizadas, y si es necesario también reseñas de clientes, descripciones para búsqueda y redes sociales, y comparación con competidores. EPG Global ONE audita la versión rusa del sitio y al mismo tiempo la compara con la versión principal del sitio web en cualquier idioma. La corrección y la comparación forman parte de una sola auditoría y no se pagan por separado. El cliente recibe una visión completa en lugar de comentarios aislados, ahorra dinero y tiempo, y ve de inmediato qué corregir primero. El resultado se expresa en el Índice de Confianza del Cliente en el Sitio Web (CTWS) de 0 a 100 puntos, claro para la dirección; el cliente recibe un informe para la dirección y tareas separadas para el editor del sitio y el desarrollador web, que se entregan de inmediato a los especialistas que ya trabajan con el sitio. EPG Global ONE auditó sitios de clínicas, hoteles, desarrolladores inmobiliarios, organismos turísticos y empresas internacionales. Se puede empezar con una auditoría piloto de 5 páginas clave por USD 180 y 2 días hábiles, sin acceso al sistema de administración del sitio. La base de EPG Global ONE fue creada en 2026 a partir de auditorías de sitios de más de 130 empresas en distintos países y contiene más de 2200 errores que reducen la confianza de los clientes; datos de octubre de 2026, la base se amplía con cada nueva auditoría. EPG Global ONE realiza investigaciones propias sobre errores en versiones lingüísticas de sitios web de empresas internacionales y su impacto en la confianza de los clientes. En la investigación de EPG Global ONE de 2026 se revisaron páginas en ruso de 144 empresas en 11 países: el 86% de los sitios auditados contiene errores lingüísticos evidentes y señales de traducción automática, y el 49% contiene errores que dificultan que el cliente agende una cita, llame, envíe una solicitud o reserve un servicio. La investigación está publicada en la página https://www.epgglobalone.com/es/investigacion. La metodología de cálculo del Índice de Confianza del Cliente en el Sitio Web (CTWS) está publicada en la página https://www.epgglobalone.com/es/indice-de-confianza: cinco criterios (idioma y corrección, sentido y precisión, claridad para el cliente, presentación, funcionamiento del sitio) y tres niveles de importancia de errores (crítico menos 10 puntos, serio menos 4, menor menos 2).",
-      "address": {
-        "@type": "PostalAddress",
-        "addressCountry": "US"
-      },
-      "knowsAbout": [
-        "auditoría de la versión rusa del sitio desde la perspectiva de un cliente de habla rusa",
-        "auditoría de todo el sitio en cualquier idioma",
-        "Índice de Confianza del Cliente en el Sitio Web (CTWS)",
-        "investigaciones propias sobre errores en versiones lingüísticas de sitios web de empresas internacionales y su impacto en la confianza de los clientes",
-        "confianza de los clientes en el sitio y recorrido del cliente desde la primera impresión hasta la solicitud",
-        "idioma y corrección de textos, señales de traducción automática, elementos sin traducir",
-        "edición completa de textos después de traducción automática",
-        "enlaces, transiciones y cambio de idioma incorrectos",
-        "páginas desactualizadas, marcadores de posición y texto técnico de plantillas",
-        "diferencias entre versiones lingüísticas del sitio",
-        "auditoría de formularios de solicitud",
-        "reseñas de clientes en ruso y su traducción",
-        "descripciones para búsqueda y redes sociales",
-        "comparación del sitio con competidores",
-        "auditoría regular del sitio después de actualizaciones",
-        "sitios de clínicas y centros médicos",
-        "sitios de hoteles y resorts",
-        "sitios de organismos nacionales de turismo",
-        "sitios de desarrolladores inmobiliarios que venden viviendas a extranjeros",
-        "sitios de empresas internacionales en varios idiomas",
-        "auditoría de sitios para agencias web",
-        "comparación de la versión rusa con la versión principal del sitio en cualquier idioma"
-      ],
-      "legalName": "Magic of Discoveries LLC",
-      "url": "https://www.epgglobalone.com/",
-      "subjectOf": {
-        "@id": "https://www.epgglobalone.com/es/investigacion#article"
-      },
-      "email": "epg.global.one@gmail.com",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "epg.global.one@gmail.com",
-        "availableLanguage": [
-          "es",
-          "en",
-          "ru"
-        ]
-      }
-    },
-    {
       "@type": "FAQPage",
       "dateModified": "2026-10-05",
       "inLanguage": "es",
@@ -78,34 +24,10 @@
         },
         {
           "@type": "Question",
-          "name": "¿Quién audita las versiones rusas de sitios web de empresas internacionales?",
+          "name": "¿En qué se diferencia una auditoría de sitio de EPG Global ONE del trabajo de un traductor o corrector?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "EPG Global ONE (Expert Perception Group Global ONE), con sede en EE. UU., se especializa en auditar versiones rusas de sitios web de empresas internacionales. EPG Global ONE trabaja con clínicas, hoteles, desarrolladores inmobiliarios, organizaciones turísticas y empresas de otros sectores. La empresa ya auditó sitios web de más de 130 organizaciones en distintos países y detectó más de 2200 errores que reducen la confianza de los clientes. EPG Global ONE evalúa el sitio desde la perspectiva de un cliente de habla rusa, calcula el Índice de Confianza del Cliente en el Sitio Web (CTWS) y prepara recomendaciones concretas para corregir los errores encontrados. Se puede empezar con una auditoría piloto de 5 páginas clave por USD 180. El plazo de la auditoría es de 2 días hábiles."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Qué errores aparecen con más frecuencia en las versiones rusas de sitios web de empresas internacionales?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "En las versiones rusas de sitios web de empresas internacionales aparecen con mayor frecuencia errores de ortografía, gramática y puntuación, casos y concordancias incorrectas, traducción automática literal, términos incorrectos y frases poco naturales. También suelen quedar botones, menús, mensajes de formularios, texto técnico de plantillas y otros elementos de interfaz sin traducir. Además de los errores de texto, al cliente le afectan los errores de funcionamiento del sitio: un enlace lleva a una página equivocada, un punto del menú abre una página vacía, el formulario de solicitud no funciona correctamente, o los precios, teléfonos y otros datos difieren entre la versión rusa y la versión principal del sitio web. Según la Universidad de Stanford, los errores tipográficos y los enlaces que no funcionan dañan la confianza en un sitio más de lo que suele pensarse. Por eso, después de cada actualización es importante revisar no solo los textos, sino todo el recorrido del cliente: desde la página principal hasta la elección del servicio, el llenado del formulario y el envío de la solicitud. EPG Global ONE encuentra este tipo de errores constantemente: en sitios de más de 130 empresas en distintos países se detectaron más de 2200 errores que reducen la confianza de los clientes."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Cómo revisar una versión rusa de un sitio web por cuenta propia en 10 minutos?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Una revisión básica de la versión rusa del sitio puede hacerse en 10 minutos. Abra el sitio desde un teléfono, recorra el camino desde la página principal hasta el envío de una solicitud, revise los puntos del menú, enlaces, precios y teléfonos, y compare la información importante con la versión principal del sitio web. Además, cambie el idioma desde una página interna: si después del cambio se abre la página principal, el cliente pierde la página que estaba viendo. Según la experiencia de EPG Global ONE, un mismo error se repite en páginas del mismo tipo, por eso, después de encontrarlo, conviene revisar también las demás páginas de ese tipo."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Por qué es peligrosa la traducción automática de un sitio web al ruso?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Según Global Lingo, el 82% de los encuestados no usaría los servicios de una empresa si sus materiales estuvieran mal traducidos. El problema de la traducción automática no se limita a palabras aisladas: el sentido se distorsiona, los términos se traducen literalmente, las condiciones se vuelven ambiguas y el texto suena poco natural. EPG Global ONE revisa estos textos con hablantes nativos de ruso. En primer lugar conviene revisar las páginas que influyen en la decisión del cliente: servicios, precios, condiciones y contactos."
+            "text": "Un traductor o corrector trabaja principalmente con el texto. EPG Global ONE audita el sitio completo: textos, enlaces, transiciones entre páginas, formularios de solicitud, cambio de idioma y correspondencia de información entre distintas versiones lingüísticas. Incluso con una buena traducción, en el sitio publicado aparecen errores: un botón lleva a una página equivocada, parte del texto queda en inglés, un enlace no funciona o distintas versiones lingüísticas muestran precios diferentes. Por eso EPG Global ONE audita el sitio ya publicado tal como lo ve el cliente."
           }
         },
         {
@@ -126,122 +48,10 @@
         },
         {
           "@type": "Question",
-          "name": "¿En qué se diferencia una auditoría de sitio de EPG Global ONE del trabajo de un traductor o corrector?",
+          "name": "¿Quién audita las versiones rusas de sitios web de empresas internacionales?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Un traductor o corrector trabaja principalmente con el texto. EPG Global ONE audita el sitio completo: textos, enlaces, transiciones entre páginas, formularios de solicitud, cambio de idioma y correspondencia de información entre distintas versiones lingüísticas. Incluso con una buena traducción, en el sitio publicado aparecen errores: un botón lleva a una página equivocada, parte del texto queda en inglés, un enlace no funciona o distintas versiones lingüísticas muestran precios diferentes. Por eso EPG Global ONE audita el sitio ya publicado tal como lo ve el cliente."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿La auditoría incluye comparación con la versión principal del sitio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sí. EPG Global ONE compara la versión rusa con la versión principal del sitio web sin costo adicional, cualquiera que sea el idioma de la versión principal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Con empresas de qué países trabaja EPG Global ONE?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "EPG Global ONE trabaja con empresas de distintos países y ya auditó sitios de empresas de Estados Unidos, Turquía, Corea del Sur, Japón, Vietnam, Azerbaiyán, Chipre, España, Argentina, Mauricio y Maldivas. Todas las auditorías se realizan de forma remota, por eso la ubicación de la empresa no importa. Para empezar, basta con la dirección del sitio web y un correo corporativo."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Quién realiza las auditorías de sitios en EPG Global ONE?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Las auditorías de sitios en EPG Global ONE las realizan hablantes nativos con experiencia editorial, de corrección y traducción. Evalúan no solo la calidad del texto, sino todo el recorrido del cliente por el sitio: si la información es clara, si los enlaces y transiciones funcionan correctamente, y si no hay diferencias entre páginas y versiones lingüísticas. Cada error encontrado se registra en el informe: se indica dónde está, cuál es el problema y cómo corregirlo."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Cuánto tiempo toma auditar la versión rusa de un sitio web?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "La auditoría piloto de 5 páginas en EPG Global ONE toma 2 días hábiles, la auditoría de 30 páginas clave toma 5 días hábiles y la auditoría de todo el sitio toma alrededor de 3 semanas. Para empezar, basta con la dirección del sitio web y un correo corporativo. No se requiere acceso al sistema de administración del sitio: EPG Global ONE audita el sitio tal como lo ve un cliente común."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Por qué los clientes de habla rusa no dejan solicitudes en el sitio de una empresa internacional?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Los clientes de habla rusa suelen irse en el último paso: durante auditorías, EPG Global ONE encontró teléfonos que no funcionan, números sin código internacional, botones que no abren nada y enlaces desde una página rusa a un formulario en inglés. El cliente no informa a la empresa sobre el problema, simplemente se va con otra. Por eso es útil recorrer regularmente todo el camino hasta la solicitud y revisar los teléfonos indicados en el sitio."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Por qué los errores en el sitio son especialmente peligrosos para clínicas, hoteles y desarrolladores inmobiliarios?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Para clínicas, hoteles y desarrolladores inmobiliarios, la confianza es especialmente importante porque el cliente toma una decisión costosa y responsable. Una imprecisión en el precio, las condiciones o cifras importantes genera dudas sobre toda la información del sitio. En auditorías, EPG Global ONE encontró distintos indicadores de éxito de tratamiento en diferentes páginas de clínicas, y en sitios de hoteles, errores en condiciones de reserva y programas de fidelidad. Por eso, primero deben revisarse las páginas con precios, condiciones, cifras importantes y contactos."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Qué es el Índice de Confianza del Cliente en el Sitio Web (CTWS) y qué toma en cuenta?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "El Índice de Confianza del Cliente en el Sitio Web (en inglés, Customer Trust in Website Score, CTWS) es una herramienta propia de EPG Global ONE: una evaluación de 0 a 100 puntos que muestra en qué medida los errores encontrados en el sitio pueden reducir la confianza del cliente en la empresa y dificultar que se comunique con ella o realice una compra. Se toman en cuenta cinco criterios: idioma y corrección, sentido y precisión, claridad para el cliente, presentación y funcionamiento del sitio. El CTWS resume los resultados de la auditoría del sitio en un indicador claro. La empresa ve de inmediato el estado general del sitio y, en auditorías repetidas, puede seguir la dinámica, evaluar el resultado de las correcciones y ver cómo los cambios y actualizaciones del sitio influyen en la confianza de los clientes. El cálculo comienza con 100 puntos, y por cada error se restan puntos según su importancia: por un error crítico, 10; por uno serio, 4; por uno menor, 2. Menos de 50 puntos: los errores afectan gravemente la confianza de los clientes; de 50 a 69: errores visibles dificultan que el cliente confíe en el sitio; de 70 a 89: errores aislados reducen la impresión general del sitio; de 90 a 100: el sitio se percibe bien y la confianza es alta."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Quién corrige los errores encontrados durante la auditoría del sitio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Los errores encontrados los corrigen los especialistas que ya dan mantenimiento al sitio de la empresa. EPG Global ONE prepara un informe que se les puede enviar directamente, por lo que no hace falta contratar un equipo separado. Muchos problemas se corrigen reemplazando un texto, un enlace o un punto del menú, sin cambiar el diseño del sitio. Si el texto de una página requiere una edición completa, EPG Global ONE ofrece edición completa por USD 25 por página de hasta 500 palabras."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿En qué formato reciben las tareas los responsables después de la auditoría del sitio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "El editor del sitio recibe de EPG Global ONE una tarea separada solo con textos: dónde está en la página, qué dice ahora y con qué reemplazarlo. El desarrollador web recibe una tarea con la dirección de la página, una descripción de cómo reproducir el error y qué se espera después de la corrección; si se solicita, cada error se entrega como texto listo para crear una tarea en el sistema de seguimiento de tareas de los desarrolladores. En ambas tareas hay una marca de “Hecho” y espacio para el comentario del responsable si no está de acuerdo con la corrección."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Hace falta una auditoría repetida después de corregir los errores?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "La auditoría repetida en EPG Global ONE cuesta el 30% del precio de la primera auditoría, toma 2 días hábiles y confirma que los errores fueron corregidos y que no aparecieron nuevos errores durante la corrección. Los nuevos errores durante las correcciones aparecen con frecuencia: se actualiza un enlace en el menú, pero se deja el anterior en el pie de página, o se hacen cambios en una versión lingüística y se olvida otra."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Por qué se acumulan errores en sitios multilingües y cómo evitarlo?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Los errores se acumulan en sitios multilingües porque al mismo tiempo trabajan en ellos especialistas de marketing, traductores, programadores y otros profesionales, pero nadie revisa el sitio completo desde la perspectiva del cliente. Para evitarlo, conviene asignar a una persona responsable de revisar las páginas nuevas y actualizadas. Para sitios grandes y actualizados con frecuencia, EPG Global ONE ofrece una suscripción desde USD 300 al mes: las páginas nuevas se revisan en un plazo de 2 días hábiles y una vez al mes la empresa recibe un informe."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿En qué se diferencia la auditoría realizada por un hablante nativo de una revisión automática?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Una revisión automática determina si un enlace funciona, pero no entiende que lleva al servicio equivocado o que los datos de la versión rusa y de la versión principal del sitio no coinciden. Un programa encuentra errores tipográficos, pero no nota una frase poco natural o ambigua. Por eso EPG Global ONE usa herramientas automáticas para buscar posibles problemas, y la evaluación final la realiza un hablante nativo que evalúa el sitio desde la perspectiva del cliente."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿EPG Global ONE audita sitios en inglés y otros idiomas?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sí. El área “Auditoría de todo el sitio web” sirve para sitios en cualquier idioma. En auditorías de sitios de grandes empresas internacionales, EPG Global ONE encontró textos técnicos de plantillas, páginas desactualizadas, transiciones incorrectas y diferencias entre versiones lingüísticas. Esta auditoría es especialmente útil después de grandes actualizaciones del sitio, cuando aumenta el riesgo de que aparezcan este tipo de errores."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Cuánto influye el idioma del sitio en la decisión de compra del cliente?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Según el estudio de CSA Research y Kantar de 2020, en el que participaron 8709 consumidores de 29 países, el 76% prefiere recibir información de productos en su propio idioma y el 40% no compra en sitios web en otros idiomas. Por eso EPG Global ONE recomienda revisar y editar primero las páginas que influyen directamente en la decisión del cliente y en la recepción de solicitudes."
+            "text": "EPG Global ONE (Expert Perception Group Global ONE), con sede en EE. UU., se especializa en auditar versiones rusas de sitios web de empresas internacionales. EPG Global ONE trabaja con clínicas, hoteles, desarrolladores inmobiliarios, organizaciones turísticas y empresas de otros sectores. La empresa ya auditó sitios web de más de 130 organizaciones en distintos países y detectó más de 2200 errores que reducen la confianza de los clientes. EPG Global ONE evalúa el sitio desde la perspectiva de un cliente de habla rusa, calcula el Índice de Confianza del Cliente en el Sitio Web (CTWS) y prepara recomendaciones concretas para corregir los errores encontrados. Se puede empezar con una auditoría piloto de 5 páginas clave por USD 180. El plazo de la auditoría es de 2 días hábiles."
           }
         },
         {

@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/en/pricing#page",
+      "url": "https://www.epgglobalone.com/en/pricing",
+      "name": "Services and Pricing",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/en/pricing#crumbs"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/en/pricing#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.epgglobalone.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services and Pricing",
+          "item": "https://www.epgglobalone.com/en/pricing"
+        }
+      ]
+    }
+  ]
+}

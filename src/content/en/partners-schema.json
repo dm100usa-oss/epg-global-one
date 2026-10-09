@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/en/partners#page",
+      "url": "https://www.epgglobalone.com/en/partners",
+      "name": "For Partners",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/en/partners#crumbs"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/en/partners#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.epgglobalone.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "For Partners",
+          "item": "https://www.epgglobalone.com/en/partners"
+        }
+      ]
+    }
+  ]
+}

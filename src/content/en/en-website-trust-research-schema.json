@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.epgglobalone.com/en/website-trust-research#page",
+      "url": "https://www.epgglobalone.com/en/website-trust-research",
+      "name": "Research on Website Trust",
+      "description": "Research on how website errors and language affect customer trust: EPG Global ONE, Stanford University, Global Lingo, CSA Research and Kantar.",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/en/website-trust-research#crumbs"
+      },
+      "dateModified": "2026-10-09"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/en/website-trust-research#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.epgglobalone.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Research on Website Trust",
+          "item": "https://www.epgglobalone.com/en/website-trust-research"
+        }
+      ]
+    }
+  ]
+}

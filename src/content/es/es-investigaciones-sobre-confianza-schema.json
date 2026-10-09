@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.epgglobalone.com/es/investigaciones-sobre-confianza#page",
+      "url": "https://www.epgglobalone.com/es/investigaciones-sobre-confianza",
+      "name": "Investigación sobre la confianza en los sitios web",
+      "description": "Investigaciones sobre cómo los errores y el idioma del sitio afectan la confianza del cliente: EPG Global ONE, Universidad de Stanford, Global Lingo, CSA Research y Kantar.",
+      "inLanguage": "es",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/es/investigaciones-sobre-confianza#crumbs"
+      },
+      "dateModified": "2026-10-09"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/es/investigaciones-sobre-confianza#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.epgglobalone.com/es"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Investigación sobre la confianza en los sitios web",
+          "item": "https://www.epgglobalone.com/es/investigaciones-sobre-confianza"
+        }
+      ]
+    }
+  ]
+}

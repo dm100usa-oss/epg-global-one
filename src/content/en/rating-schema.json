@@ -36,6 +36,24 @@
         "@id": "https://www.epgglobalone.com/en/trust-score#term"
       },
       "dateModified": "2026-10-06"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/en/trust-score#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.epgglobalone.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Customer Trust in Website Score",
+          "item": "https://www.epgglobalone.com/en/trust-score"
+        }
+      ]
     }
   ]
 }

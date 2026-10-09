@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/es/muestras#page",
+      "url": "https://www.epgglobalone.com/es/muestras",
+      "name": "Documentos de muestra",
+      "description": "Muestras de los tres documentos de EPG Global ONE: informe para la dirección, tareas para el editor del sitio y tareas para el desarrollador web.",
+      "inLanguage": "es",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/es/muestras#crumbs"
+      },
+      "dateModified": "2026-10-09"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/es/muestras#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.epgglobalone.com/es"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Documentos de muestra",
+          "item": "https://www.epgglobalone.com/es/muestras"
+        }
+      ]
+    }
+  ]
+}

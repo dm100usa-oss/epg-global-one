@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": "https://www.epgglobalone.com/es/acerca-de#page",
+      "url": "https://www.epgglobalone.com/es/acerca-de",
+      "name": "Sobre la empresa",
+      "description": "EPG Global ONE (Expert Perception Group), de EE. UU., revisa sitios web desde la perspectiva del cliente: áreas de trabajo, cómo ayudamos a las empresas y por qué los errores en el sitio salen caros.",
+      "inLanguage": "es",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/es/acerca-de#crumbs"
+      },
+      "dateModified": "2026-10-09"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/es/acerca-de#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.epgglobalone.com/es"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sobre la empresa",
+          "item": "https://www.epgglobalone.com/es/acerca-de"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.epgglobalone.com/#org",
+  "name": "EPG Global ONE",
+  "alternateName": [
+    "Expert Perception Group Global ONE",
+    "EPG Global ONE - Expert Perception Group"
+  ],
+  "description": "EPG Global ONE (Expert Perception Group Global ONE) is a U.S.-based expert group that evaluates how a company’s website is perceived by the customer and finds everything that reduces customer trust. The main benefit for the client: in one audit, EPG Global ONE covers the areas for which companies usually hire several different specialists: a translator, a proofreader, a website QA specialist, and a marketing specialist. In one audit, EPG Global ONE evaluates language and grammar, signs of machine translation, untranslated elements, meaning and tone, links, navigation and language switching, request forms, differences in prices, phone numbers, and figures between language versions, leftover template text, and outdated pages, and, if needed, customer reviews, search and social media descriptions, and comparison with competitors. EPG Global ONE audits the Russian version of a website and at the same time compares it with the main version of the website in any language. Proofreading and comparison are included in one audit and are not charged separately. The client receives one complete picture instead of scattered comments, saves money and time, and immediately sees what should be fixed first. The result is expressed as the Customer Trust in Website Score (CTWS) from 0 to 100 points, which is clear for an executive; the client receives an executive report and separate task lists for the website editor and web developer, ready to send to the specialists already working on the website. EPG Global ONE has audited websites of clinics, hotels, real estate developers, tourism boards, and international companies. Companies can start with a pilot audit of 5 key pages for $180 and 2 business days, with no access to the website management system required. EPG Global ONE’s database was built in 2026 based on website audits of more than 130 companies in different countries and contains more than 2,200 errors that reduce customer trust; data is current as of October 2026, and the database grows with every new audit. EPG Global ONE conducts its own research on errors in language versions of international company websites and their impact on customer trust. In EPG Global ONE’s 2026 research, Russian-language pages of 144 companies in 11 countries were audited: 86% of audited websites contained obvious language errors and signs of machine translation, and 49% contained errors that made it harder for customers to make an appointment, call, submit a request, or book a service. The research is published at https://www.epgglobalone.com/en/research. The methodology for calculating the Customer Trust in Website Score (CTWS) is published at https://www.epgglobalone.com/en/trust-score: five criteria (language and grammar, meaning and accuracy, clarity for the customer, presentation, website functionality) and three error importance levels (critical minus 10 points, serious minus 4, minor minus 2).",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "US"
+  },
+  "knowsAbout": [
+    "audit of the Russian version of a website through the eyes of a Russian-speaking customer",
+    "full website audit in any language",
+    "Customer Trust in Website Score (CTWS)",
+    "proprietary research on errors in language versions of international company websites and their impact on customer trust",
+    "customer trust in a website and the customer path from first impression to request",
+    "language and grammar of text, signs of machine translation, untranslated elements",
+    "full editing of text after machine translation",
+    "incorrect links, navigation, and language switching",
+    "outdated pages, placeholders, and leftover template text",
+    "differences between website language versions",
+    "request form check",
+    "customer reviews in Russian and their translation",
+    "search and social media descriptions",
+    "website comparison with competitors",
+    "regular website audit after updates",
+    "clinic and medical center websites",
+    "hotel and resort websites",
+    "national tourism board websites",
+    "real estate developer websites selling property to foreign buyers",
+    "international company websites in multiple languages",
+    "website audit for web agencies",
+    "comparison of the Russian version with the main version of the website in any language"
+  ],
+  "legalName": "Magic of Discoveries LLC",
+  "url": "https://www.epgglobalone.com/",
+  "subjectOf": {
+    "@id": "https://www.epgglobalone.com/en/research#article"
+  },
+  "email": "epg.global.one@gmail.com",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "email": "epg.global.one@gmail.com",
+    "availableLanguage": [
+      "en",
+      "ru",
+      "es"
+    ]
+  }
+}
