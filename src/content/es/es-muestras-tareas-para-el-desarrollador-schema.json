@@ -18,7 +18,7 @@
       "mainEntity": {
         "@type": "DigitalDocument",
         "name": "Tarea para el desarrollador web",
-        "url": "https://www.epgglobalone.com/obrazcy/obrazec-zadanie-dlya-razrabotchika.pdf",
+        "url": "https://www.epgglobalone.com/obrazcy/muestra-tareas-para-el-desarrollador.pdf",
         "encodingFormat": "application/pdf",
         "author": {
           "@id": "https://www.epgglobalone.com/#org"

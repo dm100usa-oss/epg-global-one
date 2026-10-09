@@ -18,7 +18,7 @@
       "mainEntity": {
         "@type": "DigitalDocument",
         "name": "Task List for the Editor",
-        "url": "https://www.epgglobalone.com/obrazcy/obrazec-zadanie-dlya-redaktora.pdf",
+        "url": "https://www.epgglobalone.com/obrazcy/sample-task-list-editor.pdf",
         "encodingFormat": "application/pdf",
         "author": {
           "@id": "https://www.epgglobalone.com/#org"

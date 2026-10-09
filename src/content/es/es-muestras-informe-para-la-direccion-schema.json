@@ -18,7 +18,7 @@
       "mainEntity": {
         "@type": "DigitalDocument",
         "name": "Informe para la dirección",
-        "url": "https://www.epgglobalone.com/obrazcy/obrazec-otchet-dlya-rukovoditelya.pdf",
+        "url": "https://www.epgglobalone.com/obrazcy/muestra-informe-para-la-direccion.pdf",
         "encodingFormat": "application/pdf",
         "author": {
           "@id": "https://www.epgglobalone.com/#org"

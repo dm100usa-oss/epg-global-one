@@ -18,7 +18,7 @@
       "mainEntity": {
         "@type": "DigitalDocument",
         "name": "Executive Report",
-        "url": "https://www.epgglobalone.com/obrazcy/obrazec-otchet-dlya-rukovoditelya.pdf",
+        "url": "https://www.epgglobalone.com/obrazcy/sample-executive-report.pdf",
         "encodingFormat": "application/pdf",
         "author": {
           "@id": "https://www.epgglobalone.com/#org"

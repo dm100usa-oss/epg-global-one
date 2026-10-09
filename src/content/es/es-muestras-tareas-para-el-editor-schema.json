@@ -18,7 +18,7 @@
       "mainEntity": {
         "@type": "DigitalDocument",
         "name": "Tarea para el editor del sitio",
-        "url": "https://www.epgglobalone.com/obrazcy/obrazec-zadanie-dlya-redaktora.pdf",
+        "url": "https://www.epgglobalone.com/obrazcy/muestra-tareas-para-el-editor.pdf",
         "encodingFormat": "application/pdf",
         "author": {
           "@id": "https://www.epgglobalone.com/#org"

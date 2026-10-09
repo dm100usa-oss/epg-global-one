@@ -18,7 +18,7 @@
       "mainEntity": {
         "@type": "DigitalDocument",
         "name": "Task List for the Developer",
-        "url": "https://www.epgglobalone.com/obrazcy/obrazec-zadanie-dlya-razrabotchika.pdf",
+        "url": "https://www.epgglobalone.com/obrazcy/sample-task-list-developer.pdf",
         "encodingFormat": "application/pdf",
         "author": {
           "@id": "https://www.epgglobalone.com/#org"
