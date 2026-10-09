@@ -700,3 +700,14 @@ html,body{overflow-x:clip}
 .pg-ind1 section#voprosy{padding-top:10px}
 @media (max-width:620px){.pg-ind1 .ind-lead{font-size:16px}.pg-ind1 .ind-h{font-size:calc(min(calc((100vw - 48px) / 18.4),19px) + 1px)}.pg-ind1 .ind-stats{grid-template-columns:1fr}.pg-ind1 .ind-stats b{font-size:26px}.pg-ind1 .ind-why{font-size:16px}}
 @media (max-width:620px){.pg-ind1 .ind-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.pg-ind1 .ind-stats li{padding:12px 14px}.pg-ind1 .ind-stats span{font-size:14px}}
+.hero .komu .get-t{text-align:left !important}
+/* «Для кого выгодны наши услуги»: уголки справа, как у документов */
+.hero .komu li a.src-t{display:flex !important;align-items:center;justify-content:space-between;gap:12px;width:100%}
+.hero .komu li a.src-t .arr{width:.42em !important;height:.42em !important;border-right-width:2px !important;border-top-width:2px !important;margin:0 .3em 0 0 !important;color:#143662;flex:0 0 auto}
+.hero .komu li a.src-t{display:block !important;position:relative;padding-right:24px}
+.hero .komu li a.src-t .arr{position:absolute !important;right:3px;top:50%;margin:0 !important;transform:translateY(-50%) rotate(45deg) !important}
+/* «Доказательства и исследования»: выше и на серебряной подложке */
+.hero .dokaz{margin-top:22px !important;background:linear-gradient(135deg,#F7F8FA 0%,#E4E8EE 38%,#F9FAFC 55%,#DCE2EA 100%);border:1px solid #CFD6DF;border-radius:10px;padding:18px 28px 6px;box-shadow:inset 0 1px 0 rgba(255,255,255,.9),0 2px 8px rgba(20,54,98,.06)}
+@media (max-width:620px){.hero .dokaz{margin-left:-24px !important;margin-right:-24px !important;padding:16px 24px 4px;border-radius:0;border-left:0;border-right:0}}
+.hero details.dokaz-d>summary>.dk-txt{flex:1 1 auto;min-width:0}
+.hero .cta2 + .dokaz{margin-top:28px !important}
