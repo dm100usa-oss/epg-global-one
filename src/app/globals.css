@@ -740,3 +740,24 @@ header.top p.q.q-below{margin:4px 0 4px !important}
 a.obr-thumb{display:block;position:relative}
 @media (max-width:620px){.pg-doc1 .doc1-lead{font-size:16px}.pg-doc1 .ind-h{font-size:calc(min(calc((100vw - 48px) / 18.4),19px) + 1px)}.pg-doc1 .doc1-btn .btn{width:100%;min-width:0}.pg-doc1 .obr-list{font-size:17px}}
 .pg-doc1 .doc1-lead{margin:0 0 12px}.pg-doc1 .doc1-lead:last-of-type{margin-bottom:20px}
+
+/* подвал: синяя плашка как у меню */
+footer.ft{background:#143662;box-shadow:0 0 0 100vmax #143662;clip-path:inset(0 -100vmax);border-top:0;color:rgba(255,255,255,.78);padding:52px 0 30px;margin-top:56px;font-size:15px}
+footer.ft a{color:#fff !important;text-decoration:none;font-weight:400 !important}
+footer.ft a:hover{text-decoration:underline}
+.ft-cols{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:32px}
+.ft-brand{display:flex;flex-direction:column;gap:4px}
+.ft-logo{font-weight:600 !important;font-size:19px;letter-spacing:.01em}
+.ft-sub{font-size:13px;color:rgba(255,255,255,.6)}
+.ft-motto{margin:12px 0 4px;font-size:14px;color:rgba(255,255,255,.78)}
+.ft-mail{margin:0;font-size:15px;color:rgba(255,255,255,.78)}
+.ft-col{display:flex;flex-direction:column;gap:9px}
+.ft-h{margin:0 0 4px;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.55)}
+.ft-bot{display:flex;flex-direction:column;gap:10px;margin-top:38px;padding-top:20px;border-top:1px solid rgba(255,255,255,.16);font-size:13px;color:rgba(255,255,255,.6)}
+.ft-legal{display:flex;flex-wrap:wrap;gap:6px 20px}
+footer.ft .ft-legal a{color:#fff !important;font-size:15px}
+@media (max-width:620px){
+ footer.ft{padding:44px 0 28px}
+ .ft-cols{grid-template-columns:1fr 1fr;gap:26px 20px}
+ .ft-brand{grid-column:1/-1}
+}
