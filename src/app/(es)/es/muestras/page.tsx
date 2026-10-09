@@ -5,17 +5,18 @@ import Script from "next/script";
 import "../../../../styles/doc.css";
 
 export const metadata: Metadata = {
-  title: "Образцы документов после проверки сайта - EPG Global ONE",
+  title: "Documentos de muestra - EPG Global ONE",
   description:
-    "Образцы трех документов EPG Global ONE: отчет для руководителя, задание для редактора сайта и задание для веб-разработчика.",
+    "Muestras de los tres documentos de EPG Global ONE: informe para la dirección, tareas para el editor del sitio y tareas para el desarrollador web.",
   alternates: {
-    canonical: "/ru/obrazcy",
+    canonical: "/es/muestras",
     languages: { en: "/en/samples", es: "/es/muestras", ru: "/ru/obrazcy", "x-default": "/en/samples" },
   },
 };
 
-const html = fs.readFileSync(path.join(process.cwd(), "src/content/ru", "obrazcy.html"), "utf8");
-const schema = fs.readFileSync(path.join(process.cwd(), "src/content/ru", "obrazcy-schema.json"), "utf8");
+const dir = path.join(process.cwd(), "src/content/es");
+const html = fs.readFileSync(path.join(dir, "es-muestras.html"), "utf8");
+const schema = fs.readFileSync(path.join(dir, "es-muestras-schema.json"), "utf8");
 
 export default function Page() {
   return (

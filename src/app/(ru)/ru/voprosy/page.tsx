@@ -7,7 +7,10 @@ export const metadata: Metadata = {
   title: "Часто задаваемые вопросы - EPG Global ONE",
   description:
     "Ответы EPG Global ONE на частые вопросы о проверке сайтов: стоимость и сроки, бесплатная быстрая проверка, что получает компания, Рейтинг доверия клиентов к сайту, работа с веб-студиями.",
-  alternates: { canonical: "/ru/voprosy" },
+  alternates: {
+    canonical: "/ru/voprosy",
+    languages: { en: "/en/faq", es: "/es/preguntas-frecuentes", ru: "/ru/voprosy", "x-default": "/en/faq" },
+  },
 };
 
 const dir = path.join(process.cwd(), "src/content/ru");

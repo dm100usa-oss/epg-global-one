@@ -24,10 +24,15 @@ export const metadata: Metadata = {
 
 const dir = path.join(process.cwd(), "src/content/en");
 const html = fs.readFileSync(path.join(dir, "prices.html"), "utf8");
+const schema = fs.readFileSync(path.join(dir, "prices-schema.json"), "utf8");
 
 export default function Page() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON.parse(schema)) }}
+      />
       <div style={{ display: "contents" }} dangerouslySetInnerHTML={{ __html: html }} />
       <Script src="/js/site.js" strategy="afterInteractive" />
     </>

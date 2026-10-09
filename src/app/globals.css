@@ -711,3 +711,4 @@ html,body{overflow-x:clip}
 @media (max-width:620px){.hero .dokaz{margin-left:-24px !important;margin-right:-24px !important;padding:16px 24px 4px;border-radius:0;border-left:0;border-right:0}}
 .hero details.dokaz-d>summary>.dk-txt{flex:1 1 auto;min-width:0}
 .hero .cta2 + .dokaz{margin-top:28px !important}
+@media (max-width:620px){.menu{column-gap:6px !important}html[lang="es"] .menu{font-size:max(9.5px,2.65vw) !important}}

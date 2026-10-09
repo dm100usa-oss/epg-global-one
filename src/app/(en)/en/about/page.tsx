@@ -1,21 +1,22 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { Metadata } from "next";
+
 import "../../../../styles/doc.css";
 
 export const metadata: Metadata = {
-  title: "Terms of Service - EPG Global ONE",
+  title: "About Us - EPG Global ONE",
   description:
-    "EPG Global ONE Terms of Service: what is included in the website audit, payment, guarantee, confidentiality, and liability.",
+    "EPG Global ONE (Expert Perception Group) from the USA audits websites through the customer's eyes: areas of work, how we help companies, and why website errors are costly.",
   alternates: {
-    canonical: "/en/terms",
-    languages: { en: "/en/terms", es: "/es/terminos", ru: "/ru/usloviya", "x-default": "/en/terms" },
+    canonical: "/en/about",
+    languages: { en: "/en/about", es: "/es/acerca-de", ru: "/ru/o-kompanii", "x-default": "/en/about" },
   },
 };
 
 const dir = path.join(process.cwd(), "src/content/en");
-const html = fs.readFileSync(path.join(dir, "terms.html"), "utf8");
-const schema = fs.readFileSync(path.join(dir, "terms-schema.json"), "utf8");
+const html = fs.readFileSync(path.join(dir, "en-about.html"), "utf8");
+const schema = fs.readFileSync(path.join(dir, "en-about-schema.json"), "utf8");
 
 export default function Page() {
   return (
@@ -25,6 +26,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON.parse(schema)) }}
       />
       <div style={{ display: "contents" }} dangerouslySetInnerHTML={{ __html: html }} />
+
     </>
   );
 }

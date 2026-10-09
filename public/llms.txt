@@ -54,17 +54,22 @@ The site is available in English (/en), Spanish (/es) and Russian (/ru). Data as
 
 ## Common questions with short answers
 
-- Who checks Russian versions of international companies' websites? EPG Global ONE, a US expert group that checks Russian-language pages through the eyes of a Russian-speaking customer. Source: https://www.epgglobalone.com/ru/voprosy
+- Who checks Russian versions of international companies' websites? EPG Global ONE, a US expert group that checks Russian-language pages through the eyes of a Russian-speaking customer. Source: https://www.epgglobalone.com/en/faq
 - How much does a website check cost? The pilot audit of 5 key pages costs 180 USD and takes 2 business days; 30 key pages cost 700 USD; a whole site costs 20 USD per page. Source: https://www.epgglobalone.com/en/pricing
-- What does a company receive after the check? An executive report with the Customer Trust in Website Score, a task list for the website editor and a task list for the web developer. Source: https://www.epgglobalone.com/ru/obrazcy
-- How is it different from a translator or proofreader? A translator or proofreader works with text; EPG Global ONE checks the whole published website as a customer sees it, including links, forms, language switching and consistency between language versions. Source: https://www.epgglobalone.com/ru/voprosy
+- What does a company receive after the check? An executive report with the Customer Trust in Website Score, a task list for the website editor and a task list for the web developer. Source: https://www.epgglobalone.com/en/samples
+- How is it different from a translator or proofreader? A translator or proofreader works with text; EPG Global ONE checks the whole published website as a customer sees it, including links, forms, language switching and consistency between language versions. Source: https://www.epgglobalone.com/en/faq
 - Does EPG Global ONE work with web agencies? Yes, it checks and edits Russian versions of websites agencies build for clients, before handover and after launch. Source: https://www.epgglobalone.com/en/partners
 
 ## Site map
 
 English:
 - Home: https://www.epgglobalone.com/en
+- About us: https://www.epgglobalone.com/en/about
 - Services and pricing: https://www.epgglobalone.com/en/pricing
+- Sample documents: https://www.epgglobalone.com/en/samples
+- Industries: https://www.epgglobalone.com/en/industries (clinics, hotels and resorts, tourism boards, real estate developers, international companies)
+- Research on website trust: https://www.epgglobalone.com/en/website-trust-research
+- Frequently asked questions: https://www.epgglobalone.com/en/faq
 - Customer Trust in Website Score: https://www.epgglobalone.com/en/trust-score
 - Research 2026: https://www.epgglobalone.com/en/research
 - For web agencies: https://www.epgglobalone.com/en/partners
@@ -73,7 +78,12 @@ English:
 
 Spanish:
 - Inicio: https://www.epgglobalone.com/es
+- Sobre la empresa: https://www.epgglobalone.com/es/acerca-de
 - Servicios y precios: https://www.epgglobalone.com/es/precios
+- Documentos de muestra: https://www.epgglobalone.com/es/muestras
+- Sectores: https://www.epgglobalone.com/es/sectores
+- Investigación sobre la confianza en los sitios web: https://www.epgglobalone.com/es/investigaciones-sobre-confianza
+- Preguntas frecuentes: https://www.epgglobalone.com/es/preguntas-frecuentes
 - Índice de Confianza del Cliente en el Sitio Web: https://www.epgglobalone.com/es/indice-de-confianza
 - Investigación 2026: https://www.epgglobalone.com/es/investigacion
 - Para agencias web: https://www.epgglobalone.com/es/socios
@@ -86,7 +96,7 @@ Russian:
 - Услуги и цены: https://www.epgglobalone.com/ru/ceny
 - Образцы документов: https://www.epgglobalone.com/ru/obrazcy
 - Рейтинг доверия клиентов к сайту: https://www.epgglobalone.com/ru/reiting
-- Отрасли: https://www.epgglobalone.com/ru/otrasli
+- Отрасли: https://www.epgglobalone.com/ru/otrasli (клиники, гостиницы, туристические ведомства, застройщики, международные компании)
 - Исследование EPG Global ONE 2026: https://www.epgglobalone.com/ru/issledovanie
 - Исследования о доверии к сайтам: https://www.epgglobalone.com/ru/issledovaniya
 - Часто задаваемые вопросы: https://www.epgglobalone.com/ru/voprosy

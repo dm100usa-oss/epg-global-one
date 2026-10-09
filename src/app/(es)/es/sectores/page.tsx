@@ -5,17 +5,18 @@ import Script from "next/script";
 import "../../../../styles/doc.css";
 
 export const metadata: Metadata = {
-  title: "Отрасли: для кого проверка сайта - EPG Global ONE",
+  title: "Sectores - EPG Global ONE",
   description:
-    "Клиники, гостиницы и курорты, туристические ведомства, застройщики, международные компании и веб-студии: что EPG Global ONE проверяет на их сайтах.",
+    "Clínicas, hoteles y complejos turísticos, organismos de turismo, desarrolladoras inmobiliarias, empresas internacionales y agencias web: qué revisa EPG Global ONE en sus sitios.",
   alternates: {
-    canonical: "/ru/otrasli",
+    canonical: "/es/sectores",
     languages: { en: "/en/industries", es: "/es/sectores", ru: "/ru/otrasli", "x-default": "/en/industries" },
   },
 };
 
-const html = fs.readFileSync(path.join(process.cwd(), "src/content/ru", "otrasli.html"), "utf8");
-const schema = fs.readFileSync(path.join(process.cwd(), "src/content/ru", "otrasli-schema.json"), "utf8");
+const dir = path.join(process.cwd(), "src/content/es");
+const html = fs.readFileSync(path.join(dir, "es-sectores.html"), "utf8");
+const schema = fs.readFileSync(path.join(dir, "es-sectores-schema.json"), "utf8");
 
 export default function Page() {
   return (

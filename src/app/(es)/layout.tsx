@@ -1,6 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import "../globals.css";
+import fs from "node:fs";
+import path from "node:path";
 import { siteIcons, siteViewport } from "../site-config";
+
+const org = fs.readFileSync(path.join(process.cwd(), "src/content/es/org.json"), "utf8");
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.epgglobalone.com"),
@@ -22,8 +26,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=Lora:ital,wght@1,400&display=swap"
         />
+        <script src="/js/menu.js" defer></script>
       </head>
-      <body>{children}</body>
+      <body>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON.parse(org)) }} />
+        {children}
+      </body>
     </html>
   );
 }

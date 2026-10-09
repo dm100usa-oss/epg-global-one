@@ -1,21 +1,22 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { Metadata } from "next";
+
 import "../../../../styles/doc.css";
 
 export const metadata: Metadata = {
-  title: "Política de privacidad - EPG Global ONE",
+  title: "Sobre la empresa - EPG Global ONE",
   description:
-    "Qué datos recibe EPG Global ONE a través del sitio, para qué los usa y cómo eliminarlos.",
+    "EPG Global ONE (Expert Perception Group), de EE. UU., revisa sitios web desde la perspectiva del cliente: áreas de trabajo, cómo ayudamos a las empresas y por qué los errores en el sitio salen caros.",
   alternates: {
-    canonical: "/es/privacidad",
-    languages: { en: "/en/privacy", es: "/es/privacidad", ru: "/ru/konfidencialnost", "x-default": "/en/privacy" },
+    canonical: "/es/acerca-de",
+    languages: { en: "/en/about", es: "/es/acerca-de", ru: "/ru/o-kompanii", "x-default": "/en/about" },
   },
 };
 
 const dir = path.join(process.cwd(), "src/content/es");
-const html = fs.readFileSync(path.join(dir, "privacy.html"), "utf8");
-const schema = fs.readFileSync(path.join(dir, "privacy-schema.json"), "utf8");
+const html = fs.readFileSync(path.join(dir, "es-acerca-de.html"), "utf8");
+const schema = fs.readFileSync(path.join(dir, "es-acerca-de-schema.json"), "utf8");
 
 export default function Page() {
   return (
@@ -25,6 +26,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON.parse(schema)) }}
       />
       <div style={{ display: "contents" }} dangerouslySetInnerHTML={{ __html: html }} />
+
     </>
   );
 }

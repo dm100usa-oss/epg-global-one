@@ -1,20 +1,22 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { Metadata } from "next";
+
 import "../../../../styles/doc.css";
 
 export const metadata: Metadata = {
-  title: "Исследования о доверии к сайтам - EPG Global ONE",
+  title: "Investigación sobre la confianza en los sitios web - EPG Global ONE",
   description:
-    "Исследования о том, как ошибки и язык сайта влияют на доверие клиентов: EPG Global ONE, Стэнфордский университет, Global Lingo, CSA Research и Kantar.",
+    "Investigaciones sobre cómo los errores y el idioma del sitio afectan la confianza del cliente: EPG Global ONE, Universidad de Stanford, Global Lingo, CSA Research y Kantar.",
   alternates: {
-    canonical: "/ru/issledovaniya",
+    canonical: "/es/investigaciones-sobre-confianza",
     languages: { en: "/en/website-trust-research", es: "/es/investigaciones-sobre-confianza", ru: "/ru/issledovaniya", "x-default": "/en/website-trust-research" },
   },
 };
 
-const html = fs.readFileSync(path.join(process.cwd(), "src/content/ru", "issledovaniya.html"), "utf8");
-const schema = fs.readFileSync(path.join(process.cwd(), "src/content/ru", "issledovaniya-schema.json"), "utf8");
+const dir = path.join(process.cwd(), "src/content/es");
+const html = fs.readFileSync(path.join(dir, "es-investigaciones-sobre-confianza.html"), "utf8");
+const schema = fs.readFileSync(path.join(dir, "es-investigaciones-sobre-confianza-schema.json"), "utf8");
 
 export default function Page() {
   return (
@@ -24,6 +26,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON.parse(schema)) }}
       />
       <div style={{ display: "contents" }} dangerouslySetInnerHTML={{ __html: html }} />
+
     </>
   );
 }

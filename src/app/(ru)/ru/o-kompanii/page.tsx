@@ -7,7 +7,10 @@ export const metadata: Metadata = {
   title: "О компании EPG Global ONE",
   description:
     "EPG Global ONE (Expert Perception Group) из США проверяет сайты глазами клиента: направления работы, как мы помогаем компаниям и почему ошибки на сайте стоят дорого.",
-  alternates: { canonical: "/ru/o-kompanii" },
+  alternates: {
+    canonical: "/ru/o-kompanii",
+    languages: { en: "/en/about", es: "/es/acerca-de", ru: "/ru/o-kompanii", "x-default": "/en/about" },
+  },
 };
 
 const html = fs.readFileSync(path.join(process.cwd(), "src/content/ru", "o-kompanii.html"), "utf8");
