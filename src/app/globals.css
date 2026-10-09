@@ -712,3 +712,19 @@ html,body{overflow-x:clip}
 .hero details.dokaz-d>summary>.dk-txt{flex:1 1 auto;min-width:0}
 .hero .cta2 + .dokaz{margin-top:28px !important}
 @media (max-width:620px){.menu{column-gap:6px !important}html[lang="es"] .menu{font-size:max(9.5px,2.65vw) !important}}
+/* телефон: первый экран плотнее, чтобы он заканчивался на «Одна проверка вместо четырех» */
+@media (max-width:620px){
+header.top{padding-bottom:6px !important}
+header.top p.q.q-below{margin:4px 0 4px !important}
+.menu{padding-top:10px !important;padding-bottom:10px !important}
+:not(.pg-doc)>.wrap>.hero{padding-top:10px !important}
+.hero .motto{margin-top:8px !important;margin-bottom:8px !important}
+.hero .blue-panel{margin-top:8px !important;padding-top:12px !important;padding-bottom:12px !important}
+.hero .dirs-top:not(.komu){margin:14px 0 14px !important}
+.hero .dirs-top:not(.komu) .get-t{margin-bottom:4px !important}
+.hero .dirs-top:not(.komu) ul{gap:2px !important}
+.hero .stats{margin-top:14px !important}
+.hero .stats div{padding:8px 16px !important}
+.hero .countries{margin:14px 0 !important;padding-top:8px !important;padding-bottom:8px !important}
+.hero p.after-flags{margin-top:0 !important}
+}
