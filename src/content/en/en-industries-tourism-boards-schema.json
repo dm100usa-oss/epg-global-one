@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/en/industries/tourism-boards#page",
+      "url": "https://www.epgglobalone.com/en/industries/tourism-boards",
+      "name": "Website Audits for National Tourism Boards",
+      "description": "Travelers start getting to know a country on its official tourism website: destinations, entry requirements, and news. Errors and outdated information on such a website undermine trust in the country as a travel destination. We have reviewed websites of national and regional tourism boards.",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/en/industries/tourism-boards#crumbs"
+      },
+      "dateModified": "2026-10-09"
+    },
+    {
+      "@type": "Service",
+      "name": "Website Audits for National Tourism Boards",
+      "provider": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Tourism Boards"
+      },
+      "offers": {
+        "@type": "Offer",
+        "name": "Pilot audit of 5 key pages",
+        "price": "180",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What do you check on a tourism board website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Destination pages, entry requirements, news, contacts, language switching, and whether the information matches the primary version of the website."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you need access to the website's content management system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. We review the website the way your customers see it. All we need to start is the website address and a business email."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/en/industries/tourism-boards#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.epgglobalone.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Industries",
+          "item": "https://www.epgglobalone.com/en#klienty"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tourism Boards",
+          "item": "https://www.epgglobalone.com/en/industries/tourism-boards"
+        }
+      ]
+    }
+  ]
+}

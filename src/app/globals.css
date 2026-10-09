@@ -679,3 +679,24 @@ html,body{overflow-x:clip}
 @media (max-width:620px){.hero p.cta-head{font-size:calc(min(calc((100vw - 48px) / 18.4),19px) + 3px) !important}}
 .cta2 .btn.btn2{box-shadow:inset 0 0 0 1.5px #7C9CC9,0 2px 6px 0 rgba(20,40,70,.1),0 6px 16px 0 rgba(31,78,140,.12) !important}
 .cta2 .btn.btn2{box-shadow:inset 0 0 0 1.5px #B3C6E0,0 2px 6px 0 rgba(20,40,70,.1),0 6px 16px 0 rgba(31,78,140,.12) !important}
+/* уголок у «Рейтинг доверия клиентов к сайту»: прижат к правому краю, не выходит за поле (Safari) */
+.hero .scale-t a.src-t{display:block !important;position:relative;width:auto;padding-right:26px}
+.hero .scale-t a.src-t .arr{position:absolute !important;right:5px;top:50%;margin:0 !important;transform:translateY(-50%) rotate(45deg) !important}
+@media (min-width:621px){.hero .scale-t a.src-t .arr{right:6px}}
+.hero .scale-t a.src-t .arr{right:3px}@media (min-width:621px){.hero .scale-t a.src-t .arr{right:4px}}
+@media (max-width:620px){.hero .scale-t a.src-t,.hero p.cta-head{white-space:nowrap}}
+.hero .cta2 + .komu{margin-top:22px !important}
+/* страницы отраслей */
+.pg-ind1 .ind-sec{padding-top:8px}
+.pg-ind1 .ind-lead{font-size:18px;line-height:1.6;margin:0 0 22px}
+.pg-ind1 .ind-h{font-family:Literata,Georgia,serif;font-weight:600;font-size:24px;line-height:1.35;color:var(--ink);margin:26px 0 12px}
+.pg-ind1 .ind-stats{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.pg-ind1 .ind-stats li{background:#143662;border-radius:12px;padding:14px 18px;color:#fff;display:flex;flex-direction:column;gap:4px}
+.pg-ind1 .ind-stats b{font-family:Literata,Georgia,serif;font-size:30px;line-height:1.1;color:#fff}
+.pg-ind1 .ind-stats span{font-size:15px;line-height:1.4;color:#DCE5F2}
+.pg-ind1 .ind-src{font-size:15px;color:var(--muted);margin:12px 0 0;text-align:left !important}
+.pg-ind1 .ind-why{margin:0;padding-left:1.2em;display:grid;gap:8px;font-size:17px;line-height:1.5}
+.pg-ind1 .cta2{margin-top:28px}
+.pg-ind1 section#voprosy{padding-top:10px}
+@media (max-width:620px){.pg-ind1 .ind-lead{font-size:16px}.pg-ind1 .ind-h{font-size:calc(min(calc((100vw - 48px) / 18.4),19px) + 1px)}.pg-ind1 .ind-stats{grid-template-columns:1fr}.pg-ind1 .ind-stats b{font-size:26px}.pg-ind1 .ind-why{font-size:16px}}
+@media (max-width:620px){.pg-ind1 .ind-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.pg-ind1 .ind-stats li{padding:12px 14px}.pg-ind1 .ind-stats span{font-size:14px}}

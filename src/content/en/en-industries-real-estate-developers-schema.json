@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/en/industries/real-estate-developers#page",
+      "url": "https://www.epgglobalone.com/en/industries/real-estate-developers",
+      "name": "Website Audits for Real Estate Developers Selling to International Buyers",
+      "description": "Buyers of property abroad invest large sums and read every term carefully. We check property descriptions, purchase terms, prices, floor areas, and units of measurement. Buyers see careless text as a sign of an unreliable company.",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/en/industries/real-estate-developers#crumbs"
+      },
+      "dateModified": "2026-10-09"
+    },
+    {
+      "@type": "Service",
+      "name": "Website Audits for Real Estate Developers Selling to International Buyers",
+      "provider": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Real Estate Developers"
+      },
+      "offers": {
+        "@type": "Offer",
+        "name": "Pilot audit of 5 key pages",
+        "price": "180",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What matters most to check on a developer's website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prices, floor areas, purchase terms, units of measurement, and sales office contacts. An error in any of these makes buyers doubt everything else."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you need access to the website's content management system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. We review the website the way your customers see it. All we need to start is the website address and a business email."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/en/industries/real-estate-developers#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.epgglobalone.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Industries",
+          "item": "https://www.epgglobalone.com/en#klienty"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Real Estate Developers",
+          "item": "https://www.epgglobalone.com/en/industries/real-estate-developers"
+        }
+      ]
+    }
+  ]
+}

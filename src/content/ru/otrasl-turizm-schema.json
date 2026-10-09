@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/ru/otrasli/turizm#page",
+      "url": "https://www.epgglobalone.com/ru/otrasli/turizm",
+      "name": "Проверка сайтов туристических ведомств стран",
+      "description": "С официального сайта путешественник начинает знакомство со страной: курорты, правила въезда, новости. Ошибки и устаревшие сведения на таком сайте снижают доверие к стране как к туристическому направлению. Мы проверяли сайты национальных и региональных туристических ведомств.",
+      "inLanguage": "ru",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://www.epgglobalone.com/#site",
+        "name": "EPG Global ONE",
+        "url": "https://www.epgglobalone.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/ru/otrasli/turizm#crumbs"
+      },
+      "dateModified": "2026-10-09"
+    },
+    {
+      "@type": "Service",
+      "name": "Проверка сайтов туристических ведомств стран",
+      "provider": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Туристические ведомства"
+      },
+      "offers": {
+        "@type": "Offer",
+        "name": "Пилотный аудит 5 ключевых страниц",
+        "price": "180",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Что вы проверяете на сайте туристического ведомства?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Страницы курортов, правила въезда, новости, контакты, переключение языков и совпадение сведений с основной версией сайта."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Нужен ли для проверки доступ к системе управления сайтом?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Нет. Мы проверяем сайт так, как его видит клиент. Для начала достаточно адреса сайта и рабочей почты."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/ru/otrasli/turizm#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.epgglobalone.com/ru"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Отрасли",
+          "item": "https://www.epgglobalone.com/ru/otrasli"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Туристические ведомства",
+          "item": "https://www.epgglobalone.com/ru/otrasli/turizm"
+        }
+      ]
+    }
+  ]
+}

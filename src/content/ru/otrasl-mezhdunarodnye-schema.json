@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/ru/otrasli/mezhdunarodnye#page",
+      "url": "https://www.epgglobalone.com/ru/otrasli/mezhdunarodnye",
+      "name": "Проверка сайтов международных компаний на нескольких языках",
+      "description": "Над сайтом международной компании работают маркетологи, переводчики, разработчики и филиалы, но сайт целиком глазами клиента часто не проверяет никто. Мы проверяем все языковые версии: разделы, цифры, названия, ссылки и условия. Если версии расходятся, клиент сомневается в актуальности информации и откладывает решение.",
+      "inLanguage": "ru",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://www.epgglobalone.com/#site",
+        "name": "EPG Global ONE",
+        "url": "https://www.epgglobalone.com"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/ru/otrasli/mezhdunarodnye#crumbs"
+      },
+      "dateModified": "2026-10-09"
+    },
+    {
+      "@type": "Service",
+      "name": "Проверка сайтов международных компаний на нескольких языках",
+      "provider": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Международные компании"
+      },
+      "offers": {
+        "@type": "Offer",
+        "name": "Пилотный аудит 5 ключевых страниц",
+        "price": "180",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Проверяете ли вы сайты на английском и других языках?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Да. Направление «Все языковые версии сайта» подходит для сайтов на любом языке."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Сверяете ли вы языковые версии между собой?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Да, без доплаты. Расхождения в ценах, телефонах и цифрах между версиями входят в каждую проверку."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/ru/otrasli/mezhdunarodnye#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.epgglobalone.com/ru"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Отрасли",
+          "item": "https://www.epgglobalone.com/ru/otrasli"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Международные компании",
+          "item": "https://www.epgglobalone.com/ru/otrasli/mezhdunarodnye"
+        }
+      ]
+    }
+  ]
+}

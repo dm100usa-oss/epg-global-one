@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/es/sectores/empresas-internacionales#page",
+      "url": "https://www.epgglobalone.com/es/sectores/empresas-internacionales",
+      "name": "Auditoría de sitios web multilingües de empresas internacionales",
+      "description": "En el sitio de una empresa internacional trabajan especialistas en marketing, traductores, desarrolladores y oficinas regionales, pero a menudo nadie revisa el sitio completo desde la perspectiva del cliente. Revisamos todas las versiones lingüísticas: secciones, cifras, nombres, enlaces y condiciones. Cuando las versiones no coinciden, el cliente duda de que la información esté actualizada y pospone su decisión.",
+      "inLanguage": "es",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/es/sectores/empresas-internacionales#crumbs"
+      },
+      "dateModified": "2026-10-09"
+    },
+    {
+      "@type": "Service",
+      "name": "Auditoría de sitios web multilingües de empresas internacionales",
+      "provider": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Empresas internacionales"
+      },
+      "offers": {
+        "@type": "Offer",
+        "name": "Auditoría piloto de 5 páginas clave",
+        "price": "180",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Revisan sitios en inglés y en otros idiomas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El servicio «Todas las versiones lingüísticas del sitio web» es para sitios en cualquier idioma."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Comparan las versiones lingüísticas entre sí?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, sin costo adicional. Las diferencias de precios, teléfonos y cifras entre versiones forman parte de cada auditoría."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/es/sectores/empresas-internacionales#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.epgglobalone.com/es"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sectores",
+          "item": "https://www.epgglobalone.com/es#klienty"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Empresas internacionales",
+          "item": "https://www.epgglobalone.com/es/sectores/empresas-internacionales"
+        }
+      ]
+    }
+  ]
+}

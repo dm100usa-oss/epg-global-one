@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/es/sectores/organismos-de-turismo#page",
+      "url": "https://www.epgglobalone.com/es/sectores/organismos-de-turismo",
+      "name": "Auditoría de sitios web de organismos nacionales de turismo",
+      "description": "El viajero empieza a conocer un país en su sitio oficial de turismo: destinos, requisitos de entrada y noticias. Los errores y los datos desactualizados en ese sitio reducen la confianza en el país como destino turístico. Hemos revisado sitios de organismos de turismo nacionales y regionales.",
+      "inLanguage": "es",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/es/sectores/organismos-de-turismo#crumbs"
+      },
+      "dateModified": "2026-10-09"
+    },
+    {
+      "@type": "Service",
+      "name": "Auditoría de sitios web de organismos nacionales de turismo",
+      "provider": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Organismos de turismo"
+      },
+      "offers": {
+        "@type": "Offer",
+        "name": "Auditoría piloto de 5 páginas clave",
+        "price": "180",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué revisan en el sitio de un organismo de turismo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Las páginas de destinos, los requisitos de entrada, las noticias, los contactos, el cambio de idioma y la coincidencia de la información con la versión principal del sitio."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesitan acceso al sistema de gestión del sitio web?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Revisamos el sitio tal como lo ven sus clientes. Para empezar, solo necesitamos la dirección del sitio y un correo corporativo."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/es/sectores/organismos-de-turismo#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.epgglobalone.com/es"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sectores",
+          "item": "https://www.epgglobalone.com/es#klienty"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Organismos de turismo",
+          "item": "https://www.epgglobalone.com/es/sectores/organismos-de-turismo"
+        }
+      ]
+    }
+  ]
+}

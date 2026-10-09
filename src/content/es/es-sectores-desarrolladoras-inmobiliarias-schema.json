@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/es/sectores/desarrolladoras-inmobiliarias#page",
+      "url": "https://www.epgglobalone.com/es/sectores/desarrolladoras-inmobiliarias",
+      "name": "Auditoría de sitios web de empresas desarrolladoras inmobiliarias que venden a compradores extranjeros",
+      "description": "Quien compra una propiedad en el extranjero invierte mucho dinero y lee con atención cada condición. Revisamos las descripciones de las propiedades, las condiciones de compra, los precios, las superficies y las unidades de medida. El comprador percibe un texto descuidado como señal de una empresa poco confiable.",
+      "inLanguage": "es",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/es/sectores/desarrolladoras-inmobiliarias#crumbs"
+      },
+      "dateModified": "2026-10-09"
+    },
+    {
+      "@type": "Service",
+      "name": "Auditoría de sitios web de empresas desarrolladoras inmobiliarias que venden a compradores extranjeros",
+      "provider": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Desarrolladoras inmobiliarias"
+      },
+      "offers": {
+        "@type": "Offer",
+        "name": "Auditoría piloto de 5 páginas clave",
+        "price": "180",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué es lo más importante revisar en el sitio de una desarrolladora inmobiliaria?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Precios, superficies, condiciones de compra, unidades de medida y contactos del departamento de ventas. Un error en cualquiera de estos elementos hace que el comprador dude de todo lo demás."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesitan acceso al sistema de gestión del sitio web?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Revisamos el sitio tal como lo ven sus clientes. Para empezar, solo necesitamos la dirección del sitio y un correo corporativo."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/es/sectores/desarrolladoras-inmobiliarias#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.epgglobalone.com/es"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sectores",
+          "item": "https://www.epgglobalone.com/es#klienty"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Desarrolladoras inmobiliarias",
+          "item": "https://www.epgglobalone.com/es/sectores/desarrolladoras-inmobiliarias"
+        }
+      ]
+    }
+  ]
+}

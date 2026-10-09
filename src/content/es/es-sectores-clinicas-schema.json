@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/es/sectores/clinicas#page",
+      "url": "https://www.epgglobalone.com/es/sectores/clinicas",
+      "name": "Auditoría de sitios web de clínicas y centros médicos",
+      "description": "Las clínicas y los centros médicos representan más de la mitad de las empresas cuyos sitios web revisamos en 2026. Sabemos qué páginas usa un paciente internacional para elegir una clínica: servicios, médicos, precios, opiniones y solicitud de cita. Los errores en estas páginas hacen que el paciente dude del nivel de la clínica antes de la primera consulta.",
+      "inLanguage": "es",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/es/sectores/clinicas#crumbs"
+      },
+      "dateModified": "2026-10-09"
+    },
+    {
+      "@type": "Service",
+      "name": "Auditoría de sitios web de clínicas y centros médicos",
+      "provider": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Clínicas"
+      },
+      "offers": {
+        "@type": "Offer",
+        "name": "Auditoría piloto de 5 páginas clave",
+        "price": "180",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué páginas del sitio de una clínica conviene revisar primero?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Las páginas que el paciente usa para elegir una clínica y pedir una cita: servicios, médicos, precios, opiniones, solicitud de cita y contactos. Son un buen punto de partida para una auditoría piloto de 5 páginas clave."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesitan acceso al sistema de gestión del sitio web?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Revisamos el sitio tal como lo ven sus clientes. Para empezar, solo necesitamos la dirección del sitio y un correo corporativo."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/es/sectores/clinicas#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.epgglobalone.com/es"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sectores",
+          "item": "https://www.epgglobalone.com/es#klienty"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Clínicas",
+          "item": "https://www.epgglobalone.com/es/sectores/clinicas"
+        }
+      ]
+    }
+  ]
+}

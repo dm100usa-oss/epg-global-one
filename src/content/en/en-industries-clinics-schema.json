@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/en/industries/clinics#page",
+      "url": "https://www.epgglobalone.com/en/industries/clinics",
+      "name": "Website Audits for Clinics and Medical Centers",
+      "description": "Clinics and medical centers make up more than half of the companies whose websites we reviewed in 2026. We know which pages international patients use to choose a clinic: services, doctors, prices, reviews, and appointment booking. Errors on these pages make patients doubt the clinic's standards before the first consultation.",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/en/industries/clinics#crumbs"
+      },
+      "dateModified": "2026-10-09"
+    },
+    {
+      "@type": "Service",
+      "name": "Website Audits for Clinics and Medical Centers",
+      "provider": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Clinics"
+      },
+      "offers": {
+        "@type": "Offer",
+        "name": "Pilot audit of 5 key pages",
+        "price": "180",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which pages of a clinic website should be checked first?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The pages patients use to choose a clinic and book an appointment: services, doctors, prices, reviews, appointment booking, and contacts. They are a good starting point for a pilot audit of 5 key pages."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you need access to the website's content management system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. We review the website the way your customers see it. All we need to start is the website address and a business email."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/en/industries/clinics#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.epgglobalone.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Industries",
+          "item": "https://www.epgglobalone.com/en#klienty"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Clinics",
+          "item": "https://www.epgglobalone.com/en/industries/clinics"
+        }
+      ]
+    }
+  ]
+}
