@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/ru/obrazcy/otchet#page",
+      "url": "https://www.epgglobalone.com/ru/obrazcy/otchet",
+      "name": "Отчет для руководителя",
+      "description": "Руководитель получает готовую картину состояния сайта: какие ошибки найдены, насколько они серьезны и в каком порядке их нужно устранять. Такой отчет помогает быстро понять масштаб проблемы, увидеть первоочередные исправления и оценить, какие задачи требуют простой правки, а какие технической доработки сайта.",
+      "inLanguage": "ru",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/ru/obrazcy/otchet#crumbs"
+      },
+      "dateModified": "2026-10-09",
+      "mainEntity": {
+        "@type": "DigitalDocument",
+        "name": "Отчет для руководителя",
+        "url": "https://www.epgglobalone.com/obrazcy/obrazec-otchet-dlya-rukovoditelya.pdf",
+        "encodingFormat": "application/pdf",
+        "author": {
+          "@id": "https://www.epgglobalone.com/#org"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/ru/obrazcy/otchet#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.epgglobalone.com/ru"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Образцы документов",
+          "item": "https://www.epgglobalone.com/ru/obrazcy"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Отчет для руководителя",
+          "item": "https://www.epgglobalone.com/ru/obrazcy/otchet"
+        }
+      ]
+    }
+  ]
+}

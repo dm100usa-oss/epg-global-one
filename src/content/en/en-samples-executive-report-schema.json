@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/en/samples/executive-report#page",
+      "url": "https://www.epgglobalone.com/en/samples/executive-report",
+      "name": "Executive Report",
+      "description": "Customer Trust in Website Score (CTWS), audit results, error types and severity, what to fix first, and the expert conclusion. Also includes pages with marked errors and a full error list.",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/en/samples/executive-report#crumbs"
+      },
+      "dateModified": "2026-10-09",
+      "mainEntity": {
+        "@type": "DigitalDocument",
+        "name": "Executive Report",
+        "url": "https://www.epgglobalone.com/obrazcy/obrazec-otchet-dlya-rukovoditelya.pdf",
+        "encodingFormat": "application/pdf",
+        "author": {
+          "@id": "https://www.epgglobalone.com/#org"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/en/samples/executive-report#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.epgglobalone.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sample Documents",
+          "item": "https://www.epgglobalone.com/en/samples"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Executive Report",
+          "item": "https://www.epgglobalone.com/en/samples/executive-report"
+        }
+      ]
+    }
+  ]
+}

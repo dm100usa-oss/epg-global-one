@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/es/muestras/tareas-para-el-editor#page",
+      "url": "https://www.epgglobalone.com/es/muestras/tareas-para-el-editor",
+      "name": "Tarea para el editor del sitio",
+      "description": "Solo correcciones de texto: dónde aparece el texto en la página, qué dice ahora, cómo debe quedar y por qué. La lista de tareas se entrega como una hoja de cálculo en la que el responsable marca los puntos completados y deja comentarios.",
+      "inLanguage": "es",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/es/muestras/tareas-para-el-editor#crumbs"
+      },
+      "dateModified": "2026-10-09",
+      "mainEntity": {
+        "@type": "DigitalDocument",
+        "name": "Tarea para el editor del sitio",
+        "url": "https://www.epgglobalone.com/obrazcy/obrazec-zadanie-dlya-redaktora.pdf",
+        "encodingFormat": "application/pdf",
+        "author": {
+          "@id": "https://www.epgglobalone.com/#org"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/es/muestras/tareas-para-el-editor#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.epgglobalone.com/es"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Documentos de muestra",
+          "item": "https://www.epgglobalone.com/es/muestras"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tarea para el editor del sitio",
+          "item": "https://www.epgglobalone.com/es/muestras/tareas-para-el-editor"
+        }
+      ]
+    }
+  ]
+}

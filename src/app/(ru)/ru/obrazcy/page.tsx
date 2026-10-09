@@ -7,7 +7,7 @@ import "../../../../styles/doc.css";
 export const metadata: Metadata = {
   title: "Образцы документов после проверки сайта - EPG Global ONE",
   description:
-    "Образцы трех документов EPG Global ONE: отчет для руководителя, задание для редактора сайта и задание для веб-разработчика.",
+    "Образцы трех документов EPG Global ONE: отчет для руководителя, задание для редактора и задание для разработчика.",
   alternates: {
     canonical: "/ru/obrazcy",
     languages: { en: "/en/samples", es: "/es/muestras", ru: "/ru/obrazcy", "x-default": "/en/samples" },

@@ -7,7 +7,7 @@ import "../../../../styles/doc.css";
 export const metadata: Metadata = {
   title: "Sample Documents - EPG Global ONE",
   description:
-    "Samples of the three EPG Global ONE documents: executive report, task list for the website editor, and task list for the web developer.",
+    "Samples of the three EPG Global ONE documents: executive report, task list for the editor, and task list for the developer.",
   alternates: {
     canonical: "/en/samples",
     languages: { en: "/en/samples", es: "/es/muestras", ru: "/ru/obrazcy", "x-default": "/en/samples" },

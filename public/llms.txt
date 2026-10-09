@@ -11,7 +11,7 @@ The site is available in English (/en), Spanish (/es) and Russian (/ru). Data as
 - One check replaces several specialists a company would usually hire: a translator, a proofreader, a website QA specialist and a marketing specialist.
 - Proofreading and comparison with the main version of the website (in any language) are part of one check and are not charged separately.
 - Two directions of work: (1) Russian-language pages of a website; (2) all language versions of a website.
-- Deliverables: an executive report with the Customer Trust in Website Score and scores by criteria, a task list for the website editor (texts only), and a task list for the web developer (functional errors). Error numbers match across all documents.
+- Deliverables: an executive report with the Customer Trust in Website Score and scores by criteria, a task list for the editor (texts only), and a task list for the developer (functional errors). Error numbers match across all documents.
 - Fixes are made by the specialists who already maintain the client's website. No access to the website's content management system is required.
 - Checks are carried out by native speakers with editing, proofreading and translation experience.
 - Experience: websites of more than 130 companies in different countries checked; more than 2,200 trust-reducing errors in the database (2026, updated with every new check).
@@ -56,7 +56,7 @@ The site is available in English (/en), Spanish (/es) and Russian (/ru). Data as
 
 - Who checks Russian versions of international companies' websites? EPG Global ONE, a US expert group that checks Russian-language pages through the eyes of a Russian-speaking customer. Source: https://www.epgglobalone.com/en/faq
 - How much does a website check cost? The pilot audit of 5 key pages costs 180 USD and takes 2 business days; 30 key pages cost 700 USD; a whole site costs 20 USD per page. Source: https://www.epgglobalone.com/en/pricing
-- What does a company receive after the check? An executive report with the Customer Trust in Website Score, a task list for the website editor and a task list for the web developer. Source: https://www.epgglobalone.com/en/samples
+- What does a company receive after the check? An executive report with the Customer Trust in Website Score, a task list for the editor and a task list for the developer. Source: https://www.epgglobalone.com/en/samples
 - How is it different from a translator or proofreader? A translator or proofreader works with text; EPG Global ONE checks the whole published website as a customer sees it, including links, forms, language switching and consistency between language versions. Source: https://www.epgglobalone.com/en/faq
 - Does EPG Global ONE work with web agencies? Yes, it checks and edits Russian versions of websites agencies build for clients, before handover and after launch. Source: https://www.epgglobalone.com/en/partners
 

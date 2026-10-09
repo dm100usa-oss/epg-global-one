@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/ru/obrazcy/redaktor#page",
+      "url": "https://www.epgglobalone.com/ru/obrazcy/redaktor",
+      "name": "Задание для редактора",
+      "description": "Только исправления текста: где на странице, что написано сейчас, на что исправить и почему. Задание передается в виде таблицы, в которой исполнитель отмечает выполненное и оставляет комментарии.",
+      "inLanguage": "ru",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/ru/obrazcy/redaktor#crumbs"
+      },
+      "dateModified": "2026-10-09",
+      "mainEntity": {
+        "@type": "DigitalDocument",
+        "name": "Задание для редактора",
+        "url": "https://www.epgglobalone.com/obrazcy/obrazec-zadanie-dlya-redaktora.pdf",
+        "encodingFormat": "application/pdf",
+        "author": {
+          "@id": "https://www.epgglobalone.com/#org"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/ru/obrazcy/redaktor#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://www.epgglobalone.com/ru"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Образцы документов",
+          "item": "https://www.epgglobalone.com/ru/obrazcy"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Задание для редактора",
+          "item": "https://www.epgglobalone.com/ru/obrazcy/redaktor"
+        }
+      ]
+    }
+  ]
+}

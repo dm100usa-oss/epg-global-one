@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.epgglobalone.com/es/muestras/tareas-para-el-desarrollador#page",
+      "url": "https://www.epgglobalone.com/es/muestras/tareas-para-el-desarrollador",
+      "name": "Tarea para el desarrollador web",
+      "description": "Errores en el funcionamiento del sitio: dónde aparecen en la página, cómo reproducir el problema, resultado actual y resultado esperado. La lista de tareas se entrega como una hoja de cálculo en la que el responsable marca los puntos completados y deja comentarios. Si se solicita, cada error puede entregarse como una tarea lista para el sistema de gestión de tareas del equipo de desarrollo.",
+      "inLanguage": "es",
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/es/muestras/tareas-para-el-desarrollador#crumbs"
+      },
+      "dateModified": "2026-10-09",
+      "mainEntity": {
+        "@type": "DigitalDocument",
+        "name": "Tarea para el desarrollador web",
+        "url": "https://www.epgglobalone.com/obrazcy/obrazec-zadanie-dlya-razrabotchika.pdf",
+        "encodingFormat": "application/pdf",
+        "author": {
+          "@id": "https://www.epgglobalone.com/#org"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/es/muestras/tareas-para-el-desarrollador#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.epgglobalone.com/es"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Documentos de muestra",
+          "item": "https://www.epgglobalone.com/es/muestras"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tarea para el desarrollador web",
+          "item": "https://www.epgglobalone.com/es/muestras/tareas-para-el-desarrollador"
+        }
+      ]
+    }
+  ]
+}

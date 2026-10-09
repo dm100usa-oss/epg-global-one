@@ -31,7 +31,7 @@
           "position": 1,
           "item": {
             "@type": "DigitalDocument",
-            "name": "Отчет для руководителя компании",
+            "name": "Отчет для руководителя",
             "url": "https://www.epgglobalone.com/obrazcy/obrazec-otchet-dlya-rukovoditelya.pdf",
             "encodingFormat": "application/pdf"
           }
@@ -41,7 +41,7 @@
           "position": 2,
           "item": {
             "@type": "DigitalDocument",
-            "name": "Задание для редактора сайта",
+            "name": "Задание для редактора",
             "url": "https://www.epgglobalone.com/obrazcy/obrazec-zadanie-dlya-redaktora.pdf",
             "encodingFormat": "application/pdf"
           }
@@ -51,7 +51,7 @@
           "position": 3,
           "item": {
             "@type": "DigitalDocument",
-            "name": "Задание для веб-разработчика",
+            "name": "Задание для разработчика",
             "url": "https://www.epgglobalone.com/obrazcy/obrazec-zadanie-dlya-razrabotchika.pdf",
             "encodingFormat": "application/pdf"
           }

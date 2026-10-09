@@ -6,7 +6,7 @@
       "@id": "https://www.epgglobalone.com/en/samples#page",
       "url": "https://www.epgglobalone.com/en/samples",
       "name": "Sample Documents",
-      "description": "Samples of the three EPG Global ONE documents: executive report, task list for the website editor, and task list for the web developer.",
+      "description": "Samples of the three EPG Global ONE documents: executive report, task list for the editor, and task list for the developer.",
       "inLanguage": "en",
       "publisher": {
         "@id": "https://www.epgglobalone.com/#org"

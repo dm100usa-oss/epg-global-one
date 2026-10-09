@@ -728,3 +728,15 @@ header.top p.q.q-below{margin:4px 0 4px !important}
 .hero .countries{margin:14px 0 !important;padding-top:8px !important;padding-bottom:8px !important}
 .hero p.after-flags{margin-top:0 !important}
 }
+/* отдельные страницы образцов */
+.pg-doc1 .doc1-lead{font-size:18px;line-height:1.6;margin:0 0 18px}
+.pg-doc1 .doc1-pages{display:grid;gap:16px}
+.pg-doc1 .doc1-pages img{display:block;width:100%;height:auto;border:1px solid #D7DCE4;border-radius:8px;box-shadow:0 4px 18px rgba(29,41,64,.08)}
+.pg-doc1 .doc1-btn{margin:22px 0 8px;text-align:center !important}
+.pg-doc1 .doc1-btn .btn{display:inline-block;min-width:280px;text-align:center}
+.pg-doc1 .ind-h{font-family:Literata,Georgia,serif;font-weight:600;font-size:24px;color:var(--ink);margin:28px 0 10px}
+.pg-doc1 .obr-list{list-style:none;margin:0;padding:0;display:grid;gap:10px;font-size:18px}
+.pg-obr .obr-card h3 a.src-t{color:inherit}
+a.obr-thumb{display:block;position:relative}
+@media (max-width:620px){.pg-doc1 .doc1-lead{font-size:16px}.pg-doc1 .ind-h{font-size:calc(min(calc((100vw - 48px) / 18.4),19px) + 1px)}.pg-doc1 .doc1-btn .btn{width:100%;min-width:0}.pg-doc1 .obr-list{font-size:17px}}
+.pg-doc1 .doc1-lead{margin:0 0 12px}.pg-doc1 .doc1-lead:last-of-type{margin-bottom:20px}
