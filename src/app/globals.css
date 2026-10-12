@@ -762,4 +762,4 @@ footer.ft .ft-legal a{color:#fff !important;font-size:15px}
  .ft-brand{grid-column:1/-1}
 }
 /* верхняя плашка на главной */
-.top-banner{margin:16px 0 0}.top-banner img{display:block;width:100%;height:auto;border-radius:8px}
+.top-banner{width:100vw;margin:0 0 0 calc(50% - 50vw)}.top-banner img{display:block;width:100%;height:auto}
