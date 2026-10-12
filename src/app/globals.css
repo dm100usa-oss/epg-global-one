@@ -251,12 +251,12 @@ input{background:var(--panel)}
 :root[data-theme="light"] :is(h1,h2,h3){color:#143662}
 @media (prefers-color-scheme:light){:root:not([data-theme="dark-off"]) :is(h1,h2,h3){color:#143662}}
 /* меню на темно-синей полосе во всю ширину */
-.menu{background:#143662;border-bottom:0;box-shadow:0 0 0 100vmax #143662;clip-path:inset(0 -100vmax)}
+.menu{background:#0A4585;border-bottom:0;box-shadow:0 0 0 100vmax #0A4585;clip-path:inset(0 -100vmax)}
 .menu a{color:rgba(255,255,255,.9)}
 .menu a:hover{color:#fff;text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px}
 .menu .m-st{color:#fff}
 .top{border-bottom:0}
-.lang span{background:#143662;color:#fff}
+.lang span{background:#0A4585;color:#fff}
 /* луч света по главному заголовку слева направо */
 :root{--h1base:#143662;--h1glow:#6FA0DC}
 @media (prefers-color-scheme:dark-off){:root:not([data-theme="light"]){--h1base:#E9ECF2;--h1glow:#9CC3F5}}
@@ -548,10 +548,10 @@ form{max-width:none}
 .hero p.cta-intro{text-align:justify !important;text-align-last:left}
 .hero p.after-flags,.hero p.cta-head{text-align:left !important}
 .hero p.cta-head{margin-top:30px !important}
-.hero .countries{background:#143662;border-radius:10px;padding:14px 28px;margin:24px 0}
+.hero .countries{background:linear-gradient(135deg,#063868 0%,#0A4585 55%,#155BA6 100%);border-radius:10px;padding:14px 28px;margin:24px 0}
 .hero .countries img{box-shadow:0 0 0 1px rgba(255,255,255,.25) !important}
 @media (max-width:620px){.hero .countries{border-radius:0;padding:12px 0;box-shadow:0 0 0 100vmax #143662;clip-path:inset(0 -100vmax)}}
-.hero .stats div{background:#143662 !important;box-shadow:none !important;border:0 !important}
+.hero .stats div{background:linear-gradient(135deg,#063868 0%,#0A4585 55%,#155BA6 100%) !important;box-shadow:none !important;border:0 !important}
 .hero .stats b{color:#fff !important}
 .hero .stats span{color:#DCE5F2 !important}
 .hero .blue-panel{background:#143662;border-radius:10px;padding:20px 28px;margin:14px 0 6px}
@@ -613,7 +613,7 @@ header.top p.q.q-below{grid-row:2;grid-column:1/-1;justify-self:stretch;margin:1
 @media (max-width:620px){
 html,body{overflow-x:clip}
 .menu{overflow:visible !important;clip-path:none !important;box-shadow:none !important}
-.menu::before{content:"";position:absolute;top:0;bottom:0;left:-100vmax;right:-100vmax;background:#143662;z-index:-1}
+.menu::before{content:"";position:absolute;top:0;bottom:0;left:-100vmax;right:-100vmax;background:#0A4585;z-index:-1}
 .menu .mi{position:static}
 .menu .mt{gap:.3em}
 .menu .sub{left:0;right:0;min-width:0;margin-top:0;border-radius:0 0 10px 10px;border-top:0}
@@ -691,7 +691,7 @@ html,body{overflow-x:clip}
 .pg-ind1 .ind-lead{font-size:18px;line-height:1.6;margin:0 0 22px}
 .pg-ind1 .ind-h{font-family:Literata,Georgia,serif;font-weight:600;font-size:24px;line-height:1.35;color:var(--ink);margin:26px 0 12px}
 .pg-ind1 .ind-stats{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.pg-ind1 .ind-stats li{background:#143662;border-radius:12px;padding:14px 18px;color:#fff;display:flex;flex-direction:column;gap:4px}
+.pg-ind1 .ind-stats li{background:#0A4585;border-radius:12px;padding:14px 18px;color:#fff;display:flex;flex-direction:column;gap:4px}
 .pg-ind1 .ind-stats b{font-family:Literata,Georgia,serif;font-size:30px;line-height:1.1;color:#fff}
 .pg-ind1 .ind-stats span{font-size:15px;line-height:1.4;color:#DCE5F2}
 .pg-ind1 .ind-src{font-size:15px;color:var(--muted);margin:12px 0 0;text-align:left !important}
@@ -742,7 +742,7 @@ a.obr-thumb{display:block;position:relative}
 .pg-doc1 .doc1-lead{margin:0 0 12px}.pg-doc1 .doc1-lead:last-of-type{margin-bottom:20px}
 
 /* подвал: синяя плашка как у меню */
-footer.ft{background:#143662;box-shadow:0 0 0 100vmax #143662;clip-path:inset(0 -100vmax);border-top:0;color:rgba(255,255,255,.78);padding:52px 0 30px;margin-top:56px;font-size:15px}
+footer.ft{background:#0A4585;box-shadow:0 0 0 100vmax #0A4585;clip-path:inset(0 -100vmax);border-top:0;color:rgba(255,255,255,.78);padding:52px 0 30px;margin-top:56px;font-size:15px}
 footer.ft a{color:#fff !important;text-decoration:none;font-weight:400 !important}
 footer.ft a:hover{text-decoration:underline}
 .ft-cols{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:32px}
@@ -761,3 +761,5 @@ footer.ft .ft-legal a{color:#fff !important;font-size:15px}
  .ft-cols{grid-template-columns:1fr 1fr;gap:26px 20px}
  .ft-brand{grid-column:1/-1}
 }
+/* верхняя плашка на главной */
+.top-banner{margin:16px 0 0}.top-banner img{display:block;width:100%;height:auto;border-radius:8px}
