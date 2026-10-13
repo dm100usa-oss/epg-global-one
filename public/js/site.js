@@ -1,5 +1,7 @@
 /* EPG Global ONE: поведение страницы */
 /* отправка заявок: письмо уходит через /api/zayavka */
+/* заявка отправлена: отметка для Google Аналитики */
+function epgLead(kind){try{if(window.gtag)gtag('event','generate_lead',{form_type:kind});}catch(e){}}
 function epgSend(form,kind,done){
   var lg=(document.documentElement.lang||'ru').slice(0,2);
   var err={ru:'Не удалось отправить заявку. Напишите нам на epg.global.one@gmail.com.',en:'Your request could not be sent. Please email us at epg.global.one@gmail.com.',es:'No se pudo enviar la solicitud. Escríbanos a epg.global.one@gmail.com.'}[lg]||'';
@@ -13,7 +15,7 @@ function epgSend(form,kind,done){
   var btn=form.querySelector('button[type=submit],button:not([type])');if(btn)btn.disabled=true;
   if(window.EPG_PREVIEW){done();return;}
   fetch('/api/zayavka',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
-    .then(function(r){return r.json().catch(function(){return {};}).then(function(j){if(r.ok&&j.ok)done();else throw 0;});})
+    .then(function(r){return r.json().catch(function(){return {};}).then(function(j){if(r.ok&&j.ok){epgLead(kind);done();}else throw 0;});})
     .catch(function(){if(btn)btn.disabled=false;alert(err);});
 }
 (function(){
@@ -141,6 +143,7 @@ if(f){f.addEventListener('submit',function(e){
         var em=(f.querySelector('[name=email]')||{}).value||'';
         var went=false,go=function(){if(went)return;went=true;show();location.href='https://buy.stripe.com/8x2dR8eiHdLq7IleK7ak000'+(em?'?prefilled_email='+encodeURIComponent(em):'');};
         if(window.EPG_PREVIEW){show();return;}
+        epgLead('pilot');
         var data={kind:'pilot',lang:(document.documentElement.lang||'ru').slice(0,2),page:location.pathname};
         new FormData(f).forEach(function(v,k){data[k]=v;});
         try{fetch('/api/zayavka',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data),keepalive:true}).then(go,go);}catch(e){go();}
