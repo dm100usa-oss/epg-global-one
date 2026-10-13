@@ -796,25 +796,25 @@ html[lang="es"] .wrap:has(.top-banner) .hero h1{font-size:min(32px,calc(100cqw /
 .wrap:has(.top-banner) #zayavka label{font-size:14px !important}
 .wrap:has(.top-banner) #zayavka p.consent,.wrap:has(.top-banner) #zayavka p.consent a{font-size:15px !important}
 .wrap:has(.top-banner) #zayavka p.after,.wrap:has(.top-banner) #zayavka p.after a{font-size:14px !important}
-.wrap:has(.top-banner) .hero>:nth-child(3){margin-top:34px !important}
+.wrap:has(.top-banner) .hero>:nth-child(3){margin-top:24px !important}
 .wrap:has(.top-banner) .hero>:nth-child(2){margin-bottom:0 !important}
-.wrap:has(.top-banner) .hero>:nth-child(4){margin-top:40px !important}
+.wrap:has(.top-banner) .hero>:nth-child(4){margin-top:30px !important}
 .wrap:has(.top-banner) .hero>:nth-child(3){margin-bottom:0 !important}
-.wrap:has(.top-banner) .hero>:nth-child(5){margin-top:48px !important}
+.wrap:has(.top-banner) .hero>:nth-child(5){margin-top:38px !important}
 .wrap:has(.top-banner) .hero>:nth-child(4){margin-bottom:0 !important}
-.wrap:has(.top-banner) .hero>:nth-child(6){margin-top:44px !important}
+.wrap:has(.top-banner) .hero>:nth-child(6){margin-top:34px !important}
 .wrap:has(.top-banner) .hero>:nth-child(5){margin-bottom:0 !important}
-.wrap:has(.top-banner) .hero>:nth-child(7){margin-top:44px !important}
+.wrap:has(.top-banner) .hero>:nth-child(7){margin-top:34px !important}
 .wrap:has(.top-banner) .hero>:nth-child(6){margin-bottom:0 !important}
-.wrap:has(.top-banner) .hero>:nth-child(9){margin-top:48px !important}
+.wrap:has(.top-banner) .hero>:nth-child(9){margin-top:38px !important}
 .wrap:has(.top-banner) .hero>:nth-child(8){margin-bottom:0 !important}
-.wrap:has(.top-banner) .hero>:nth-child(10){margin-top:50px !important}
+.wrap:has(.top-banner) .hero>:nth-child(10){margin-top:40px !important}
 .wrap:has(.top-banner) .hero>:nth-child(9){margin-bottom:0 !important}
-.wrap:has(.top-banner) .hero>:nth-child(13){margin-top:42px !important}
+.wrap:has(.top-banner) .hero>:nth-child(13){margin-top:32px !important}
 .wrap:has(.top-banner) .hero>:nth-child(12){margin-bottom:0 !important}
-.wrap:has(.top-banner) .hero>:nth-child(14){margin-top:42px !important}
+.wrap:has(.top-banner) .hero>:nth-child(14){margin-top:32px !important}
 .wrap:has(.top-banner) .hero>:nth-child(13){margin-bottom:0 !important}
-.wrap:has(.top-banner)>section{margin-top:20px !important}
+.wrap:has(.top-banner)>section{margin-top:10px !important}
 }
 
 /* главная на компьютере: серая плашка от края до края, текст по краю колонки */
@@ -826,3 +826,7 @@ html[lang="es"] .wrap:has(.top-banner) .hero h1{font-size:min(32px,calc(100cqw /
 @media (min-width:621px){
 .wrap>.menu{margin-left:calc(50% - 50vw) !important;margin-right:calc(50% - 50vw) !important;padding-left:calc(50vw - 50%) !important;padding-right:calc(50vw - 50%) !important;border-radius:0 !important}
 }
+
+/* полоса рейтинга: объём и блеск, цвета прежние */
+.bar{position:relative;box-shadow:0 3px 10px rgba(15,35,110,.18)}
+.bar::after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;background:radial-gradient(35% 160% at 88% 0%,rgba(255,255,255,.35) 0%,rgba(255,255,255,0) 70%),radial-gradient(25% 180% at 22% 100%,rgba(0,0,40,.22) 0%,rgba(0,0,40,0) 70%),linear-gradient(180deg,rgba(255,255,255,.38) 0%,rgba(255,255,255,.08) 45%,rgba(0,0,30,.14) 100%)}
