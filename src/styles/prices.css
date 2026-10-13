@@ -52,3 +52,41 @@
 .pg-prices .one-price{background:#EEF3FA;border-left:4px solid #1F4E8C;border-radius:10px;padding:16px 20px;margin:0 0 26px}
 .pg-prices .one-price b{display:block;color:var(--ink);font-size:18px;margin-bottom:4px}
 .pg-prices .one-price p{margin:0;text-align:left !important}
+/* новая раскладка страницы цен */
+.pg-prices .plans4{grid-template-columns:repeat(4,1fr);gap:18px}
+.pg-prices .plans4 .plan{padding:24px 20px 20px}
+.pg-prices .plans4 .plan h3{font-size:19px}
+.pg-prices .plans4 .plan-price b{font-size:34px}
+.pg-prices .plans4 .plan li{font-size:15px}
+.pg-prices .plan-free{background:#F6F8FB}
+.pg-prices .plan-free .plan-price b{font-size:28px}
+.pg-prices .sec-lead{margin:-6px 0 22px;color:var(--text);max-width:none}
+.pg-prices ul.inc{list-style:none;margin:0 0 28px;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:10px 32px}
+.pg-prices ul.inc li{position:relative;padding:0 0 0 28px;font-size:17px;line-height:1.45;text-align:left}
+.pg-prices ul.inc li::before{content:"";position:absolute;left:3px;top:7px;width:12px;height:7px;border-left:2px solid #2BA84A;border-bottom:2px solid #2BA84A;transform:rotate(-45deg)}
+.pg-prices .dirs-two>div{background:var(--panel);border-radius:12px;padding:20px 22px}
+.pg-prices .dirs-two h3{margin:0 0 8px;font-size:19px}
+.pg-prices .dirs-two p{margin:0}
+.pg-prices .subs .plan{box-shadow:none}
+.pg-prices ul.rules{margin:22px 0 0;padding:0 0 0 20px;color:var(--muted);font-size:15px;line-height:1.5}
+.pg-prices ul.rules li{margin:0 0 6px;text-align:left}
+.pg-prices .sub-cta{margin:18px 0 0;text-align:left !important}
+.pg-prices .add-groups{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:start}
+.pg-prices .add-group{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 20px 8px}
+.pg-prices .add-group .add-row{flex-direction:column;gap:4px;align-items:flex-start}
+.pg-prices .add-group .add-row:last-child{border-bottom:0}
+.pg-prices .add-group .add-price{text-align:left;white-space:normal;max-width:none}
+@media (max-width:1000px){.pg-prices .add-groups{grid-template-columns:1fr}}
+.pg-prices .add-group h3{margin:0 0 6px;font-size:19px}
+.pg-prices .add-group .note{margin:4px 0 12px;font-size:14px}
+.pg-prices ul.pay{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.pg-prices ul.pay li{background:var(--panel);border-radius:12px;padding:18px 20px;text-align:left}
+.pg-prices ul.pay b{display:block;color:var(--ink);margin-bottom:4px}
+.pg-prices ul.pay span{color:var(--text)}
+@media (max-width:1100px){.pg-prices .plans4{grid-template-columns:1fr 1fr;row-gap:26px}}
+@media (max-width:900px){.pg-prices .plans4 .plan-hi{order:0}}
+@media (max-width:620px){
+  .pg-prices .plans4{grid-template-columns:1fr}
+  .pg-prices ul.inc{grid-template-columns:1fr}
+  .pg-prices ul.pay{grid-template-columns:1fr}
+}

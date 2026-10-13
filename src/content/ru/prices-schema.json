@@ -64,10 +64,10 @@
           },
           {
             "@type": "Offer",
-            "name": "Подписка для крупных сайтов",
+            "name": "Подписка: проверка новых и измененных страниц",
             "priceSpecification": {
               "@type": "UnitPriceSpecification",
-              "minPrice": "300",
+              "minPrice": "80",
               "priceCurrency": "USD",
               "unitText": "месяц"
             }
@@ -81,12 +81,6 @@
           {
             "@type": "Offer",
             "name": "Описания для поиска и соцсетей",
-            "price": "150",
-            "priceCurrency": "USD"
-          },
-          {
-            "@type": "Offer",
-            "name": "Проверка форм заявки",
             "price": "150",
             "priceCurrency": "USD"
           },

@@ -7,7 +7,7 @@ import "../../../../styles/prices.css";
 export const metadata: Metadata = {
   title: "Услуги и цены - EPG Global ONE",
   description:
-    "Цены EPG Global ONE на проверку сайта: пилот 5 страниц за 180 $, 30 ключевых страниц за 700 $, весь сайт 20 $ за страницу, подписка от 300 $ в месяц.",
+    "Цены EPG Global ONE на проверку сайта: пилот 5 страниц за 180 $, 30 ключевых страниц за 700 $, весь сайт 20 $ за страницу, подписка от 80 $ в месяц.",
   alternates: {
     canonical: "/ru/ceny",
     languages: { en: "/en/pricing", es: "/es/precios", ru: "/ru/ceny", "x-default": "/en/pricing" },
