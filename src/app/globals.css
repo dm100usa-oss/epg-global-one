@@ -763,3 +763,11 @@ footer.ft .ft-legal a{color:#fff !important;font-size:15px}
 }
 /* верхняя плашка на главной */
 .top-banner{width:100vw;margin:0 0 0 calc(50% - 50vw)}.top-banner img{display:block;width:100%;height:auto}
+/* заголовок главной в одну строку на компьютере (телефон не меняется) */
+@media (min-width:621px){
+.wrap:has(.top-banner) .hero{container-type:inline-size}
+html[lang="ru"] .wrap:has(.top-banner) .hero h1{font-size:min(36px,calc(100cqw / 33.6)) !important;white-space:nowrap}
+html[lang="en"] .wrap:has(.top-banner) .hero h1{font-size:min(36px,calc(100cqw / 30)) !important;white-space:nowrap}
+html[lang="es"] .wrap:has(.top-banner) .hero h1{font-size:min(36px,calc(100cqw / 35.3)) !important;white-space:nowrap}
+}
+
