@@ -816,3 +816,13 @@ html[lang="es"] .wrap:has(.top-banner) .hero h1{font-size:min(32px,calc(100cqw /
 .wrap:has(.top-banner) .hero>:nth-child(13){margin-bottom:0 !important}
 .wrap:has(.top-banner)>section{margin-top:20px !important}
 }
+
+/* главная на компьютере: серая плашка от края до края, текст по краю колонки */
+@media (min-width:621px){
+.wrap:has(.top-banner) .hero .blue-panel{margin-left:calc(50% - 50vw) !important;margin-right:calc(50% - 50vw) !important;padding-left:calc(50vw - 50%) !important;padding-right:calc(50vw - 50%) !important;border-radius:0 !important;border-left:0 !important;border-right:0 !important}
+}
+
+/* компьютер: меню от края до края на всех страницах, пункты по краям колонки текста */
+@media (min-width:621px){
+.wrap>.menu{margin-left:calc(50% - 50vw) !important;margin-right:calc(50% - 50vw) !important;padding-left:calc(50vw - 50%) !important;padding-right:calc(50vw - 50%) !important;border-radius:0 !important}
+}
