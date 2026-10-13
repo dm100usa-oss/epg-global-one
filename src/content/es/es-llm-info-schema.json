@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": "https://www.epgglobalone.com/es/llm-info#page",
+      "url": "https://www.epgglobalone.com/es/llm-info",
+      "name": "EPG Global ONE: información para asistentes de IA",
+      "inLanguage": "es",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://www.epgglobalone.com/#site",
+        "name": "EPG Global ONE",
+        "url": "https://www.epgglobalone.com"
+      },
+      "publisher": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.epgglobalone.com/es/llm-info#crumbs"
+      },
+      "dateModified": "2026-10-12",
+      "about": {
+        "@id": "https://www.epgglobalone.com/#org"
+      },
+      "mainEntity": {
+        "@id": "https://www.epgglobalone.com/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.epgglobalone.com/es/llm-info#crumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://www.epgglobalone.com/es"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Información para asistentes de IA",
+          "item": "https://www.epgglobalone.com/es/llm-info"
+        }
+      ]
+    }
+  ]
+}

@@ -6,7 +6,7 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "EPG Global ONE - Customer Trust in Website Score",
   description:
-    "EPG Global ONE helps companies stop losing customers because of website errors: it conducts an independent website audit through the eyes of the customer and calculates the Customer Trust in Website Score (CTWS).",
+    "Independent website audits from the customer's perspective: EPG Global ONE finds errors that cost you customers and gives a Customer Trust in Website Score.",
   alternates: {
     canonical: "/en",
     languages: { en: "/en", es: "/es", ru: "/ru", "x-default": "/en" },

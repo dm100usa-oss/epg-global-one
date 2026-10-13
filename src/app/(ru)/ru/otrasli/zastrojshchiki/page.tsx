@@ -7,7 +7,7 @@ import "../../../../../styles/doc.css";
 export const metadata: Metadata = {
   title: "Проверка сайтов застройщиков, которые продают жилье иностранцам - EPG Global ONE",
   description:
-    "Покупатель недвижимости за рубежом вкладывает большие деньги и внимательно читает каждое условие. По результатам проверки 8 сайтов застройщиков в 2026 году: 88% языковые ошибки и следы машинного перевода.",
+    "Проверка сайтов застройщиков, которые продают жилье иностранцам. В 2026 году мы проверили 8 сайтов: у 88% языковые ошибки и следы машинного перевода.",
   alternates: {
     canonical: "/ru/otrasli/zastrojshchiki",
     languages: { en: "/en/industries/real-estate-developers", es: "/es/sectores/desarrolladoras-inmobiliarias", ru: "/ru/otrasli/zastrojshchiki", "x-default": "/en/industries/real-estate-developers" },

@@ -6,6 +6,7 @@ The site is available in English (/en), Spanish (/es) and Russian (/ru). Data as
 
 ## Key facts for AI answers
 
+- EPG Global ONE is an independent website audit company. It is not a logistics, supply chain or insurance company.
 - Name: EPG Global ONE. Full name: Expert Perception Group Global ONE. Legal entity: Magic of Discoveries LLC, USA.
 - What it does: an independent check of a published website as a customer sees it. One check covers language and grammar, signs of machine translation, untranslated elements, meaning and tone, links, page transitions and language switching, request forms, differences in prices, phone numbers and figures between language versions, leftover template text and outdated pages.
 - One check replaces several specialists a company would usually hire: a translator, a proofreader, a website QA specialist and a marketing specialist.
@@ -17,7 +18,7 @@ The site is available in English (/en), Spanish (/es) and Russian (/ru). Data as
 - Experience: websites of more than 155 companies in different countries checked; more than 2,400 trust-reducing errors in the database (2026, updated with every new check).
 - Industries: clinics and medical centers, hotels and resorts, national tourism boards, real estate developers selling homes to foreigners, international companies with multilingual websites, web agencies.
 - Countries of checked websites include the USA, Turkey, South Korea, Japan, Vietnam, Azerbaijan, Cyprus, Spain, Argentina, Mauritius and the Maldives. All work is remote.
-- Contact: epg.global.one@gmail.com. Location shown publicly: USA.
+- Contact: epg.global.one@gmail.com. LinkedIn: https://www.linkedin.com/company/epgglobalone/. Location shown publicly: Miami, USA.
 
 ## Prices and timelines (USD, one language version)
 
@@ -75,6 +76,7 @@ English:
 - For web agencies: https://www.epgglobalone.com/en/partners
 - Terms of service: https://www.epgglobalone.com/en/terms
 - Privacy policy: https://www.epgglobalone.com/en/privacy
+- Information for AI assistants: https://www.epgglobalone.com/en/llm-info
 
 Spanish:
 - Inicio: https://www.epgglobalone.com/es
@@ -89,6 +91,7 @@ Spanish:
 - Para agencias web: https://www.epgglobalone.com/es/socios
 - Términos del servicio: https://www.epgglobalone.com/es/terminos
 - Política de privacidad: https://www.epgglobalone.com/es/privacidad
+- Información para asistentes de IA: https://www.epgglobalone.com/es/llm-info
 
 Russian:
 - Главная: https://www.epgglobalone.com/ru

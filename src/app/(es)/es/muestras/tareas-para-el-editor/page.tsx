@@ -6,7 +6,7 @@ import "../../../../../styles/doc.css";
 export const metadata: Metadata = {
   title: "Tarea para el editor del sitio - EPG Global ONE",
   description:
-    "Solo correcciones de texto: dónde aparece el texto en la página, qué dice ahora, cómo debe quedar y por qué. La lista de tareas se entrega como una hoja de cálculo en la que el responsable marca los puntos completados y deja comentarios.",
+    "Muestra de tareas para el editor: solo correcciones de texto - dónde está, qué dice, cómo debe quedar y por qué. Hoja para marcar avances.",
   alternates: {
     canonical: "/es/muestras/tareas-para-el-editor",
     languages: { en: "/en/samples/editor-task-list", es: "/es/muestras/tareas-para-el-editor", ru: "/ru/obrazcy/redaktor", "x-default": "/en/samples/editor-task-list" },

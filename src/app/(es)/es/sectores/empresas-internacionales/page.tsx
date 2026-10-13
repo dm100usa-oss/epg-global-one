@@ -7,7 +7,7 @@ import "../../../../../styles/doc.css";
 export const metadata: Metadata = {
   title: "Auditoría de sitios web multilingües de empresas internacionales - EPG Global ONE",
   description:
-    "En el sitio de una empresa internacional trabajan especialistas en marketing, traductores, desarrolladores y oficinas regionales, pero a menudo nadie revisa el sitio completo desde la perspectiva del cliente.",
+    "Auditoría de sitios web multilingües de empresas internacionales desde la perspectiva del cliente: errores, traducciones y diferencias entre idiomas.",
   alternates: {
     canonical: "/es/sectores/empresas-internacionales",
     languages: { en: "/en/industries/international-companies", es: "/es/sectores/empresas-internacionales", ru: "/ru/otrasli/mezhdunarodnye", "x-default": "/en/industries/international-companies" },

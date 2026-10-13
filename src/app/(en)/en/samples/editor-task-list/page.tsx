@@ -6,7 +6,7 @@ import "../../../../../styles/doc.css";
 export const metadata: Metadata = {
   title: "Task List for the Editor - EPG Global ONE",
   description:
-    "Text corrections only: where the text appears on the page, what it says now, what it should be changed to, and why. The task list is delivered as a spreadsheet where the person responsible marks completed items and leaves comments.",
+    "Sample editor task list: text corrections only - where the text is, what it says now, what it should say and why. A spreadsheet to mark progress.",
   alternates: {
     canonical: "/en/samples/editor-task-list",
     languages: { en: "/en/samples/editor-task-list", es: "/es/muestras/tareas-para-el-editor", ru: "/ru/obrazcy/redaktor", "x-default": "/en/samples/editor-task-list" },

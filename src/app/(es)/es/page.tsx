@@ -6,7 +6,7 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "EPG Global ONE - Índice de Confianza del Cliente en el Sitio Web",
   description:
-    "EPG Global ONE ayuda a las empresas a no perder clientes por errores en su sitio web: realiza una auditoría independiente del sitio desde la perspectiva del cliente y calcula el Índice de Confianza del Cliente en el Sitio Web (CTWS).",
+    "EPG Global ONE ayuda a no perder clientes por errores web: auditoría independiente desde la perspectiva del cliente y un Índice de Confianza del Cliente.",
   alternates: {
     canonical: "/es",
     languages: { en: "/en", es: "/es", ru: "/ru", "x-default": "/en" },

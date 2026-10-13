@@ -180,10 +180,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: "https://www.epgglobalone.com/ru/llm-info",
-      lastModified: new Date("2026-10-08"),
+      url: "https://www.epgglobalone.com/en/llm-info",
+      lastModified: new Date("2026-10-12"),
       changeFrequency: "monthly",
       priority: 0.6,
+      alternates: { languages: { en: "https://www.epgglobalone.com/en/llm-info", es: "https://www.epgglobalone.com/es/llm-info", ru: "https://www.epgglobalone.com/ru/llm-info" } },
+    },
+    {
+      url: "https://www.epgglobalone.com/es/llm-info",
+      lastModified: new Date("2026-10-12"),
+      changeFrequency: "monthly",
+      priority: 0.6,
+      alternates: { languages: { en: "https://www.epgglobalone.com/en/llm-info", es: "https://www.epgglobalone.com/es/llm-info", ru: "https://www.epgglobalone.com/ru/llm-info" } },
+    },
+    {
+      url: "https://www.epgglobalone.com/ru/llm-info",
+      lastModified: new Date("2026-10-12"),
+      changeFrequency: "monthly",
+      priority: 0.6,
+      alternates: { languages: { en: "https://www.epgglobalone.com/en/llm-info", es: "https://www.epgglobalone.com/es/llm-info", ru: "https://www.epgglobalone.com/ru/llm-info" } },
     },
     {
       url: "https://www.epgglobalone.com/ru/otrasli/kliniki",

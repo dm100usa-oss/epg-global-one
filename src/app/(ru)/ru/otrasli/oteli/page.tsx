@@ -7,7 +7,7 @@ import "../../../../../styles/doc.css";
 export const metadata: Metadata = {
   title: "Проверка сайтов гостиниц и курортов - EPG Global ONE",
   description:
-    "Гостиницы и курорты составляют почти четверть компаний, чьи сайты мы проверили в 2026 году. По результатам проверки 27 сайтов гостиниц и курортов в 2026 году: 93% фрагменты на английском или местном языке.",
+    "Проверка сайтов гостиниц и курортов глазами гостя. В 2026 году мы проверили 27 сайтов: на 93% сайтов есть фрагменты на английском или местном языке.",
   alternates: {
     canonical: "/ru/otrasli/oteli",
     languages: { en: "/en/industries/hotels", es: "/es/sectores/hoteles", ru: "/ru/otrasli/oteli", "x-default": "/en/industries/hotels" },

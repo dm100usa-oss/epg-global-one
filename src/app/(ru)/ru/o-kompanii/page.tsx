@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import "../../../../styles/doc.css";
 
 export const metadata: Metadata = {
-  title: "О компании EPG Global ONE",
+  title: "О компании EPG Global ONE - независимая проверка многоязычных сайтов",
   description:
     "EPG Global ONE (Expert Perception Group) из США проверяет сайты глазами клиента: направления работы, как мы помогаем компаниям и почему ошибки на сайте стоят дорого.",
   alternates: {

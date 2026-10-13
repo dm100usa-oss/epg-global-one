@@ -6,7 +6,7 @@ import "../../../../../styles/doc.css";
 export const metadata: Metadata = {
   title: "Задание для разработчика - EPG Global ONE",
   description:
-    "Ошибки в работе сайта: где на странице, как воспроизвести, фактический и ожидаемый результат. Задание передается в виде таблицы, в которой исполнитель отмечает выполненное и оставляет комментарии. По запросу каждая ошибка передается готовой задачей для системы учета задач разработчиков.",
+    "Образец задания для разработчика: каждая ошибка в работе сайта с местом на странице, шагами воспроизведения и ожидаемым результатом. В виде таблицы.",
   alternates: {
     canonical: "/ru/obrazcy/razrabotchik",
     languages: { en: "/en/samples/developer-task-list", es: "/es/muestras/tareas-para-el-desarrollador", ru: "/ru/obrazcy/razrabotchik", "x-default": "/en/samples/developer-task-list" },

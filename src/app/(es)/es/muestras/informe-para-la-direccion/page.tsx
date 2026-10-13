@@ -6,7 +6,7 @@ import "../../../../../styles/doc.css";
 export const metadata: Metadata = {
   title: "Informe para la dirección - EPG Global ONE",
   description:
-    "Índice de Confianza del Cliente en el Sitio Web (CTWS), resultado de la auditoría, tipos de errores y su gravedad, qué corregir primero y la conclusión del experto. Además, incluye páginas con errores marcados y una lista completa de errores.",
+    "Muestra del informe para la dirección: Índice de Confianza, tipos de errores, gravedad, qué corregir primero y conclusión del experto.",
   alternates: {
     canonical: "/es/muestras/informe-para-la-direccion",
     languages: { en: "/en/samples/executive-report", es: "/es/muestras/informe-para-la-direccion", ru: "/ru/obrazcy/otchet", "x-default": "/en/samples/executive-report" },

@@ -5,7 +5,7 @@ import Script from "next/script";
 import "../../../../styles/doc.css";
 
 export const metadata: Metadata = {
-  title: "Отрасли: для кого проверка сайта - EPG Global ONE",
+  title: "Отрасли: клиники, гостиницы, застройщики - EPG Global ONE",
   description:
     "Клиники, гостиницы и курорты, туристические ведомства, застройщики, международные компании и веб-студии: что EPG Global ONE проверяет на их сайтах.",
   alternates: {

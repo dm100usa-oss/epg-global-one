@@ -7,7 +7,7 @@ import "../../../../../styles/doc.css";
 export const metadata: Metadata = {
   title: "Проверка сайтов международных компаний на нескольких языках - EPG Global ONE",
   description:
-    "Над сайтом международной компании работают маркетологи, переводчики, разработчики и филиалы, но сайт целиком глазами клиента часто не проверяет никто. По результатам проверки 115 сайтов международных компаний в 2026 году: 86% языковые ошибки и следы машинного перевода.",
+    "Проверка многоязычных сайтов международных компаний глазами клиента. Из 115 проверенных сайтов у 86% языковые ошибки и следы машинного перевода.",
   alternates: {
     canonical: "/ru/otrasli/mezhdunarodnye",
     languages: { en: "/en/industries/international-companies", es: "/es/sectores/empresas-internacionales", ru: "/ru/otrasli/mezhdunarodnye", "x-default": "/en/industries/international-companies" },

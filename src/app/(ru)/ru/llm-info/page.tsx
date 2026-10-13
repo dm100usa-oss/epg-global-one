@@ -7,7 +7,10 @@ export const metadata: Metadata = {
   title: "EPG Global ONE: сведения для ИИ-помощников",
   description:
     "Кто такие EPG Global ONE, что мы делаем и чего не делаем, методика Рейтинга доверия клиентов к сайту, источники данных, цены и контакты. Краткая справка для ИИ-помощников и поисковых систем.",
-  alternates: { canonical: "/ru/llm-info" },
+  alternates: {
+    canonical: "/ru/llm-info",
+    languages: { en: "/en/llm-info", es: "/es/llm-info", ru: "/ru/llm-info", "x-default": "/en/llm-info" },
+  },
 };
 
 const html = fs.readFileSync(path.join(process.cwd(), "src/content/ru", "llm-info.html"), "utf8");

@@ -7,7 +7,7 @@ import "../../../../../styles/doc.css";
 export const metadata: Metadata = {
   title: "Проверка сайтов туристических ведомств стран - EPG Global ONE",
   description:
-    "С официального сайта путешественник начинает знакомство со страной: курорты, правила въезда, новости. По результатам проверки 5 сайтов туристических ведомств в 2026 году: 4 из 5 сайтов с языковыми ошибками.",
+    "Проверка сайтов туристических ведомств и организаций глазами путешественника: курорты, правила въезда, новости. В 2026 году ошибки найдены на 4 сайтах из 5.",
   alternates: {
     canonical: "/ru/otrasli/turizm",
     languages: { en: "/en/industries/tourism-boards", es: "/es/sectores/organismos-de-turismo", ru: "/ru/otrasli/turizm", "x-default": "/en/industries/tourism-boards" },

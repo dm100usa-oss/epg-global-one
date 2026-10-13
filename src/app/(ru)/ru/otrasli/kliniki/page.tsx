@@ -7,7 +7,7 @@ import "../../../../../styles/doc.css";
 export const metadata: Metadata = {
   title: "Проверка сайтов клиник и медицинских центров - EPG Global ONE",
   description:
-    "Клиники и медицинские центры составляют больше половины компаний, чьи сайты мы проверили в 2026 году. По результатам проверки 61 сайта клиник в 2026 году: 89% языковые ошибки и следы машинного перевода.",
+    "Проверка сайтов клиник и медицинских центров глазами пациента. В 2026 году мы проверили 61 сайт клиник: у 89% языковые ошибки и следы машинного перевода.",
   alternates: {
     canonical: "/ru/otrasli/kliniki",
     languages: { en: "/en/industries/clinics", es: "/es/sectores/clinicas", ru: "/ru/otrasli/kliniki", "x-default": "/en/industries/clinics" },
