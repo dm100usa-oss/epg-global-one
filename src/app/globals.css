@@ -771,3 +771,48 @@ html[lang="en"] .wrap:has(.top-banner) .hero h1{font-size:min(36px,calc(100cqw /
 html[lang="es"] .wrap:has(.top-banner) .hero h1{font-size:min(36px,calc(100cqw / 35.3)) !important;white-space:nowrap}
 }
 
+
+/* главная на компьютере: шрифт на шаг меньше и больше воздуха между блоками */
+@media (min-width:621px){
+html[lang="ru"] .wrap:has(.top-banner) .hero h1{font-size:min(32px,calc(100cqw / 33.6)) !important}
+html[lang="en"] .wrap:has(.top-banner) .hero h1{font-size:min(32px,calc(100cqw / 30)) !important}
+html[lang="es"] .wrap:has(.top-banner) .hero h1{font-size:min(32px,calc(100cqw / 35.3)) !important}
+.wrap:has(.top-banner) .hero p.hero-sub{font-size:21px !important}
+.wrap:has(.top-banner) .hero p.lead{font-size:17px !important}
+.wrap:has(.top-banner) .hero p.get-t,.wrap:has(.top-banner) .hero p.after-flags,.wrap:has(.top-banner) .hero .scale p.scale-t{font-size:22px !important}
+.wrap:has(.top-banner) .hero .get li,.wrap:has(.top-banner) .hero .get li a{font-size:17px !important}
+.wrap:has(.top-banner) .hero .scale-t a,.wrap:has(.top-banner) section h2 a{font-size:inherit !important}
+.wrap:has(.top-banner) .hero .ticks b,.wrap:has(.top-banner) .hero .ticks span{font-size:14px !important}
+.wrap:has(.top-banner) .hero p.cta-head{font-size:24px !important}
+.wrap:has(.top-banner) .hero p.cta-intro{font-size:18px !important}
+.wrap:has(.top-banner) .hero p.cta-note{font-size:13px !important}
+.wrap:has(.top-banner) .hero .dokaz p:not(.get-t),.wrap:has(.top-banner) .hero .dokaz p:not(.get-t) a{font-size:16px !important}
+.wrap:has(.top-banner) .hero .dokaz p.get-t,.wrap:has(.top-banner) .hero .komu p.get-t{font-size:22px !important}
+.wrap:has(.top-banner) section#voprosy>h2,.wrap:has(.top-banner) section#voprosy>h2 a,.wrap:has(.top-banner) section#zayavka>h2{font-size:22px !important}
+.wrap:has(.top-banner) p.faq-upd{font-size:13px !important}
+.wrap:has(.top-banner) .qa summary h3{font-size:17px !important}
+.wrap:has(.top-banner) .qa-a p{font-size:15px !important}
+.wrap:has(.top-banner) .qa-a p.qa-l,.wrap:has(.top-banner) .qa-a p.qa-l a{font-size:13px !important}
+.wrap:has(.top-banner) #zayavka label{font-size:14px !important}
+.wrap:has(.top-banner) #zayavka p.consent,.wrap:has(.top-banner) #zayavka p.consent a{font-size:15px !important}
+.wrap:has(.top-banner) #zayavka p.after,.wrap:has(.top-banner) #zayavka p.after a{font-size:14px !important}
+.wrap:has(.top-banner) .hero>:nth-child(3){margin-top:34px !important}
+.wrap:has(.top-banner) .hero>:nth-child(2){margin-bottom:0 !important}
+.wrap:has(.top-banner) .hero>:nth-child(4){margin-top:40px !important}
+.wrap:has(.top-banner) .hero>:nth-child(3){margin-bottom:0 !important}
+.wrap:has(.top-banner) .hero>:nth-child(5){margin-top:48px !important}
+.wrap:has(.top-banner) .hero>:nth-child(4){margin-bottom:0 !important}
+.wrap:has(.top-banner) .hero>:nth-child(6){margin-top:44px !important}
+.wrap:has(.top-banner) .hero>:nth-child(5){margin-bottom:0 !important}
+.wrap:has(.top-banner) .hero>:nth-child(7){margin-top:44px !important}
+.wrap:has(.top-banner) .hero>:nth-child(6){margin-bottom:0 !important}
+.wrap:has(.top-banner) .hero>:nth-child(9){margin-top:48px !important}
+.wrap:has(.top-banner) .hero>:nth-child(8){margin-bottom:0 !important}
+.wrap:has(.top-banner) .hero>:nth-child(10){margin-top:50px !important}
+.wrap:has(.top-banner) .hero>:nth-child(9){margin-bottom:0 !important}
+.wrap:has(.top-banner) .hero>:nth-child(13){margin-top:42px !important}
+.wrap:has(.top-banner) .hero>:nth-child(12){margin-bottom:0 !important}
+.wrap:has(.top-banner) .hero>:nth-child(14){margin-top:42px !important}
+.wrap:has(.top-banner) .hero>:nth-child(13){margin-bottom:0 !important}
+.wrap:has(.top-banner)>section{margin-top:20px !important}
+}
