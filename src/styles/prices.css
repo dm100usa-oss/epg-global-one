@@ -187,3 +187,10 @@
 .pg-prices .plans .plan:hover{transform:translateY(-3px);box-shadow:0 0 0 2px #2F86EB,0 14px 34px rgba(31,78,140,.18) !important}
 .pg-prices .plans .plan.sel{box-shadow:0 0 0 3px #2F86EB,0 14px 34px rgba(31,78,140,.20) !important}
 @media (prefers-reduced-motion:reduce){.pg-prices .plans .plan,.pg-prices .plans .plan:hover{transition:none;transform:none}}
+
+.pg-prices .plan.plan-special{margin-top:22px;display:grid;grid-template-columns:1fr 1.25fr;gap:32px;align-items:center;border:2px solid #2BA84A}
+.pg-prices .plan-special ul{margin:0}
+.pg-prices .plan-special .plan-price s{font-size:20px;color:var(--muted);margin:0 8px}
+.pg-prices .plan-special .plan-price .ps-disc{display:inline-block;font-size:14px;font-weight:600;color:#fff;background:#16794D;padding:4px 11px;border-radius:999px;vertical-align:middle}
+.pg-prices .plan-special .btn{display:block;margin-top:6px}
+@media (max-width:900px){.pg-prices .plan.plan-special{grid-template-columns:1fr;gap:14px}}
