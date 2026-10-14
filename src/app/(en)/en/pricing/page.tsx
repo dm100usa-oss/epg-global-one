@@ -7,7 +7,7 @@ import "../../../../styles/prices.css";
 export const metadata: Metadata = {
   title: "Services and Pricing - EPG Global ONE",
   description:
-    "EPG Global ONE website audit pricing: 5-page pilot for $180, 30 key pages for $700, full website audit for $20 per page, subscription from $300 per month.",
+    "EPG Global ONE website audit pricing: 5-page pilot for $180, 30 key pages for $700, full website audit for $20 per page, subscription from $80 per month.",
   alternates: {
     canonical: "/en/pricing",
     languages: { en: "/en/pricing", es: "/es/precios", ru: "/ru/ceny", "x-default": "/en/pricing" },

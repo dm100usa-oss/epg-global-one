@@ -80,25 +80,13 @@
           },
           {
             "@type": "Offer",
-            "name": "Описания для поиска и соцсетей",
-            "price": "150",
-            "priceCurrency": "USD"
-          },
-          {
-            "@type": "Offer",
-            "name": "Отзывы: есть ли на русском, свежесть, внешние площадки",
-            "price": "200",
-            "priceCurrency": "USD"
-          },
-          {
-            "@type": "Offer",
-            "name": "Перевод отзывов, 10 штук",
+            "name": "Перевод 10 отзывов",
             "price": "100",
             "priceCurrency": "USD"
           },
           {
             "@type": "Offer",
-            "name": "Перевод отзывов, 50 штук",
+            "name": "Перевод 50 отзывов",
             "price": "400",
             "priceCurrency": "USD"
           },

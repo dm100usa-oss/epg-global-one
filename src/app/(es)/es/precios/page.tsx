@@ -7,7 +7,7 @@ import "../../../../styles/prices.css";
 export const metadata: Metadata = {
   title: "Servicios y precios - EPG Global ONE",
   description:
-    "Precios de EPG Global ONE para auditoría de sitios web: piloto de 5 páginas por USD 180, 30 páginas clave por USD 700, todo el sitio por USD 20 por página, suscripción desde USD 300 al mes.",
+    "Precios de EPG Global ONE para auditoría de sitios web: piloto de 5 páginas por USD 180, 30 páginas clave por USD 700, todo el sitio por USD 20 por página, suscripción desde USD 80 al mes.",
   alternates: {
     canonical: "/es/precios",
     languages: { en: "/en/pricing", es: "/es/precios", ru: "/ru/ceny", "x-default": "/en/pricing" },

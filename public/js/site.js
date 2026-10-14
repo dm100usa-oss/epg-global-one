@@ -182,3 +182,45 @@ if(f){f.addEventListener('submit',function(e){
   }
   box.addEventListener('input',calc);box.addEventListener('change',calc);calc();
 })();
+
+/* калькулятор стоимости, новая версия (страница цен) */
+(function(){
+  var box=document.getElementById('calc2');if(!box)return;
+  var $=function(s){return box.querySelector(s)};
+  var T={
+    ru:{fmt:function(n){return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g,' ')+' $';},pilot:'Пилотная проверка',key:'Ключевые страницы сайта',full:'Проверка всего сайта, {n} стр.',ver:' × {n} версии',tr10:'Перевод 10 отзывов',tr50:'Перевод 50 отзывов',comp:'Сравнение с конкурентами',re:'Повторная проверка',edit:'Редактура текста, {n} стр.',sub:'Подписка',month:' в месяц',empty:'Выберите проверку или услуги'},
+    en:{fmt:function(n){return '$'+String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g,',');},pilot:'Pilot Audit',key:'Key Pages Audit',full:'Full Website Audit, {n} pages',ver:' × {n} versions',tr10:'Translation of 10 customer reviews',tr50:'Translation of 50 customer reviews',comp:'Competitor comparison',re:'Follow-up audit',edit:'Text editing, {n} pages',sub:'Subscription',month:' per month',empty:'Choose an audit or services'},
+    es:{fmt:function(n){var s=String(Math.round(n));return 'USD\u00a0'+(s.length>4?s.replace(/\B(?=(\d{3})+(?!\d))/g,'\u00a0'):s);},pilot:'Auditoría piloto',key:'Auditoría de páginas clave',full:'Auditoría de todo el sitio, {n} páginas',ver:' × {n} versiones',tr10:'Traducción de 10 reseñas',tr50:'Traducción de 50 reseñas',comp:'Comparación con la competencia',re:'Auditoría de seguimiento',edit:'Edición de textos, {n} páginas',sub:'Suscripción',month:' al mes',empty:'Elija una auditoría o servicios'}
+  };
+  var L=T[box.getAttribute('data-lang')]||T.ru, fmt=L.fmt;
+  function val(name){var r=box.querySelector('input[name="'+name+'"]:checked');return r?r.value:'';}
+  function num(id,min){var v=parseInt(document.getElementById(id).value,10);return isNaN(v)||v<min?min:v;}
+  var ADD={tr10:100,tr50:400,comp:250};
+  var BASE={pilot:180,key:700};
+  function calc(){
+    var base=val('c2-base'),lang=+val('c2-lang')||1,sub=+val('c2-sub')||0,lines=[],once=0,check=0;
+    box.querySelectorAll('[data-for]').forEach(function(e){e.hidden=e.getAttribute('data-for')!==base;});
+    var hasCheck=base!=='none';
+    box.querySelectorAll('[data-need-check]').forEach(function(e){e.classList.toggle('off',!hasCheck);});
+    if(base==='full'){var pg=num('c2-pages',1);check=pg*20;lines.push([L.full.replace('{n}',pg),check]);}
+    else if(BASE[base]){check=BASE[base];lines.push([L[base],check]);}
+    if(hasCheck&&lang>1){lines[0][0]+=L.ver.replace('{n}',lang);check*=lang;lines[0][1]=check;}
+    once+=check;
+    var re=$('[data-k="re"]');re.disabled=!hasCheck;if(!hasCheck)re.checked=false;
+    box.querySelectorAll('.c2-add input[type=checkbox]').forEach(function(c){
+      var k=c.getAttribute('data-k');if(!c.checked)return;
+      if(ADD[k]){lines.push([L[k],ADD[k]]);once+=ADD[k];}
+      if(k==='re'){var r=Math.round(check*0.3);lines.push([L.re,r]);once+=r;}
+      if(k==='edit'){var ep=num('c2-edit',1),e=ep*25;lines.push([L.edit.replace('{n}',ep),e]);once+=e;}
+    });
+    var ed=$('[data-for-k="edit"]');ed.hidden=!$('[data-k="edit"]').checked;
+    var ul=document.getElementById('c2-lines');
+    ul.innerHTML=lines.length?lines.map(function(l){return '<li><span>'+l[0]+'</span><b>'+fmt(l[1])+'</b></li>'}).join(''):'<li class="c2-empty">'+L.empty+'</li>';
+    if(sub){ul.innerHTML+='<li><span>'+L.sub+'</span><b>'+fmt(sub)+L.month+'</b></li>';}
+    document.getElementById('c2-once').textContent=fmt(once);
+    document.getElementById('c2-mrow').hidden=!sub;
+    document.getElementById('c2-month').textContent=fmt(sub);
+  }
+  box.addEventListener('click',function(e){var b=e.target.closest('.stepper button');if(!b)return;var inp=document.getElementById(b.getAttribute('data-t'));var v=(parseInt(inp.value,10)||0)+(+b.getAttribute('data-d'));inp.value=Math.max(1,v);calc();});
+  box.addEventListener('input',calc);box.addEventListener('change',calc);calc();
+})();
