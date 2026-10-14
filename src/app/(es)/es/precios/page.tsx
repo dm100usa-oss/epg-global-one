@@ -34,7 +34,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON.parse(schema)) }}
       />
       <div style={{ display: "contents" }} dangerouslySetInnerHTML={{ __html: html }} />
-      <Script src="/js/site.js" strategy="afterInteractive" />
+      <Script src="/js/site.js?v=7" strategy="afterInteractive" />
     </>
   );
 }

@@ -224,3 +224,17 @@ if(f){f.addEventListener('submit',function(e){
   box.addEventListener('click',function(e){var b=e.target.closest('.stepper button');if(!b)return;var inp=document.getElementById(b.getAttribute('data-t'));var v=(parseInt(inp.value,10)||0)+(+b.getAttribute('data-d'));inp.value=Math.max(1,v);calc();});
   box.addEventListener('input',calc);box.addEventListener('change',calc);calc();
 })();
+
+/* плашки цен: нажатие на всю плашку = нажатие на ее кнопку, выбранная плашка в рамке */
+(function(){
+  var plans=document.querySelectorAll('.pg-prices .plans .plan');
+  plans.forEach(function(p){
+    p.addEventListener('click',function(e){
+      var grp=p.parentNode;
+      grp.querySelectorAll('.plan.sel').forEach(function(x){x.classList.remove('sel');});
+      p.classList.add('sel');
+      if(e.target.closest('a,button'))return;
+      var b=p.querySelector('.btn');if(b)b.click();
+    });
+  });
+})();

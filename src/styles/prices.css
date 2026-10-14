@@ -182,3 +182,8 @@
 .pg-prices .pay-ways{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:18px 0 6px !important;text-align:center !important}
 .pg-prices .pay-ways span{padding:6px 14px;border-radius:999px;background:#EEF4FC;border:1px solid #C9D9F0;color:#17457F;font-size:15px;font-weight:500;white-space:nowrap}
 @media (max-width:620px){.pg-prices .pay2{grid-template-columns:1fr}}
+/* плашки можно нажимать целиком */
+.pg-prices .plans .plan{cursor:pointer;transition:transform .18s ease,box-shadow .18s ease}
+.pg-prices .plans .plan:hover{transform:translateY(-3px);box-shadow:0 0 0 2px #2F86EB,0 14px 34px rgba(31,78,140,.18) !important}
+.pg-prices .plans .plan.sel{box-shadow:0 0 0 3px #2F86EB,0 14px 34px rgba(31,78,140,.20) !important}
+@media (prefers-reduced-motion:reduce){.pg-prices .plans .plan,.pg-prices .plans .plan:hover{transition:none;transform:none}}
