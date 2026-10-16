@@ -5,14 +5,15 @@
       "@type": "WebPage",
       "@id": "https://www.epgglobalone.com/en/partners#page",
       "url": "https://www.epgglobalone.com/en/partners",
-      "name": "For Partners",
+      "name": "For web agencies: Russian translation and checks of clients’ Russian website versions",
       "inLanguage": "en",
       "publisher": {
         "@id": "https://www.epgglobalone.com/#org"
       },
       "breadcrumb": {
         "@id": "https://www.epgglobalone.com/en/partners#crumbs"
-      }
+      },
+      "dateModified": "2026-10-16"
     },
     {
       "@type": "BreadcrumbList",

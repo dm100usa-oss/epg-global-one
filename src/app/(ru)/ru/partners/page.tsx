@@ -7,14 +7,14 @@ import "../../../../styles/partners.css";
 export const metadata: Metadata = {
   title: "Для веб-студий - EPG Global ONE",
   description:
-    "Проверка русских версий сайтов ваших клиентов для веб-студий: под вашим именем со скидкой 20% или по рекомендации с комиссией 10%.",
+    "Перевод сайтов ваших клиентов с английского на русский и проверка русской версии после размещения. Под вашим брендом или по рекомендации с комиссией 10%.",
   alternates: {
     canonical: "/ru/partners",
     languages: { en: "/en/partners", es: "/es/socios", ru: "/ru/partners", "x-default": "/en/partners" },
   },
   openGraph: {
     title: "Для веб-студий - EPG Global ONE",
-    description: "Русская версия сайтов ваших клиентов без своего редактора.",
+    description: "Русская версия сайтов ваших клиентов: перевод и проверка.",
     url: "/ru/partners",
     siteName: "EPG Global ONE",
     locale: "ru_RU",

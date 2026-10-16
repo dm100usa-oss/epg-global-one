@@ -5,14 +5,15 @@
       "@type": "WebPage",
       "@id": "https://www.epgglobalone.com/es/socios#page",
       "url": "https://www.epgglobalone.com/es/socios",
-      "name": "Para socios",
+      "name": "Para agencias web: traducción al ruso y revisión de las versiones rusas de los sitios de sus clientes",
       "inLanguage": "es",
       "publisher": {
         "@id": "https://www.epgglobalone.com/#org"
       },
       "breadcrumb": {
         "@id": "https://www.epgglobalone.com/es/socios#crumbs"
-      }
+      },
+      "dateModified": "2026-10-16"
     },
     {
       "@type": "BreadcrumbList",
